@@ -10,6 +10,7 @@ import Payroll_banner from "@/components/payroll_banner";
 import Video_banner from "@/components/sqlpayroll/video_banner";
 import PayrollPricing from "@/components/sqlpayroll/Pricing";
 import Pos_feature from "@/components/sqlpos/pos_feature";
+import PosPricing from "@/components/sqlpos/pos_pricing";
 
 const page = () => {
     return (
@@ -50,8 +51,7 @@ const page = () => {
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
                             <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
                                 <Link
-                                    href='#'
-                                    target='_blank'>
+                                    href='#pos_pricing'>
                                     PRICING
                                 </Link>
                             </button>
@@ -59,98 +59,187 @@ const page = () => {
                     </div>
                 </div>
 
-                <div>
-
-                </div>
-
-                <div className='container'>
-                    <div className='flex flex-col items-center justify-center my-10'>
-                        <div className='text-emerald-900 text-4xl'>
-                            Data Verified and upload
+                <div className='nicolas_sm_awards'>
+                    <div className="container">
+                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                            Retail POS System
                         </div>
 
-                        <div>
-                            <Image src='/img/cloud.png' alt='cloud' width={300} height={300}/>
+                        <div className='flex items-center justify-center text-xl text-teal-600'>
+                            Track and maintain your entire business inventory effectively
                         </div>
+                        <div className="extra_container">
+                            <div className="awards_in">
+                                <div className="image_box">
+                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                </div>
+                                <div className="awards_box">
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>1. Unlimited Product & Sales</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Mobirise give you the freedom to develop as many websites as you like.
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>2. Unlimited Customer</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Choose from the large selection of latest pre-made blocks.
+                                        </div>
+                                    </div>
 
-                        <div className='grid md:grid-cols-4 gap-6 items-start justify-center'>
-                            <div className='flex flex-col items-center justify-center gap-5'>
-                                <div className='text-2xl font-bold text-emerald-600'>
-                                    Local Bank
-                                </div>
-                                <div className='text-center'>
-                                    Make salary payments via electronic submissions. More than 25 Malaysia banks
-                                    including
-                                    Maybank, Hong Leong Bank, CIMB Bank, Public Bank can be used to perform bank giro on
-                                    SQL
-                                    Payroll Malaysia software.
-                                </div>
-                            </div>
-
-                            <div className='flex flex-col items-center justify-center gap-5'>
-                                <div className='text-2xl font-bold text-emerald-600'>
-                                    ASSIST
-                                </div>
-                                <div className='text-center'>
-                                    SQL Payroll is ready with SOCSO Borang 8A and EIS Lampiran electronic submission to
-                                    <Link href='https://www.perkeso.gov.my/' target='_blank' className='text-blue-400'>ASSIST
-                                        portal</Link> or bank services to save your time!
-                                </div>
-                            </div>
-
-                            <div className='flex flex-col items-center justify-center gap-5'>
-                                <div className='text-2xl font-bold text-emerald-600'>
-                                    KWSP
-                                </div>
-                                <div className='text-center'>
-                                    SQL Payroll is ready with KWSP Borang A electronic submission to <Link
-                                    href='https://www.kwsp.gov.my/' className='text-blue-400' target='_blank'>KWSP
-                                    portal</Link> or bank
-                                    services to save your time!
-                                </div>
-                            </div>
-
-                            <div className='flex flex-col items-center justify-center gap-5'>
-                                <div className='text-2xl font-bold text-emerald-600'>
-                                    LHDN
-                                </div>
-                                <div className='text-center'>
-                                    SQL Payroll software Malaysia also comes with proper formatted documents that are
-                                    ready to use when it comes to performing e-submissions for Income tax. Documents
-                                    that are ready for <Link href='https://eapps.hasil.gov.my/'
-                                                             className='text-blue-400' target='_blank'>e-Data
-                                    PCB</Link> are CP 39, CP 39 A, CP 38, Income tax Lampiran B (PCB
-                                    Audit).
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>3. Inventories Control</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            One of Bootstrap's big point is responsiveness
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>4. No Yearly License Fee</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Mobirise make it easy for you to use Google fonts on your website easily and
+                                            freely.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className='flex md:flex-row flex-col w-full gap-5 py-6 items-start justify-center'>
-                        <Link href='/sqlpayroll-features'
-                              className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
-                            <button>
-                                FULL FEATURES
-                            </button>
-                        </Link>
-
-                        <Link
-                            href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
-                            target='_blank'
-                            className='flex items-center justify-center bg-white text-emerald-900 w-full md:w-1/5 rounded-3xl p-5'>
-                            <button>
+                    <div className='flex items-center justify-center pb-6'>
+                        <button className='bg-emerald-900 text-white w-2/12 rounded-xl p-2'>
+                            <Link
+                                href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
+                                target='_blank'>
                                 Enquiry
-                            </button>
-                        </Link>
+                            </Link>
+                        </button>
                     </div>
 
+                    <div className="container">
+                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                            Seamless Integration Of SQL Account
+                        </div>
+                        <div className="extra_container">
+                            <div className="awards_in">
+                                <div className="image_box">
+                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                </div>
+                                <div className="awards_box">
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>1. Live Time Sync</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Prompt Inventory synchronization to help you manage your stock better
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>2. Centralized Stock</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Simplify operations with centralized inventory
+                                        </div>
+                                    </div>
+
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>3. Multiple Item Type</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Support multiple warehouse, serial number, batch expiry date control,
+                                            unlimited multiple pricing
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                            Improve Customer Convenience With Multiple Payment Methods
+                        </div>
+                        <div className="extra_container">
+                            <div className="awards_in">
+                                <div className="image_box">
+                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                </div>
+                                <div className="awards_box">
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>4. Partial Payment</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Allow you to accept partial payment in store as well as multiple forms of
+                                            payment
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>5. Hold Bills</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Allowed unlimited on-hold bills to help you increase your business
+                                            efficiency
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                            Fast, Responsive, & Easy To Use
+                        </div>
+                        <div className="extra_container">
+                            <div className="awards_in">
+                                <div className="image_box">
+                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                </div>
+                                <div className="awards_box">
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>6. Optimize</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Maintain working speed even during the busiest hours
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>7. User Friendly</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Fully Touch Screen, keyboard friendly
+                                        </div>
+                                    </div>
+                                    <div className="flex gap-2 justify-center items-center border-b pb-2">
+                                        <div className='font-bold text-lg text-white w-1/2 text-center'>
+                                            <p>8. Online/ Offline</p>
+                                        </div>
+                                        <div className='text-sm w-1/2 text-left'>
+                                            Support both online and offline mode
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <Payroll_banner/>
-                <Video_banner/>
-
-                <div id='payroll_pricing'>
-                    <PayrollPricing/>
+                <div id='pos_pricing'>
+                    <PosPricing/>
                 </div>
                 <Call_us_banner/>
 

@@ -16,16 +16,30 @@ const Footer = () => {
                                 <div>
                                     <h1 className='text-2xl my-6'>Links</h1>
                                     <div>
-                                        About Us
+                                        <Link href='/'>
+                                            About Us
+                                        </Link>
                                     </div>
-                                    <div>SQL Account</div>
-                                    <div>SQL Payroll</div>
-                                    <div>SQL POS</div>
-                                    <div>SQL Cloud (SaaS)</div>
-                                    <div>SQL Dashboard by GOBI</div>
-                                    <div>Event</div>
-                                    <div>Blogs</div>
-                                    <div>Contact Us</div>
+                                    <div>
+                                        <Link href='/products/sqlaccount'>SQL Account</Link>
+                                    </div>
+                                    <div>
+                                        <Link href='/products/sqlpayroll'>SQL Payroll</Link>
+                                    </div>
+                                    <div><Link href='/products/sqlpos'>SQL POS</Link></div>
+                                    <div><Link href='/products/sqlcloud'>SQL Cloud (SaaS)</Link></div>
+                                    <div>
+                                        <Link href='/products/sqldashboard'>SQL Dashboard by GOBI</Link>
+                                    </div>
+                                    <div>
+                                        <Link href='/event'>Event</Link>
+                                    </div>
+                                    <div>
+                                        <Link href='/blog'>Blogs</Link>
+                                    </div>
+                                    <div>
+                                        <Link href='/contact'>Contact Us</Link>
+                                    </div>
                                 </div>
                             </div>
                             <div className='right'>

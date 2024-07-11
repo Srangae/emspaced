@@ -1353,7 +1353,8 @@ img {
 }
 .nicolas_sm_pricing .pricing_in > ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: center;
   margin-left: -25px;
   margin-bottom: -25px;
 }
@@ -1437,7 +1438,7 @@ img {
   border-color: #ffbd4a;
 }
 .nicolas_sm_pricing .button span {
-  color: #fff;
+  color: #0d9488;
   font-weight: 600;
 
   -webkit-transition: all 0.3s ease;
