@@ -168,10 +168,10 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col md:flex-row items-center justify-center gap-10 w-full md:w-7/12 pb-10'>
-                    <button className='bg-purple-700 rounded-2xl text-white p-3 md:w-1/5'><Link
+                    <button className='bg-primary-500 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                         href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
                         target='_blank'>SQL Account</Link></button>
-                    <button className='bg-red-500 rounded-2xl text-white p-3 md:w-1/5'><Link
+                    <button className='bg-red-500 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                         href='https://docs.google.com/forms/d/e/1FAIpQLScJ3uIORGQTTHvffB3ACHnXIJBBbFW-SdBogBI0z1VxcYtIWg/viewform'
                         target='_blank'>SQL Payroll</Link></button>
                 </div>

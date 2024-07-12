@@ -19,7 +19,7 @@ const HomeBanner_1 = () => {
                 </div>
 
                 <div className='flex items-center justify-center w-full pb-10'>
-                    <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
+                    <button className='bg-primary-500 rounded-2xl text-white p-3'><Link
                         href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
                     >LEARN MORE</Link></button>
                 </div>

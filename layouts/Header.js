@@ -41,7 +41,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="dropdown"
+          className="dropdown shadow-lg"
           style={{ display: toggle ? "block" : "none" }}
         >
           <div className="dropdown_inner">
@@ -122,8 +122,8 @@ const Header = () => {
             </div>
 
             <div className="button">
-              <div className='no-rotate'>
-                <Link href="https://wa.link/3chr1y" target='_blank'>
+              <div className='text-white hover:text-primary'>
+                <Link className="bg-primary-900" href="https://wa.link/3chr1y" target='_blank'>
                   Whatsapp
                 </Link>
               </div>

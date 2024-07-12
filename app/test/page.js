@@ -16,7 +16,7 @@ const page = () => {
                             <h3>Let's Connect, Get In Touch With Us</h3>
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-blue-500 text-white w-32 rounded-xl p-2'>Enquiry</button>
+                            <button className='bg-primary-500 text-white w-32 rounded-xl p-2'>Enquiry</button>
                         </div>
                     </div>
                 </div>

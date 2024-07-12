@@ -44,7 +44,7 @@ const Portfolio = ({noTitle = false}) => {
                     </Marquee>
                 </div>
 
-                <div className="container">
+                <div className="container text-white">
                     <div className="portfolio_in">
                         <ul>
                             <li>
@@ -96,7 +96,7 @@ const Portfolio = ({noTitle = false}) => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-white">
                                     <div className="image">
                                         <img src="/img/events/past_event_3.jpg" alt={1}/>
                                     </div>
@@ -119,7 +119,7 @@ const Portfolio = ({noTitle = false}) => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-white">
                                     <div className="image">
                                         <img src="/img/events/past_event_4.jpg" alt={1}/>
                                     </div>

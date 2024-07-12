@@ -332,10 +332,10 @@ const page = () => {
 
                     <div className='flex flex-col items-center justify-center py-10 md:gap-10 w-full'>
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
-                            <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-primary-900 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                                 href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
                                 target='_blank'>LEARN MORE</Link></button>
-                            <button className='bg-secondary-600 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-secondary-600 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                                 href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>

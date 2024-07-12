@@ -4,7 +4,7 @@ import Link from "next/link";
 const Call_us_banner = () => {
   return (
       <div
-          className='flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-emerald-400 to-cyan-400 gap-10'>
+          className='flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-emerald-400 to-cyan-400 gap-10 mt-5'>
           <div className='flex flex-col items-center justify-center text-white md:w-1/3 px-6'>
               <div className='text-4xl text-slate-800 font-bold pb-6 text-center py-10'>
                   Couldn't find something suitable for your business?

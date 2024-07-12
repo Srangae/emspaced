@@ -343,10 +343,10 @@ const page = () => {
 
                     <div className='flex flex-col items-center justify-center py-10 md:gap-10 w-full'>
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
-                            <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-primary-900 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                                 href='/sqlpayroll-features'
                                 target='_blank'>FULL FEATURES</Link></button>
-                            <button className='bg-secondary-800 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-secondary-800 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
                                 href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>

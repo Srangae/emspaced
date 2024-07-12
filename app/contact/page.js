@@ -17,7 +17,7 @@ const page = () => {
                             <h3>Let's Connect, Get In Touch With Us</h3>
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-blue-500 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-500 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
                                     target='_blank'>
@@ -27,7 +27,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className="nicolas_sm_footer">
+                <div className="nicolas_sm_footer mb-10">
                     <div className="container">
                         <div className="extra_container">
                             <div className="footer_in">
@@ -43,7 +43,7 @@ const page = () => {
                                 <div className='md:flex md:gap-20'>
                                     <div className="left">
                                         <div className="title">
-                                            <h3 className='text-green-700 font-bold text-2xl'>Selangor / Kuala
+                                            <h3 className='text-green-900 font-bold text-2xl'>Selangor / Kuala
                                                 Lumpur</h3>
                                         </div>
                                         <div className="contact">
@@ -74,7 +74,7 @@ const page = () => {
                                     <div className="left">
                                         {/*<ContactForm/>*/}
                                         <div className="title">
-                                            <h3 className='text-green-700 font-bold text-2xl'>Sabah</h3>
+                                            <h3 className='text-green-900 font-bold text-2xl'>Sabah</h3>
                                         </div>
                                         <div className="contact">
                                             <ul>
