@@ -5,7 +5,7 @@ const SQLCloudAccountBanner = () => {
 
     return (
         <div
-            className='flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 gap-10'>
+            className='flex flex-col md:flex-row items-center justify-center bg-banner-50 gap-10'>
             <div className='flex flex-col items-center justify-center text-white md:w-1/3 px-6'>
                 <div className='text-xl py-10 text-center md:text-justify'>
                     With SQL cloud accounting software, now you have access anywhere, anytime

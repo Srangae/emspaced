@@ -268,7 +268,7 @@ const page = () => {
                                 <div className="image_box">
                                     <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                                 </div>
-                                <div className="awards_box">
+                                <div className="awards_box text-secondary-600">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='text-lg text-primary-900 font-bold w-1/2 text-center'>
                                             <p>1. Ready Reports For You</p>

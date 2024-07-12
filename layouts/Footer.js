@@ -46,17 +46,17 @@ const Footer = () => {
                                 <div className='text-white'>
                                     <h1 className='text-2xl my-6'>Contacts</h1>
                                     <div>
-                                        <div className='font-bold text-primary-900'>Email:</div>
+                                        <div className='font-bold text-black'>Email:</div>
                                         <Link href='#'>info@golink.com.my</Link>
                                     </div>
-                                    <h3 className='font-bold text-primary-900'>Selangor / Kuala Lumpur</h3>
+                                    <h3 className='font-bold text-black'>Selangor / Kuala Lumpur</h3>
                                     <div>
-                                        <div className='font-bold text-primary-900'>Whatsapp:</div>
+                                        <div className='font-bold text-black'>Whatsapp:</div>
                                         <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>
                                     </div>
-                                    <h3 className='font-bold text-primary-900'>Sabah</h3>
+                                    <h3 className='font-bold text-black'>Sabah</h3>
                                     <div>
-                                        <div className='font-bold text-primary-900'>Whatsapp:</div>
+                                        <div className='font-bold text-black'>Whatsapp:</div>
                                         <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>
                                     </div>
                                 </div>

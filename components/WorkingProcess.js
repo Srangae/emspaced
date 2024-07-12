@@ -22,10 +22,10 @@ const WorkingProcess = () => {
                     <div className="process_in">
                         <ul>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/bulb.png' alt={1} width={100} height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center text-primary-900 font-bold'>
                                             KNOW YOUR BUSINESS
                                         </h3>
                                         <p className='text-justify'>
@@ -36,11 +36,11 @@ const WorkingProcess = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/brand-speedtest.png' alt={1} width={100}
                                                      height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center text-primary-900 font-bold'>
                                             EFFICIENCY
                                         </h3>
                                         <p className='text-justify'>
@@ -51,10 +51,10 @@ const WorkingProcess = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/settings-cog.png' alt={1} width={100} height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center font-bold text-primary-900'>
                                             PRODUCTIVITY
                                         </h3>
                                         <p className='text-justify'>
@@ -65,11 +65,11 @@ const WorkingProcess = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/circles-relation.png' alt={1} width={100}
                                                      height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center text-primary-900 font-bold'>
                                             ALL IN ONE
                                         </h3>
                                         <p className='text-justify'>
@@ -80,11 +80,11 @@ const WorkingProcess = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/arrow-down.png' alt={1} width={100}
                                                      height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center text-primary-900 font-bold'>
                                             REDUCE HUMAN ERROR
                                         </h3>
                                         <p className='text-justify'>
@@ -95,10 +95,10 @@ const WorkingProcess = () => {
                                 </div>
                             </li>
                             <li>
-                                <div className="list_inner">
+                                <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/sun.png' alt={1} width={100} height={100}/></span>
-                                        <h3 className='text-center'>
+                                        <h3 className='text-center text-primary-900 font-bold'>
                                             BE ECO FRIENDLY
                                         </h3>
                                         <p className='text-justify'>

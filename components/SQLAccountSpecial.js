@@ -64,7 +64,7 @@ const SQLAccountSpecial = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col items-center justify-center py-10 md:gap-10'>
+                    <div className='flex flex-col items-center justify-center py-10 md:gap-10 text-secondary-600'>
                         <div className='text-4xl text-primary-900 font-bold'>Additionally ...</div>
 
                         <div className='grid md:grid-cols-3 md:gap-10'>

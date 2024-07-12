@@ -82,7 +82,7 @@ const page = () => {
                     </div>
 
                     <div className='container'>
-                        <div className='grid md:grid-cols-3 gap-10 items-start justify-center text-left'>
+                        <div className='grid md:grid-cols-3 gap-10 items-start justify-center text-left text-secondary-600'>
                             <div className='flex flex-col items-center justify-center gap-5'>
                                 <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>

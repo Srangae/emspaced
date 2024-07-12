@@ -88,7 +88,7 @@ const page = () => {
                     Be credit safe with CTOS Credit Manager
                 </div>
 
-                <div className='grid grid-cols-2 gap-2 items-center justify-center px-10'>
+                <div className='grid grid-cols-2 gap-2 items-center justify-center px-10 text-secondary-600'>
                     <div className='flex items-center justify-center'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' width={500} height={300}/>
                     </div>
@@ -105,7 +105,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center justify-center p-10'>
+                <div className='flex items-center justify-center p-10 text-secondary-600'>
                     <div className='flex flex-col items-center justify-center gap-4 w-3/4'>
                         <div className='text-emerald-900 text-3xl font-bold'>
                             Evaluate your new client/vendor before you start the trade
@@ -167,7 +167,7 @@ const page = () => {
                                     <div className="list_inner">
                                         <div className="space"></div>
                                         <div className="box">
-                                            <div className="title">
+                                            <div className="title text-2xl font-bold">
                                                 <span>Good</span>
                                                 <h3>
                           <span
@@ -188,7 +188,7 @@ const page = () => {
                                     <div className="list_inner">
                                         <div className="space"></div>
                                         <div className="box">
-                                            <div className="title">
+                                            <div className="title text-2xl font-bold">
                                                 <span>Fair</span>
                                                 <h3>
                           <span
@@ -209,7 +209,7 @@ const page = () => {
                                     <div className="list_inner">
                                         <div className="space"></div>
                                         <div className="box">
-                                            <div className="title">
+                                            <div className="title text-2xl font-bold">
                                                 <span>Low</span>
                                                 <h3>
                           <span

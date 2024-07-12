@@ -35,7 +35,7 @@ body {
   padding: 0;
 }
 body {
-  color: #959595;
+  color: white;
   font-family: "Montserrat";
   font-size: 16px;
   letter-spacing: 0px;
@@ -326,7 +326,7 @@ img {
   width: 100%;
   height: auto;
   clear: both;
-  background-color: #000;
+  background-color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 10px 20px 10px 20px;
 }
@@ -349,7 +349,7 @@ img {
   width: 100%;
   height: auto;
   clear: both;
-  background-color: #000;
+  background-color: white;
   display: none;
 }
 .nicolas_sa_mobile_menu .dropdown .dropdown_inner {
@@ -368,7 +368,7 @@ img {
 }
 .nicolas_sa_mobile_menu .dropdown .dropdown_inner > ul > li a {
   text-decoration: none;
-  color: #fff;
+  color: #0d9488;
   display: inline-block;
   padding: 0px 0px;
   font-weight: 500;
@@ -385,7 +385,7 @@ img {
 .nicolas_sa_mobile_menu .hamburger-inner,
 .nicolas_sa_mobile_menu .hamburger-inner:after,
 .nicolas_sa_mobile_menu .hamburger-inner:before {
-  background-color: #fff !important;
+  background-color: #0d9488 !important;
   height: 2px;
 }
 
@@ -413,7 +413,7 @@ img {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #0d9488;
+  background-color: white;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   z-index: 1;
@@ -464,7 +464,7 @@ img {
   position: absolute;
   content: "";
   background-color: #343434;
-  width: 1px;
+  /*width: 1px;*/
   top: -1000px;
   bottom: -1000px;
   right: 0px;
@@ -481,7 +481,7 @@ img {
   margin-right: 46px;
 }
 .nicolas_sm_header .menu a {
-  color: #fff;
+  color: #0d9488;
   font-weight: 600;
   text-decoration: none;
   text-transform: capitalize;
@@ -498,7 +498,7 @@ img {
   color: #ffbd4a;
 }
 .nicolas_sm_header .button {
-  border-left: 1px solid #343434;
+  /*border-left: 1px solid #343434;*/
   padding-left: 35px;
   position: relative;
 }
@@ -506,7 +506,7 @@ img {
   position: absolute;
   content: "";
   background-color: #343434;
-  width: 1px;
+  /*width: 1px;*/
   top: -1000px;
   bottom: -1000px;
   left: 0px;
@@ -523,7 +523,7 @@ img {
 .nicolas_sm_header .button a {
   display: inline-block;
 
-  background-color: #ffbd4a;
+  background-color: #0d9488;
   text-align: center;
   line-height: 1;
   padding: 20px 40px;
@@ -569,7 +569,7 @@ img {
   transform: translateY(-50%);
   left: 100%;
   height: 2px;
-  background-color: #959595;
+  background-color: white;
   margin-left: 45px;
 }
 .nicolas_sm_hero .up {
@@ -1353,14 +1353,14 @@ img {
   padding: 120px 0 0px 0px;
 }
 .nicolas_sm_pricing .pricing_in > ul {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  /*display: flex;*/
+  /*flex-wrap: nowrap;*/
+  /*justify-content: center;*/
   margin-left: -25px;
   margin-bottom: -25px;
 }
 .nicolas_sm_pricing .pricing_in > ul > li {
-  width: 33.3333%;
+  /*width: 33.3333%;*/
   padding-left: 25px;
   margin-bottom: 25px;
 }
@@ -1414,7 +1414,7 @@ img {
 }
 .nicolas_sm_pricing .button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   border-top: 1px solid #2f3030;
   border-radius: 15px;
   padding: 22px 45px;
@@ -1435,8 +1435,7 @@ img {
   border-radius: 15px;
 }
 .nicolas_sm_pricing .button:hover {
-  background-color: #ffbd4a;
-  border-color: #ffbd4a;
+  background-color: #0d9488;
 }
 .nicolas_sm_pricing .button span {
   color: #0d9488;
@@ -1452,7 +1451,7 @@ img {
   transform: rotate(-135deg);
 }
 .nicolas_sm_pricing .button:hover span {
-  color: #171818;
+  color: white;
 }
 
 /*---------------------------------------------------*/
@@ -1585,7 +1584,7 @@ img {
 /*---------------------------------------------------*/
 
 .nicolas_sm_footer {
-  background-color: #0d9488;
+  background-color: #00472D;
 }
 .nicolas_sm_footer .footer_in {
   display: flex;
@@ -1998,7 +1997,7 @@ img {
   position: relative;
 }
 .nicolas_sm_counter .list_inner:hover .box {
-  background-color: #111212;
+  background-color: #0d9488;
 }
 .nicolas_sm_counter .list_inner::after {
   content: "";
@@ -2037,6 +2036,11 @@ img {
 .nicolas_sm_counter .box .title span {
   color: #0d9488;
 }
+
+.nicolas_sm_counter .list_inner:hover .box .title span {
+  color: white;
+}
+
 .nicolas_sm_counter .box .title h3 {
   font-size: 36px;
 }

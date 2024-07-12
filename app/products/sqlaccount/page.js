@@ -14,7 +14,8 @@ const page = () => {
                     <div className="container">
                         <div className="flex flex-col items-center justify-center">
                             <div className='font-bold text-6xl text-primary-900 text-center'>SQL ACCOUNT</div>
-                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Beyond an accounting
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Beyond an
+                                accounting
                                 software
                             </div>
                         </div>
@@ -278,11 +279,10 @@ const page = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div id='sql_pricing'>
-                        <SQLAccountPricing/>
-                    </div>
-
+                <div id='sql_pricing'>
+                    <SQLAccountPricing/>
                 </div>
                 <Call_us_banner/>
 
