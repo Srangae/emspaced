@@ -15,7 +15,7 @@ const DashboardPricing = () => {
                         <div className='pricing_in'>
                             <ul>
                                 <li>
-                                    <div className="list_inner">
+                                    <div className="list_inner text-secondary-600">
                                         <div className="info_box">
                                             <div className="info">
                                                 <h3 className="plan text-emerald-900">Premium</h3>

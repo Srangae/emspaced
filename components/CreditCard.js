@@ -3,8 +3,7 @@ import Link from "next/link";
 
 const CreditCard = () => {
     return (
-        <div className='flex flex-col items-center justify-center bg-white relative md:h-96'>
-            <Image src='/img/home/credit_card.jpg' fill className='opacity-90'/>
+        <div className='flex flex-col items-center justify-center bg-primary-900'>
             <div className='z-0 flex flex-col items-center justify-center'>
                 <div className='flex items-center justify-center py-10 text-center'>
                     <div className='text-6xl font-bold text-slate-300'>SQL PAYROLL</div>

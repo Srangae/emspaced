@@ -5,13 +5,13 @@ const PayrollPricing = () => {
     return (
         <div className="nicolas_sm_section">
             <div className='flex flex-col gap-5 items-center justify-center text-center'>
-                <div className='text-6xl font-bold text-emerald-900'>
+                <div className='text-6xl font-bold text-primary-900'>
                     Pricing
                 </div>
-                <div className='text-3xl'>
+                <div className='text-3xl text-secondary-800'>
                     All plans come with identical features.
                 </div>
-                <div className='text-3xl'>
+                <div className='text-3xl text-secondary-800'>
                     Choose a plan from the payroll software Malaysia that matches your business size.
                 </div>
 
@@ -23,20 +23,20 @@ const PayrollPricing = () => {
                             <ul>
                                 <li>
                                     <div className="list_inner">
-                                        <div className="info_box">
+                                        <div className="info_box text-secondary-600">
                                             <div className="info">
-                                                <h3 className="plan">Lite</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800 text-center">Lite</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM1,299
                                                 </h3>
-                                                <p><strong className='text-emerald-900'>20</strong> Active Employees
+                                                <p><strong className='text-primary-900'>20</strong> Active Employees
                                                     (Not included resigned)</p>
                                             </div>
                                             <div className="features">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
-                                                            👤 <strong className='text-emerald-900'>20</strong> Active
+                                                            👤 <strong className='text-primary-900'>20</strong> Active
                                                             Staffs
                                                         </div>
                                                     </li>
@@ -85,20 +85,20 @@ const PayrollPricing = () => {
                                 </li>
                                 <li>
                                     <div className="list_inner">
-                                        <div className="info_box">
+                                        <div className="info_box text-secondary-600">
                                             <div className="info">
-                                                <h3 className="plan">Lite</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800 text-center">Payroll 50s</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM1,699
                                                 </h3>
-                                                <p><strong className='text-emerald-900'>50</strong> Active Employees
+                                                <p><strong className='text-primary-900'>50</strong> Active Employees
                                                     (Not included resigned)</p>
                                             </div>
                                             <div className="features">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
-                                                            👤 <strong className='text-emerald-900'>50</strong> Active
+                                                            👤 <strong className='text-primary-900'>50</strong> Active
                                                             Staffs
                                                         </div>
                                                     </li>
@@ -147,20 +147,20 @@ const PayrollPricing = () => {
                                 </li>
                                 <li>
                                     <div className="list_inner">
-                                        <div className="info_box">
+                                        <div className="info_box text-secondary-600">
                                             <div className="info">
-                                                <h3 className="plan">Lite</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800 text-center">Payroll 100s</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM1,999
                                                 </h3>
-                                                <p><strong className='text-emerald-900'>100</strong> Active Employees
+                                                <p><strong className='text-primary-900'>100</strong> Active Employees
                                                     (Not included resigned)</p>
                                             </div>
                                             <div className="features">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
-                                                            👤 <strong className='text-emerald-900'>100</strong> Active
+                                                            👤 <strong className='text-primary-900'>100</strong> Active
                                                             Staffs
                                                         </div>
                                                     </li>
@@ -209,13 +209,13 @@ const PayrollPricing = () => {
                                 </li>
                                 <li>
                                     <div className="list_inner">
-                                        <div className="info_box">
+                                        <div className="info_box text-secondary-600">
                                             <div className="info">
-                                                <h3 className="plan">Lite</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800 text-center">E Leave</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     FREE
                                                 </h3>
-                                                <p><strong className='text-emerald-900'>Unlimited</strong> Employees
+                                                <p><strong className='text-primary-900'>Unlimited</strong> Employees
                                                     (By company)</p>
                                             </div>
                                             <div className="features">

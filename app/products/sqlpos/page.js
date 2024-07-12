@@ -19,13 +19,13 @@ const page = () => {
                 <div className="nicolas_sm_page_title">
                     <div className="container">
                         <div className="page_title_in">
-                            <h3 className='text-emerald-900'>SQL POS</h3>
-                            <div className='flex items-center justify-center py-6 text-3xl text-white'>
+                            <h3 className='text-primary-900 font-bold'>SQL POS</h3>
+                            <div className='flex items-center justify-center py-6 text-3xl text-secondary-800'>
                                 Scan - Checkout - Inventory
                             </div>
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-blue-500 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
                                     target='_blank'>
@@ -38,8 +38,8 @@ const page = () => {
                 <div
                     className='flex items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 w-full'>
                     <div className='w-5/6 flex flex-col gap-5 py-6 text-white'>
-                        <div className='text-center text-6xl py-6 text-emerald-950'>
-                            SQL POS SYSTEM
+                        <div className='text-center text-6xl py-6 text-primary-900 font-bold'>
+                        SQL POS SYSTEM
                         </div>
                         <div className='text-left text-2xl'>
                             Seamless integration makes it easy to sell your products and accept multiple payments.
@@ -61,11 +61,11 @@ const page = () => {
 
                 <div className='nicolas_sm_awards'>
                     <div className="container">
-                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                        <div className='flex items-center justify-center py-6 text-3xl text-primary-900 font-bold'>
                             Retail POS System
                         </div>
 
-                        <div className='flex items-center justify-center text-xl text-teal-600'>
+                        <div className='flex items-center justify-center text-xl text-secondary-600'>
                             Track and maintain your entire business inventory effectively
                         </div>
                         <div className="extra_container">
@@ -73,10 +73,10 @@ const page = () => {
                                 <div className="image_box">
                                     <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                                 </div>
-                                <div className="awards_box">
+                                <div className="awards_box text-secondary-600">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>1. Unlimited Product & Sales</p>
+                                            <p className='text-primary-900'>1. Unlimited Product & Sales</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Mobirise give you the freedom to develop as many websites as you like.
@@ -84,7 +84,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>2. Unlimited Customer</p>
+                                            <p className='text-primary-900'>2. Unlimited Customer</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Choose from the large selection of latest pre-made blocks.
@@ -93,7 +93,7 @@ const page = () => {
 
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>3. Inventories Control</p>
+                                            <p className='text-primary-900'>3. Inventories Control</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             One of Bootstrap's big point is responsiveness
@@ -101,7 +101,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>4. No Yearly License Fee</p>
+                                            <p className='text-primary-900'>4. No Yearly License Fee</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Mobirise make it easy for you to use Google fonts on your website easily and
@@ -124,18 +124,18 @@ const page = () => {
                     </div>
 
                     <div className="container">
-                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                        <div className='flex items-center justify-center py-6 text-3xl text-primary-900 font-bold'>
                             Seamless Integration Of SQL Account
                         </div>
                         <div className="extra_container">
-                            <div className="awards_in">
+                            <div className="awards_in text-secondary-600">
                                 <div className="image_box">
                                     <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>1. Live Time Sync</p>
+                                            <p className='text-primary-900'>1. Live Time Sync</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Prompt Inventory synchronization to help you manage your stock better
@@ -143,7 +143,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>2. Centralized Stock</p>
+                                            <p className='text-primary-900'>2. Centralized Stock</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Simplify operations with centralized inventory
@@ -152,7 +152,7 @@ const page = () => {
 
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>3. Multiple Item Type</p>
+                                            <p className='text-primary-900'>3. Multiple Item Type</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Support multiple warehouse, serial number, batch expiry date control,
@@ -166,18 +166,18 @@ const page = () => {
                     </div>
 
                     <div className="container">
-                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                        <div className='flex items-center justify-center py-6 text-3xl text-primary-900 font-bold'>
                             Improve Customer Convenience With Multiple Payment Methods
                         </div>
                         <div className="extra_container">
-                            <div className="awards_in">
+                            <div className="awards_in text-secondary-600">
                                 <div className="image_box">
                                     <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>4. Partial Payment</p>
+                                            <p className='text-primary-900'>4. Partial Payment</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Allow you to accept partial payment in store as well as multiple forms of
@@ -186,7 +186,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>5. Hold Bills</p>
+                                            <p className='text-primary-900'>5. Hold Bills</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Allowed unlimited on-hold bills to help you increase your business
@@ -199,18 +199,18 @@ const page = () => {
                     </div>
 
                     <div className="container">
-                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                        <div className='flex items-center justify-center py-6 text-3xl text-primary-900 font-bold'>
                             Fast, Responsive, & Easy To Use
                         </div>
                         <div className="extra_container">
-                            <div className="awards_in">
+                            <div className="awards_in text-secondary-600">
                                 <div className="image_box">
                                     <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>6. Optimize</p>
+                                            <p className='text-primary-900'>6. Optimize</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Maintain working speed even during the busiest hours
@@ -218,7 +218,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>7. User Friendly</p>
+                                            <p className='text-primary-900'>7. User Friendly</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Fully Touch Screen, keyboard friendly
@@ -226,7 +226,7 @@ const page = () => {
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
                                         <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                            <p>8. Online/ Offline</p>
+                                            <p className='text-primary-900'>8. Online/ Offline</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
                                             Support both online and offline mode
@@ -243,18 +243,18 @@ const page = () => {
                 </div>
                 <Call_us_banner/>
 
-                <div className='flex flex-col items-center justify-center bg-white py-10 text-center'>
-                    <div className='font-bold text-4xl text-emerald-900 py-10'>
+                <div className='flex flex-col items-center justify-center py-10 text-center'>
+                    <div className='font-bold text-4xl text-primary-900 py-10'>
                         Learn more about SQL Malaysia payroll system
                     </div>
 
-                    <div className='grid md:grid-cols-3 items-center justify-center px-6'>
+                    <div className='grid md:grid-cols-3 gap-2 items-center justify-center px-6 text-left text-secondary-600'>
                         <div className='flex flex-col items-center justify-center gap-2'>
                             <Image src='/img/events/event_1.jpg' alt={1} width={400} height={300}/>
-                            <div className='text-2xl text-cyan-300 text-center'>
+                            <div className='text-2xl text-primary-900 font-bold text-center'>
                                 SQL Account Full Features
                             </div>
-                            <div className='text-lg text-center'>
+                            <div className='text-lg'>
                                 Check out the amazing full features of SQL Payroll; see how the system can help your
                                 daily operation flow.
                             </div>
@@ -262,10 +262,10 @@ const page = () => {
 
                         <div className='flex flex-col items-center justify-center gap-2'>
                             <Image src='/img/events/event_2.jpg' alt={1} width={400} height={300}/>
-                            <div className='text-2xl text-cyan-300 text-center'>
+                            <div className='text-2xl text-primary-900 font-bold text-center'>
                                 Knowledge Base
                             </div>
-                            <div className='text-lg text-center'>
+                            <div className='text-lg'>
                                 Sharing is caring; we care about our user, watch & learn new SQL Account / Malaysia
                                 payroll system skills you can use today
                             </div>
@@ -273,10 +273,10 @@ const page = () => {
 
                         <div className='flex flex-col items-center justify-center gap-2'>
                             <Image src='/img/events/event_3.jpg' alt={1} width={400} height={300}/>
-                            <div className='text-2xl text-cyan-300 text-center'>
+                            <div className='text-2xl text-primary-900 font-bold text-center'>
                                 Hands On Training
                             </div>
-                            <div className='text-lg text-center'>
+                            <div className='text-lg'>
                                 <strong>FREE</strong> Register to learn SQL Account & Payroll before purchase. Also, we
                                 welcome non-SQL
                                 product users to join the hands-on training class.
@@ -286,10 +286,10 @@ const page = () => {
 
                     <div className='flex flex-col items-center justify-center py-10 md:gap-10 w-full'>
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
-                            <button className='bg-purple-700 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='/sqlpayroll-features'
                                 target='_blank'>FULL FEATURES</Link></button>
-                            <button className='bg-slate-200 rounded-2xl text-purple-400 p-3 md:w-1/5'><Link
+                            <button className='bg-secondary-800 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>

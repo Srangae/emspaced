@@ -1,12 +1,12 @@
 const VideoBanner = () => {
     return (
         <div className='flex flex-col items-center justify-center my-6 px-6'>
-            <div className='text-4xl text-emerald-900'>
+            <div className='text-4xl text-primary-900 font-bold'>
                 Introduction
             </div>
 
             <div className='grid md:grid-cols-2 gap-10 w-full py-6 items-center justify-center'>
-                <div className='text-center'>
+                <div className='text-right text-secondary-800'>
                     SQL E Leave is a mobile application that integrates with SQL Payroll for employee to apply leave,
                     check their monthly pay sheet, yearly EA form, and it also allows employees to calculate their
                     income tax. SQL E Leave comes with 2 dashboards, one for the employee and manager, so
@@ -26,12 +26,11 @@ const VideoBanner = () => {
                 </div>
             </div>
 
-            <div className='text-4xl text-emerald-900'>
+            <div className='text-4xl text-primary-900 font-bold'>
                 Mobile EA Form
             </div>
 
             <div className='grid md:grid-cols-2 gap-10 w-full py-6 items-center justify-center'>
-
                 <div className=''>
                     <div className='md:w-full md:h-80'>
                         <iframe className="w-full h-full"
@@ -44,7 +43,7 @@ const VideoBanner = () => {
                     </div>
                 </div>
                 
-                <div className='text-center'>
+                <div className='text-left text-secondary-800'>
                     SQL E Leave is a mobile application that integrates with SQL Payroll for employee to apply leave,
                     check their monthly pay sheet, yearly EA form, and it also allows employees to calculate their
                     income tax. SQL E Leave comes with 2 dashboards, one for the employee and manager, so

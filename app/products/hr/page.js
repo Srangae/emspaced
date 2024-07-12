@@ -22,16 +22,17 @@ const page = () => {
             <div className="nicolas_sm_contact">
                 <div className="nicolas_sm_page_title">
                     <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-emerald-900 text-6xl'>HR Software Malaysia</h3>
-                            <h2 className='flex items-center justify-center py-4 text-center text-4xl text-teal-600'>
-                                We offer a great overlap of technology, software and accounting
-                            </h2>
+
+                        <div className="flex flex-col items-center justify-center">
+                            <div className='font-bold text-6xl text-primary-900 text-center'>HR Software Malaysia</div>
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>We offer
+                                a great overlap of technology, software and accounting
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='bg-white flex text-lg p-10'>
+                <div className='flex text-lg p-10 text-secondary-800'>
                     The Golink Malaysia is built to provide its services to Human Resource Managers and help them make
                     their work more manageable and easy. With Golink HR software Malaysia, we cater to all individuals,
                     from small organizations, private companies to large business groups. We use our skills and

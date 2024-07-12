@@ -14,8 +14,8 @@ const SQLPaySpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/shield-check.png' alt={1} width={50} height={50}/>
-                                            <h3>Certified by Statutory Bodies</h3>
-                                            <p>
+                                            <h3 className='font-bold text-primary-900'>Certified by Statutory Bodies</h3>
+                                            <p className='text-white text-left'>
                                                 Compliant with local employment requirements KWSP Form A, SOCSO Form 8A,
                                                 SOCSO EIS, Income Tax CP39, Form E and HRDF ready.
                                             </p>
@@ -24,8 +24,8 @@ const SQLPaySpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/search.png' alt={1} width={50} height={50}/>
-                                            <h3>Unlimited Year Records</h3>
-                                            <p>
+                                            <h3 className='font-bold text-primary-900'>Unlimited Year Records</h3>
+                                            <p className='text-white text-left'>
                                                 There is no limit to store all your employee records, no need for
                                                 year-end processes, so you can view/ export all the data anytime.
                                             </p>
@@ -41,8 +41,8 @@ const SQLPaySpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/circles-relation.png' alt={1} width={50} height={50}/>
-                                            <h3>E-Submission & E-Payment</h3>
-                                            <p>
+                                            <h3 className='font-bold text-primary-900'>E-Submission & E-Payment</h3>
+                                            <p className='text-white text-left'>
                                                 SQL Payroll build-in up-to-date e-payment format for all banks in
                                                 Malaysia and monthly contribution e-submission file format to save your
                                                 time.
@@ -52,8 +52,8 @@ const SQLPaySpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/mail.png' alt={1} width={50} height={50}/>
-                                            <h3>Batch Email Payslip</h3>
-                                            <p>
+                                            <h3 className='font-bold text-primary-900'>Batch Email Payslip</h3>
+                                            <p className='text-white text-left'>
                                                 Securely send the payslips to every single employee's registered email
                                                 with password encrytion just like your bank statement.
                                             </p>
@@ -66,10 +66,10 @@ const SQLPaySpecial = () => {
 
                     <div className='flex flex-col items-center justify-center py-10 md:gap-10'>
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
-                            <button className='bg-purple-700 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
                                 target='_blank'>LEARN MORE</Link></button>
-                            <button className='bg-slate-200 rounded-2xl text-purple-400 p-3 md:w-1/5'><Link
+                            <button className='bg-secondary-600 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>

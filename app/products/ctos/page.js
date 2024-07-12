@@ -22,14 +22,15 @@ const page = () => {
             <div className="nicolas_sm_contact">
                 <div className="nicolas_sm_page_title">
                     <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-emerald-900 text-6xl'>CTOS</h3>
-                            <h2 className='flex items-center justify-center py-4 text-4xl text-teal-600'>
-                                Malaysia's No.1 credit management solution
-                            </h2>
+                        <div className="flex flex-col items-center justify-center">
+                            <div className='font-bold text-6xl text-primary-900 text-center'>CTOS</div>
+                            <div
+                                className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Malaysia's
+                                No.1 credit management solution
+                            </div>
                         </div>
                         <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
                                     target='_blank'>
@@ -42,18 +43,18 @@ const page = () => {
 
                 <div
                     className='flex items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 w-full'>
-                    <div className='w-5/6 flex flex-col gap-5 py-6 text-white'>
+                    <div className='w-5/6 flex flex-col gap-5 py-6 text-white text-left'>
                         <div className='text-center text-6xl py-6 font-bold'>
                             CTOS Credit Manager
                         </div>
-                        <div className='text-left'>
+                        <div className=''>
                             Established in 1990, CTOS is Malaysia’s leading Credit Reporting Agency (CRA) under the
                             ambit of the Credit Reporting Agencies Act 2010. At CTOS, we facilitate credit extensions by
                             empowering individuals and businesses with access to crucial information at greater ease and
                             speed.
                         </div>
 
-                        <div className='text-left'>
+                        <div className=''>
                             According to World Bank’s Doing Business Report 2014, Malaysia is deemed the easiest country
                             to get credit in the world (out of 189 countries). We are proud to have contributed to that.
                             By providing information to credit grantors and creating transparency, we inspire greater
@@ -63,14 +64,14 @@ const page = () => {
                             applicant must meet a credit providers’ risk appetites, business policies and strategies.
                         </div>
 
-                        <div className='text-left'>
+                        <div className=''>
                             Credit is not a right. Needless to say, we must be prudent and responsible in our financial
                             dealings which will have an impact in our search for credit. Given this, individuals and
                             companies are urged to check their CTOS credit report regularly. This is to ensure accuracy
                             and updates for quick and efficient processing of their applications.
                         </div>
 
-                        <div className='text-left'>
+                        <div className=''>
                             CRAs are poised to further develop under the CRA Act 2010 to benefit the people, businesses
                             and ultimately, the nation.
                         </div>

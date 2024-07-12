@@ -8,8 +8,8 @@ const WorkingProcess = () => {
                     <div className="left">
                     </div>
                     <div className="center">
-                        <h3 className='text-center text-4xl'>SYSTEMIZE YOUR BUSINESS</h3>
-                        <div className='text-center text-xl py-6'>
+                        <h3 className='text-center text-4xl text-emerald-900 font-bold'>SYSTEMIZE YOUR BUSINESS</h3>
+                        <div className='text-center text-xl py-6 text-teal-600'>
                             Over a decade of experience in interactive design and working with
                             some of the most talented people in the business
                         </div>

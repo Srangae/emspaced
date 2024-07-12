@@ -14,17 +14,18 @@ const page = () => {
             <div className="nicolas_sm_contact">
                 <div className="nicolas_sm_page_title">
                     <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-teal-600'>SQL Payroll Features</h3>
-                            <div className='flex items-center justify-center py-6 text-2xl text-teal-600'>
+                        <div className="flex flex-col items-center justify-center">
+                            <div className='font-bold text-6xl text-primary-900 text-center'>SQL Payroll Features</div>
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>
                                 Process - Review - Print
                             </div>
-                            <div className='flex items-center justify-center text-2xl text-teal-600'>
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>
                                 It's simply at its best
                             </div>
+
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-green-950 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                                     target='_blank'>
@@ -37,43 +38,43 @@ const page = () => {
             </div>
             <div className="nicolas_sm_awards">
                 <div className='flex items-center justify-center w-full py-6'>
-                    <div className='md:w-2/12 border-y-2 py-2 text-white text-center text-4xl'>
+                    <div className='md:w-2/12 border-y-2 py-2 text-primary-900 font-bold text-center text-4xl'>
                         Highlight
                     </div>
                 </div>
                 <div className="container">
-                    <div className='flex items-center justify-center pt-6 text-3xl text-emerald-900'>
+                <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
                         Monthly Payroll Process
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Quick and Easy monthly processing</p>
+                                        <p className='font-bold text-primary-900'>Quick and Easy monthly processing</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Enjoy speedy payroll processing and view each earning breakdown with an
                                         intuitive screen display.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Flexible amendment</p>
+                                        <p className='font-bold text-primary-900'>Flexible amendment</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Edit payroll processes anytime anywhere with SQL Payroll software. Experience
                                         accurate, real time recalculations of statutory contributions.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Compliant to all local legislation</p>
+                                        <p className='font-bold text-primary-900'>Compliant to all local legislation</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll is compliant to all Malaysian statutory bodies like KWSP, LHDN and
                                         SOCSO. Our system saves you the trouble by auto calculating EPF, SOCSO, EIS,
                                         HRDF and PCB contribution. To ensure flawless calculations, our PCB calculator
@@ -83,18 +84,18 @@ const page = () => {
 
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>E-payslip with password encryption</p>
+                                        <p className='font-bold text-primary-900'>E-payslip with password encryption</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Send individual payslips by batch with the batch email feature. Every e-mail
                                         sent comes with a password encryption to ensure utmost privacy and security.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Unlimited month end process</p>
+                                        <p className='font-bold text-primary-900'>Unlimited month end process</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Process multiple month ends by groups. You can process separate month end for
                                         different groups of employees. Eg, you can process the salaries for the sales
                                         group on the 25th of every month and the other groups on the end of every month.
@@ -106,38 +107,38 @@ const page = () => {
                 </div>
 
                 <div className="container">
-                    <div className='flex items-center justify-center pt-6 text-3xl text-emerald-900'>
+                    <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
                         Reporting
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Statutory reports with e-submission</p>
+                                        <p className='font-bold text-primary-900'>Statutory reports with e-submission</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll software contains all necessary statutory report forms like EPF
                                         Borang A, SOCSO Borang 8A, PCB Income Tax CP39, and EIS Lampiran 1.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Form EA and Borang E CP8D</p>
+                                        <p className='font-bold text-primary-900'>Form EA and Borang E CP8D</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Generate employee forms EA and employer form E and also perform e-submission
                                         with SQL Payroll software.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Comprehensive management report</p>
+                                        <p className='font-bold text-primary-900'>Comprehensive management report</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Our wide variety of customizable reports and payslips allow you to create the
                                         ideal report that truly represents your corporate identity and business nature.
                                     </div>
@@ -145,9 +146,9 @@ const page = () => {
 
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Others government reports</p>
+                                        <p className='font-bold text-primary-900'>Others government reports</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll software ready with all malaysia government report EPF Borang A,
                                         SOCSO Borang 2, SOCSO Borang 3, SOCSO Borang 8A, EIS Borang 1, EIS Borang 1A,
                                         EIS Borang 2, EIS Borang 2A, EIS Lampiran 1, Income Tax CP39, CP39A, Income Tax
@@ -164,22 +165,21 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             Leave Management
-
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Self defined leave type</p>
+                                        <p className='font-bold text-primary-900'>Self defined leave type</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll HR software lets you manage multiple leave types for your employees.
                                         Including annual leave, unpaid leave, and medical leave. Create more leave types
                                         based on your business needs like compassionate leave, study leave and others.
@@ -187,9 +187,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Leave entitlement</p>
+                                        <p className='font-bold text-primary-900'>Leave entitlement</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         By using leave group entitlement. You can set the number of leaves a group of
                                         employees are entitled to. You can create a group for managerial group, sales
                                         group, and contract worker group.
@@ -197,9 +197,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Flexible unpaid leave formula</p>
+                                        <p className='font-bold text-primary-900'>Flexible unpaid leave formula</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll software design with simplified interface, you can set your unpaid
                                         leave formula as easy by select the numbers of calendar method (labour law
                                         compliance) as well as by custom days setting example 26 days. Set your own
@@ -209,18 +209,18 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Annual Leave brought forward</p>
+                                        <p className='font-bold text-primary-900'>Annual Leave brought forward</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Annual leave can be brought forward to the next year. All you have to do is set
                                         the maximum number of days and the system will do the rest.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll HR software consists of a complete and comprehensive set of leave
                                         reports such as leave application report, leave balance report, leave
                                         entitlement report, and yearly leave report.
@@ -233,21 +233,21 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             Other Functions
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Comprehensive HR Software package</p>
+                                        <p className='font-bold text-primary-900'>Comprehensive HR Software package</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Customizable date range comparison to view your financial report in eg. 24
                                         months or more. Flexible calendar year vs financial year reporting. SQL Account
                                         also support multiple projects comparison.
@@ -255,27 +255,27 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>SQL View - Limit access view</p>
+                                        <p className='font-bold text-primary-900'>SQL View - Limit access view</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Create unlimited sub accounts and financial reports. View it in a summarize
                                         format or by sub account details.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Data Import</p>
+                                        <p className='font-bold text-primary-900'>Data Import</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Flexible data import / integration from any time attendance system in excel or
                                         csv format.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Adhoc/Frequency process</p>
+                                        <p className='font-bold text-primary-900'>Adhoc/Frequency process</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Process adhoc payment interval such as bonus, commission , as separate payroll
                                         payment. These payouts are separated from the usual payroll process or set
                                         Payroll frequency to process bi-monthly or even weekly salary. Our system will
@@ -284,9 +284,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Time management system integration</p>
+                                        <p className='font-bold text-primary-900'>Time management system integration</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Payroll can be integrated seamlessly with most time attendance systems. SQL
                                         Payroll calculates OT, Leaves, and allowances without any mistakes and minimal
                                         external interference.
@@ -301,14 +301,14 @@ const page = () => {
                     <Link
                         href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                         target='_blank'
-                        className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
+                        className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             ENQUIRY
                         </button>
                     </Link>
 
                     <Link href='/products/sqlpayroll#payroll_pricing' passHref
-                          className='flex items-center justify-center bg-white text-emerald-900 w-full md:w-1/5 rounded-3xl p-5'>
+                          className='flex items-center justify-center bg-secondary-800 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             PRICING
                         </button>
@@ -321,7 +321,7 @@ const page = () => {
                 <div className='italic text-2xl'>
                     Better Software For Your Business
                 </div>
-                <div className='py-5 text-4xl'>
+                <div className='py-5 text-4xl font-bold'>
                     SQL Account Highlight Features
                 </div>
                 <div className='text-xl pb-5'>
@@ -332,7 +332,7 @@ const page = () => {
                     <Link
                         href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                         target='_blank'>
-                        <button className='bg-emerald-900 p-3 rounded-3xl md:w-1/5'>
+                        <button className='bg-primary-900 p-3 rounded-3xl md:w-1/5'>
                             Enquiry
                         </button>
                     </Link>
@@ -351,17 +351,17 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center justify-center w-full bg-white'>
+            <div className='flex flex-col items-center justify-center w-full'>
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
-                    <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-end border-2'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-5'>
-                        <div className='text-4xl text-emerald-900 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-5 text-left'>
+                        <div className='text-4xl text-primary-900 font-bold text-center'>
                             Employee Dashboard
                         </div>
-                        <div className='text-left text-lg text-teal-600'>
+                        <div className='text-lg text-secondary-600'>
                             Say goodbye to printing leave application forms. Apply your leave with SQL E Leave mobile
                             app anytime, anywhere. Enjoy the freedom of checking your leave status on your mobile and
                             receive notification alert when your leave has been approved.
@@ -370,15 +370,15 @@ const page = () => {
                 </div>
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
-                    <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-end'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
-                        <div className='text-4xl text-emerald-900 text-center'>
+                        <div className='text-4xl text-primary-900 text-center font-bold'>
                             Payslip Info
                         </div>
-                        <div className='text-left text-lg text-teal-600'>
+                        <div className='text-left text-lg text-secondary-600'>
                             View your past payslips from an unlimited number of months on the e-leave app. you can check
                             your salary details like wages, allowance, deduction, epf, socso and many more.
                         </div>
@@ -386,15 +386,15 @@ const page = () => {
                 </div>
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
-                    <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-end'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
-                        <div className='text-4xl text-emerald-900 text-center'>
+                        <div className='text-4xl text-primary-900 font-bold text-center'>
                             EA Record
                         </div>
-                        <div className='text-left text-lg text-teal-600'>
+                        <div className='text-left text-lg text-secondary-600'>
                             Have unlimited access when referring to your past records of EA forms for a seamless and
                             smooth process of e-filing on LHDN.
                         </div>
@@ -402,15 +402,15 @@ const page = () => {
                 </div>
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
-                    <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-end'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
-                        <div className='text-4xl text-emerald-900 text-center'>
+                        <div className='text-4xl text-primary-900 text-center font-bold'>
                             Manager Dashboard
                         </div>
-                        <div className='text-left text-lg text-teal-600'>
+                        <div className='text-left text-lg text-secondary-600'>
                             Check leave pending approval, apply leave on behalf of your employees, and check daily
                             attendance all on your mobile phone! Leave application and leave balance repots can also be
                             generated.
@@ -422,14 +422,14 @@ const page = () => {
                     <Link
                         href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
                         target='_blank'
-                        className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
+                        className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             ENQUIRY
                         </button>
                     </Link>
 
                     <Link href='/products/sqlpayroll#payroll_pricing' passHref
-                          className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
+                          className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             PRICING
                         </button>
@@ -439,7 +439,7 @@ const page = () => {
 
             <div
                 className='flex flex-col items-center justify-center text-center text-white w-full gap-10 p-10 bg-gradient-to-r from-emerald-500 to-emerald-900'>
-                <div className='italic text-4xl'>
+                <div className='italic text-4xl font-bold'>
                     What is EPF (KWSP) ?
                 </div>
                 <div className='text-xl pb-5 text-justify'>
@@ -452,18 +452,18 @@ const page = () => {
 
 
             <div className='flex flex-col items-center justify-center w-full bg-white p-10 gap-10'>
-                <div className='md:text-6xl text-4xl text-emerald-900 text-center'>
+                <div className='md:text-6xl text-4xl text-primary-900 font-bold text-center'>
                     What is subject to EPF (KWSP)?
                 </div>
 
-                <div className='text-lg md:text-2xl text-teal-600 md:text-center text-justify'>
+                <div className='text-lg md:text-2xl text-secondary-600 md:text-center text-justify'>
                     All remuneration in money due to an employee under his contract of service or apprenticeship whether
                     it was agreed to be paid monthly, weekly, daily or otherwise.
                 </div>
 
                 <table className='table-auto border w-full'>
                     <thead>
-                    <tr className='text-emerald-900 text-xl h-16 text-left'>
+                    <tr className='text-primary-900 text-xl h-16 text-left'>
                         <th className='px-4'>
                             Payments that are <strong>liable</strong> for EPF contribution
                         </th>
@@ -472,7 +472,7 @@ const page = () => {
                         </th>
                     </tr>
                     </thead>
-                    <tbody className='text-teal-600 text-md border-2'>
+                    <tbody className='text-secondary-600 text-md border-2'>
                     <tr className='h-12 border'>
                         <td className='px-4'>
                             ✅ Salary
@@ -555,7 +555,7 @@ const page = () => {
                     </tbody>
                 </table>
 
-                <div className='flex flex-col items-center justify-center text-emerald-900 text-2xl w-1/2'>
+                <div className='flex flex-col items-center justify-center text-primary-900 font-bold italic text-2xl w-1/2'>
                     <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
                     <p>
                         Every business deserves a personalized software that matches its
@@ -565,17 +565,17 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-4xl text-emerald-900 py-10'>
+                    <div className='text-4xl text-primary-900 font-bold py-10'>
                         EPF (KWSP) Common FAQ
                     </div>
 
-                    <div className='grid md:grid-cols-4 items-start gap-4'>
+                    <div className='grid md:grid-cols-4 items-start gap-4 text-left'>
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Rm 5000 - Employer EPF 12%/13%?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 If an employees’ salary below RM 5000, the employer contribution rate will automatically
                                 be set at 13%. While a salary above RM 5000 will receive employer’s contribution rate of
                                 12%. SQL Payroll will handle this automatically.
@@ -584,10 +584,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 60 year old EPF Rate?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 If an employee is 60-year-old above, the employee’s EPF contribution rate will be 0%
                                 while the employer’s contribution rate is 4%, as per KWSP instructions. SQL Payroll will
                                 detect the employee’s age & assign the EPF rate accordingly.
@@ -596,27 +596,27 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 EPF Rate for 75 year old above?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 A 75-year-old employee will have 0% contribution for EPF on both parties.
                             </div>
                         </div>
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Management level with higher EPF Rate?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 In SQL Payroll, you can even set your own EPF rate based on your company’s policies like
                                 setting the EPF rate at 19% for employees In the management level.
                             </div>
                         </div>
                     </div>
 
-                    <div className='flex items-center justify-center py-6 text-emerald-900 text-md'>
+                    <div className='flex w-5/6 items-center justify-center py-6 text-primary-900 text-lg'>
                         <div>
                             In SQL Payroll, you can even set your own EPF rate based on your company’s policies like
                             setting
@@ -640,13 +640,13 @@ const page = () => {
             </div>
 
             <div className='flex flex-col items-center justify-center w-full bg-white p-10 gap-10'>
-                <div className='md:text-6xl text-4xl text-emerald-900 text-center'>
+                <div className='md:text-6xl text-4xl text-primary-900 font-bold text-center'>
                     What is Subject to SOCSO?
                 </div>
 
                 <table className='table-auto border w-full'>
                     <thead>
-                    <tr className='text-emerald-900 text-xl h-16 text-left'>
+                    <tr className='text-primary-900 text-xl h-16  text-left'>
                         <th className='px-4'>
                             Type of Remuneration <strong>Subject</strong> to SOCSO
                         </th>
@@ -655,7 +655,7 @@ const page = () => {
                         </th>
                     </tr>
                     </thead>
-                    <tbody className='text-teal-600 text-md border-2'>
+                    <tbody className='text-secondary-600 text-md border-2'>
                     <tr className='h-12 border'>
                         <td className='px-4'>
                             ✅ Salary
@@ -715,9 +715,9 @@ const page = () => {
                     </tbody>
                 </table>
 
-                <div className='flex flex-col items-center justify-center text-emerald-900 text-2xl w-1/2'>
+                <div className='flex flex-col items-center justify-center text-primary-900 text-2xl w-1/2'>
                     <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
-                    <p>
+                    <p className='font-bold italic'>
                         The above list is not exhaustive. Should you require further clarification, please contact SOCSO
                         Customer Service at 1-300-22-800, enquiry or any SOCSO Office.
                     </p>
@@ -725,17 +725,17 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-4xl text-emerald-900 py-10'>
+                    <div className='text-4xl text-primary-900 font-bold py-10'>
                         SOCSO Common FAQ
                     </div>
 
-                    <div className='grid md:grid-cols-4 items-start gap-4'>
+                    <div className='grid md:grid-cols-4 items-start gap-4 text-left'>
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold text-left'>
                                 Contribution of the First Category
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 If an employees’ age below 60, The rate of contribution under this category comprises
                                 1.75% of employer’s share and 0.5% of employees’ monthly wages according to the
                                 contribution schedule.SQL Payroll will detect the age of employees and automatically
@@ -745,10 +745,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Contribution of Second Category
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 All employees who have reached the age of 60, the rate of contribution under this
                                 category is 1.25% of employees’ monthly wages, payable by the employer, based on the
                                 contribution schedule. SQL Payroll can handle this automatically for you.
@@ -757,10 +757,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold '>
                                 SOCSO (Employment Injury Scheme) for foreign worker
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 Starting from the 1st of January 2019, all employers who hire foreign workers are
                                 required to register their foreign employees with SOCSO. The contribution rate for
                                 foreign workers is 1.25% of the insured monthly wagers and is to be borne by the
@@ -770,10 +770,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Unsure about First or Second Category?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 <p>
                                     If you are unsure your employees should be under first or second category of SOCSO,
                                     don’t worry. SQL Payroll will automatically detect the age of the employees and
@@ -799,7 +799,7 @@ const page = () => {
 
             <div
                 className='flex flex-col items-center justify-center text-center text-white w-full gap-10 p-10 bg-gradient-to-r from-emerald-500 to-emerald-900'>
-                <div className='italic text-4xl'>
+                <div className='italic text-4xl font-bold'>
                     What is Employment Insurance System (EIS)?
                 </div>
                 <div className='text-xl pb-5 text-justify'>
@@ -810,18 +810,18 @@ const page = () => {
             </div>
 
             <div className='flex flex-col items-center justify-center w-full bg-white p-10 gap-10'>
-                <div className='md:text-6xl text-4xl text-emerald-900 text-center'>
+                <div className='md:text-6xl text-4xl text-primary-900 font-bold text-center'>
                     Who is subject to EIS (Employment Insurance System)?
                 </div>
 
-                <div className='flex flex-col items-center justify-center'>
+                <div className='flex flex-col items-center justify-center text-left'>
                     <div className='grid md:grid-cols-4 items-start gap-4'>
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 1.
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 All employers in the private sector are required to pay monthly contributions for each
                                 of their employees. (Government employees, domestic workers and the self-employed are
                                 exempted).
@@ -830,10 +830,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 2.
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 An employee is defined as a person who is employed for wages under a contract of service
                                 or apprenticeship with an employer. The contract of service or apprenticeship may be
                                 expressed or implied and may be oral or in writing.
@@ -842,10 +842,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 3.
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
 
                                 All employees aged 18 to 60 are required to contribute. However, employees aged 57 and
                                 above who have no prior contributions before the age of 57 are exempted.
@@ -854,19 +854,19 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 4.
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 Contribution rates are capped at insured salary of RM4000.00.
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center justify-center text-emerald-900 text-2xl w-1/2'>
+                <div className='flex flex-col items-center justify-center text-primary-900 text-2xl w-1/2'>
                     <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
-                    <p>
+                    <p className='font-bold italic'>
                         The above list is not exhaustive. Should you require further clarification, please contact SOCSO
                         Customer Service at 1-300-22-800, enquiry or any SOCSO Office.
                     </p>
@@ -874,17 +874,17 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-4xl text-emerald-900 py-10'>
+                    <div className='text-4xl text-primary-900 font-bold py-10'>
                         EIS Common FAQ
                     </div>
 
-                    <div className='grid md:grid-cols-4 items-start gap-4'>
+                    <div className='grid md:grid-cols-4 items-start gap-4 text-left'>
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 What is EIS Rate?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 Employers and employees will contribute 0.2% each of an employee’s salary, this means
                                 that the total contribution would be 0.4% of an employee’s monthly salary, the maximum
                                 monthly salary capped at RM 4000.00. No Worries, SQL Payroll will automatic calculate
@@ -894,10 +894,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 What is the EIS rate for employee's age of 60 and above?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 If an employee is 60-year-old above, EIS contribution is not required. SQL Payroll will
                                 detect the age of employee and automatic set to NO contribution to EIS.
                             </div>
@@ -905,10 +905,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 I have lost my job. Am i eligible to apply for EIS benefits?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 All EIS applications must meet the following requirements:
                                 <div className='flex flex-col items-start justify-center pt-2 gap-2'>
                                     <div>
@@ -927,10 +927,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 How do i apply for EIS benefits if i have lost my job?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 The EIS application can be made online via EIS Portal or go to the nearest SOCSO office
                                 throughout the country including Sabah and Sarawak.
                             </div>
@@ -942,7 +942,7 @@ const page = () => {
 
             <div
                 className='flex flex-col items-center justify-center text-center text-white w-full gap-10 p-10 bg-gradient-to-r from-emerald-500 to-emerald-900'>
-                <div className='italic text-4xl'>
+                <div className='italic text-4xl font-bold'>
                     What is PCB Malaysia?
                 </div>
                 <div className='text-xl pb-5 text-justify'>
@@ -953,13 +953,13 @@ const page = () => {
             </div>
 
             <div className='flex flex-col items-center justify-center w-full bg-white p-10 gap-10'>
-                <div className='md:text-6xl text-4xl text-emerald-900 text-center'>
+                <div className='md:text-6xl text-4xl text-primary-900 font-bold text-center'>
                     What is Subject to PCB?
                 </div>
 
                 <table className='table-auto border w-full'>
                     <thead>
-                    <tr className='text-emerald-900 text-xl h-16 text-left'>
+                    <tr className='text-primary-900 text-xl h-16 text-left'>
                         <th className='px-4'>
                             Type of Remuneration <strong>Subject</strong> to PCB
                         </th>
@@ -968,7 +968,7 @@ const page = () => {
                         </th>
                     </tr>
                     </thead>
-                    <tbody className='text-teal-600 text-md border-2'>
+                    <tbody className='text-secondary-600 text-md border-2'>
                     <tr className='h-12 border'>
                         <td className='px-4'>
                             ✅ Salary/ Wages
@@ -1055,9 +1055,9 @@ const page = () => {
                     </tbody>
                 </table>
 
-                <div className='flex flex-col items-center justify-center text-emerald-900 text-2xl w-1/2'>
+                <div className='flex flex-col items-center justify-center text-primary-900 text-2xl w-1/2'>
                     <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
-                    <p>
+                    <p className='font-bold italic'>
                         The above list is not exhaustive. Should you require further clarification, please contact IRB
                         Malaysia Contact Management Centre at 1-300-88-5436, enquiry at any LHDN Office.
                     </p>
@@ -1065,17 +1065,17 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='text-4xl text-emerald-900 py-10'>
+                    <div className='text-4xl text-primary-900 font-bold py-10'>
                         PCB Common FAQ
                     </div>
 
-                    <div className='grid md:grid-cols-4 items-start gap-4'>
+                    <div className='grid md:grid-cols-4 items-start gap-4 text-left'>
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Accuracy of PCB Calculation
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 SQL Payroll has 100% accuracy for PCB calculation. SQL Payroll uses the latest formulas
                                 for the calculation. Hence, all PCB calculations are in line with LHDN’s own online pcb
                                 calculator.
@@ -1084,10 +1084,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Benefit in Kind
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 Benefit-in-kind are benefits that employees receive from their employers. Examples of
                                 benefits are Motorcar, Value of Living Accommodation (VOLA) and etc. Employers can
                                 process benefit in kind prior to processing the routine payroll using SQL Payroll
@@ -1097,10 +1097,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 Tax Relief
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 You can also declare certain expenditures for optional tax relief. Expenditures that are
                                 valid for optional tax relief are medical expenses for parents, personal medical
                                 expenses, education, child education saving, and life insurance. You can insert all this
@@ -1110,10 +1110,10 @@ const page = () => {
 
                         <div
                             className='flex flex-col items-center justify-center bg-teal-600 p-5 rounded-xl shadow-lg gap-5'>
-                            <div className='text-2xl text-emerald-900 text-left'>
+                            <div className='text-2xl text-primary-900 font-bold'>
                                 What is CP 38?
                             </div>
-                            <div className='text-left text-lg text-white'>
+                            <div className=' text-lg text-white'>
                                 CP38 is an instruction for a monthly salary deduct issued by LHDN. Employers make
                                 additional deductions from employee’s salary towards the settlement of the employee’s
                                 income tax arrears. CP38 is useful in terms of easing the burden of taxpayers. Instead

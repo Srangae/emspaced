@@ -39,7 +39,7 @@ body {
   font-family: "Montserrat";
   font-size: 16px;
   letter-spacing: 0px;
-  background-color: #171818;
+  background-color: white;
   word-wrap: break-word;
   line-height: 1.6;
   font-weight: 500;
@@ -63,7 +63,7 @@ h4,
 h5,
 h6 {
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   margin: 0;
@@ -413,7 +413,7 @@ img {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #171818;
+  background-color: #0d9488;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   z-index: 1;
@@ -693,7 +693,7 @@ img {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #171818;
+  background-color: #0ac083;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   z-index: 1;
@@ -1252,7 +1252,7 @@ img {
   color: #000;
 }
 .nicolas_sm_testimonials .prev_next .sm_svg {
-  color: #fff;
+  color: #0d9488;
 }
 .nicolas_sm_testimonials .prev_next .next .sm_svg {
   transform: rotate(180deg);
@@ -1275,7 +1275,7 @@ img {
   margin-bottom: 23px;
 }
 .nicolas_sm_testimonials .details p {
-  color: #fff;
+  color: #0d9488;
   font-size: 20px;
 }
 .nicolas_sm_testimonials .info {
@@ -1297,6 +1297,7 @@ img {
 .nicolas_sm_testimonials .info h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #0d9488;
 }
 .nicolas_sm_testimonials .info span {
   color: #ffbd4a;
@@ -1584,7 +1585,7 @@ img {
 /*---------------------------------------------------*/
 
 .nicolas_sm_footer {
-  background-color: #111212;
+  background-color: #0d9488;
 }
 .nicolas_sm_footer .footer_in {
   display: flex;
@@ -1622,7 +1623,7 @@ img {
 }
 .nicolas_sm_footer .contact a {
   display: block;
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
@@ -2034,7 +2035,7 @@ img {
   margin-left: 20px;
 }
 .nicolas_sm_counter .box .title span {
-  color: #fff;
+  color: #0d9488;
 }
 .nicolas_sm_counter .box .title h3 {
   font-size: 36px;
@@ -2081,7 +2082,7 @@ img {
   font-weight: 600;
 }
 .nicolas_sm_awards {
-  background-color: #111212;
+  background-color: white;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }

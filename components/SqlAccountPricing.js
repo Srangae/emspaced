@@ -5,13 +5,13 @@ const SQLAccountPricing = () => {
     return (
         <div className="nicolas_sm_section">
             <div className='flex flex-col gap-5 items-center justify-center text-center'>
-                <div className='text-6xl font-bold text-emerald-900'>
+                <div className='text-6xl font-bold text-primary-900'>
                     Pricing
                 </div>
-                <div className='text-3xl'>
+                <div className='text-3xl text-secondary-800'>
                     All plans come with identical features.
                 </div>
-                <div className='text-3xl'>
+                <div className='text-3xl text-secondary-800'>
                     Choose a plan that matches your business size
                 </div>
 
@@ -25,13 +25,13 @@ const SQLAccountPricing = () => {
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">Lite</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800">Lite</h3>
+                                                <h3 className="price text-primary-900 font-bold">
                                                     RM1,599
                                                 </h3>
-                                                <p>For experienced with the software user</p>
+                                                <p className='text-secondary-600'>For experienced with the software user</p>
                                             </div>
-                                            <div className="features">
+                                            <div className="features text-secondary-600">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
@@ -126,13 +126,13 @@ const SQLAccountPricing = () => {
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">Basic</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800">Basic</h3>
+                                                <h3 className="price text-primary-900 font-bold">
                                                     RM1,999
                                                 </h3>
-                                                <p>For starting a new business without stock</p>
+                                                <p className='text-secondary-600'>For starting a new business without stock</p>
                                             </div>
-                                            <div className="features">
+                                            <div className="features text-secondary-600">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
@@ -233,13 +233,13 @@ const SQLAccountPricing = () => {
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">Professional</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800">Professional</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM3,099
                                                 </h3>
-                                                <p>For a new business with stock control & advance features</p>
+                                                <p className='text-secondary-600'>For a new business with stock control & advance features</p>
                                             </div>
-                                            <div className="features">
+                                            <div className="features text-secondary-600">
                                                 <ul>
                                                     <li>
                                                         <div className='flex items-center justify-center gap-1'>
@@ -351,13 +351,13 @@ const SQLAccountPricing = () => {
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">Concurrent User</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800">Concurrent User</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM700<span>/ user</span>
                                                 </h3>
-                                                <p>User that login to system at the same time</p>
+                                                <p className='text-secondary-600'>User that login to system at the same time</p>
                                             </div>
-                                            <div className="features">
+                                            <div className="features text-secondary-600">
                                                 <ul>
                                                     <li className='pb-2 border-b'>
                                                         ➕ Additional 1 Concurrent User License

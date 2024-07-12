@@ -14,8 +14,8 @@ const SQLAccountSpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/cloud_blue.png' alt={1} width={50} height={50}/>
-                                            <h3>Access Anywhere</h3>
-                                            <p>
+                                            <h3 className='text-primary-900 font-bold'>Access Anywhere</h3>
+                                            <p className='text-white'>
                                                 No matter when or where, get your job done and monitor your business
                                                 anytime
                                                 anywhere.
@@ -25,8 +25,8 @@ const SQLAccountSpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/report.png' alt={1} width={50} height={50}/>
-                                            <h3>Intelligence Reports</h3>
-                                            <p>
+                                            <h3 className='text-primary-900 font-bold'>Intelligence Reports</h3>
+                                            <p className='text-white'>
                                                 Up to 500 comprehensive reports are ready in SQL Account so you know
                                                 your
                                                 business well.
@@ -43,8 +43,8 @@ const SQLAccountSpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/layout-grid-add.png' alt={1} width={50} height={50}/>
-                                            <h3>Special Industries</h3>
-                                            <p>
+                                            <h3 className='text-primary-900 font-bold'>Special Industries</h3>
+                                            <p className='text-white'>
                                                 Accountant set, shipping and forwarding, joint management body,
                                                 construction, photocopier & more.
                                             </p>
@@ -53,8 +53,8 @@ const SQLAccountSpecial = () => {
                                     <div className="info_list">
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/brand-windows.png' alt={1} width={50} height={50}/>
-                                            <h3>Customizable</h3>
-                                            <p>
+                                            <h3 className='text-primary-900 font-bold'>Customizable</h3>
+                                            <p className='text-white'>
                                                 Your software should be as flexible as your business.
                                             </p>
                                         </div>
@@ -65,16 +65,16 @@ const SQLAccountSpecial = () => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center py-10 md:gap-10'>
-                        <div className='text-4xl'>Additionally ...</div>
+                        <div className='text-4xl text-primary-900 font-bold'>Additionally ...</div>
 
                         <div className='grid md:grid-cols-3 md:gap-10'>
                             <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/circles-relation.png' alt={1} width={100}
                                                      height={100}/></span>
-                                <h3 className='text-center text-2xl py-6'>
+                                <h3 className='text-center text-2xl py-6 font-bold text-primary-900'>
                                     Integration
                                 </h3>
-                                <p className='text-center text-lg'>
+                                <p className='text-left text-lg'>
                                     Possess the ability to do more with equal effort, doing things efficiently
                                     allows you to focus and increase your sales volume.
                                 </p>
@@ -83,10 +83,10 @@ const SQLAccountSpecial = () => {
                             <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/brand-whatsapp_blue.png' alt={1} width={100}
                                                      height={100}/></span>
-                                <h3 className='text-center text-2xl py-6'>
+                                <h3 className='text-center text-2xl py-6 font-bold text-primary-900'>
                                     Whatsapp
                                 </h3>
-                                <p className='text-center text-lg'>
+                                <p className='text-left text-lg'>
                                     Share your delivery location with your customer/ supplier in just a few clicks from
                                     your SQL Account
                                 </p>
@@ -95,20 +95,20 @@ const SQLAccountSpecial = () => {
                             <div className='flex flex-col items-center justify-center'>
                                         <span><Image src='/img/home/settings-cog.png' alt={1} width={100}
                                                      height={100}/></span>
-                                <h3 className='text-center text-2xl py-6'>
+                                <h3 className='text-center text-2xl py-6 font-bold text-primary-900'>
                                     CTOS
                                 </h3>
-                                <p className='text-center text-lg'>
+                                <p className='text-left text-lg'>
                                     SQL Account is the 1st accounting software integrated with CTOS credits.
                                 </p>
                             </div>
                         </div>
 
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
-                            <button className='bg-purple-700 rounded-2xl text-white p-3 md:w-1/5'><Link
+                            <button className='bg-primary-900 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
                                 target='_blank'>LEARN MORE</Link></button>
-                            <button className='bg-slate-200 rounded-2xl text-purple-400 p-3 md:w-1/5'><Link
+                            <button className='bg-secondary-600 rounded-2xl text-white p-3 md:w-1/5'><Link
                                 href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>

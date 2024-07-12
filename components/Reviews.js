@@ -4,10 +4,10 @@ const Reviews = () => {
     return (
         <div>
             <div className='flex flex-col items-center justify-center py-10 gap-10 text-center'>
-                <div className='text-white font-semibold text-4xl'>
+                <div className='text-primary-900 font-semibold text-4xl'>
                     Thank you for being on a journey with us
                 </div>
-                <div className='text-white text-lg'>
+                <div className='text-secondary-600 text-lg'>
                     We could not hav achieved great wonders without our lovely clients
                 </div>
             </div>

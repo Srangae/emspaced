@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const HomeBanner_1 = () => {
     return (
-        <div className='flex flex-col items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 p-10 gap-10'>
-            <div className='text-4xl text-emerald-950'>
+        <div className='flex flex-col items-center justify-center bg-gradient-to-r from-emerald-400 to-cyan-400 p-10 gap-10'>
+            <div className='text-4xl text-primary-900 font-bold'>
                 SQL E LEAVE MOBILE APPLICATION
             </div>
 
-            <div className='text-xl text-white text-center'>
+            <div className='text-xl text-secondary-800 text-center'>
                 A good product will keep innovating and now SQL Payroll transformed existing technology without
                 disrupting existing users, reducing your paper work. Now SQL E Leave mobile application is here for you.
             </div>

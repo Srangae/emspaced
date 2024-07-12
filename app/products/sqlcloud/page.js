@@ -20,11 +20,9 @@ const page = () => {
                 <div className="nicolas_sm_page_title">
                     <div className="container">
                         <div className="page_title_in">
-                            <h3 className='text-emerald-900'>SQL Cloud (SaaS)</h3>
-                            <div className='flex items-center justify-center py-6 text-3xl text-white'>
-                                SQL Software as a Service provides you with the flexibility of running SQL business
-                                suite on cloud. This gives you an edge with regards to anywhere, anytime with low
-                                hardware requirement and maximum data security.
+                            <h3 className='text-primary-900 font-bold'>SQL Cloud (SaaS)</h3>
+                            <div className='flex items-center justify-center py-6 text-3xl text-justify text-secondary-800'>
+                                SQL Software as a Service provides you with the flexibility of running SQL business suite on cloud. This gives you an edge with regards to anywhere, anytime with low hardware requirement and maximum data security.
                             </div>
                         </div>
                         <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
@@ -47,15 +45,15 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col w-full items-center justify-center bg-white py-6 gap-5'>
-                    <div className='text-center text-4xl text-emerald-900'>
+                    <div className='text-center text-4xl text-primary-900 font-bold'>
                         Why SaaS?
                     </div>
 
-                    <div className='text-center text-2xl text-teal-600'>
-                        It comes as no surprise that the SaaS market is expanding rapidly
+                    <div className='text-center text-2xl text-secondary-600'>
+                    It comes as no surprise that the SaaS market is expanding rapidly
                     </div>
 
-                    <div className='grid md:grid-cols-4 gap-4 px-10'>
+                    <div className='grid md:grid-cols-4 gap-4 px-10 text-left'>
                         <div className='flex flex-col gap-4'>
                             <div className='flex items-center justify-center gap-4'>
                                 <div>
@@ -65,7 +63,7 @@ const page = () => {
                                     Access From Everywhere
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 Access and manage your account from your computer, laptop, or tablet anytime you choose.
                                 Create access privileges so that your colleague or accountant can
                                 login and work online.
@@ -81,7 +79,7 @@ const page = () => {
                                     Maintenance Free
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 Patching, upgrading and hardware monitoring can take up days of IT staff's time every
                                 month, but with cloud none of this is necessary. That's because it's all handled in the
                                 cloud.
@@ -97,7 +95,7 @@ const page = () => {
                                     Better Security
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 All of the data are protected by multi-level security without affecting the performance.
                             </div>
                         </div>
@@ -111,7 +109,7 @@ const page = () => {
                                     Uptime Guarantee
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 Our self-healing meshed network is the most robust and resilient transborder terrestrial
                                 system ever built withstand any system crisis. The result: unsurpassable, 99.9% network
                                 availability.
@@ -127,7 +125,7 @@ const page = () => {
                                     Ease Access
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 Enjoy the easiest remote access from any place where you have an Internet connection and
                                 a standard browser.
                             </div>
@@ -142,7 +140,7 @@ const page = () => {
                                     Stay Up-To-Date
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 All the updates are automated and deployed by a SaaS provider. No download or install,
                                 it gets done for you automatically.
                             </div>
@@ -157,7 +155,7 @@ const page = () => {
                                     Backup
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 Your data is precious, hence we provide auto backup every single day to secure your
                                 data.
                             </div>
@@ -172,7 +170,7 @@ const page = () => {
                                     System Support
                                 </div>
                             </div>
-                            <div className='text-md text-left text-teal-600'>
+                            <div className='text-md text-secondary-600'>
                                 System support and maintenance are included, so you dont need to pay extra for it.
                             </div>
                         </div>
@@ -202,7 +200,7 @@ const page = () => {
                         <Link
                             href='https://connect.sql.com.my/'
                             target='_blank'
-                            className='flex items-center justify-center bg-white text-emerald-900 w-full md:w-1/5 rounded-3xl p-5'>
+                            className='flex items-center justify-center bg-white text-primary-900 w-full md:w-1/5 rounded-3xl p-5'>
                             <button>
                                 Try Now
                             </button>
@@ -212,14 +210,14 @@ const page = () => {
 
                 <CloudPricing/>
 
-                <div className='flex flex-col items-center justify-center w-full bg-white p-10 gap-10'>
-                    <div className='md:text-6xl text-4xl text-emerald-900 text-center'>
+                <div className='flex flex-col items-center justify-center w-full p-10 gap-10'>
+                    <div className='md:text-6xl text-4xl text-primary-900 text-center font-bold'>
                         Compare S2O Plans
                     </div>
 
                     <table className='table-auto border w-full'>
                         <thead>
-                        <tr className='text-emerald-900 text-xl h-16 text-left'>
+                        <tr className='text-primary-900 text-xl h-16 text-left'>
                             <th className='px-4'>
                                 FEATURES
                             </th>
@@ -231,7 +229,7 @@ const page = () => {
                             </th>
                         </tr>
                         </thead>
-                        <tbody className='text-teal-600 text-md border-2'>
+                        <tbody className='text-secondary-600 text-md border-2'>
                         <tr className='h-12 border'>
                             <td className='px-4'>
                                 📚 General Ledger
@@ -366,7 +364,7 @@ const page = () => {
                         </tbody>
                     </table>
 
-                    <div className='flex flex-col items-center justify-center text-emerald-900 text-2xl w-1/2'>
+                    <div className='flex flex-col items-center justify-center text-primary-900 text-2xl w-1/2'>
                         <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
                         <p>
                             * Term and conditions applied

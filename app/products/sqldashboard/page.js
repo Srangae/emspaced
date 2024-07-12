@@ -22,24 +22,26 @@ const page = () => {
                 <div className="nicolas_sm_page_title">
                     <div className="container">
                         <div className="page_title_in">
-                            <h3 className='text-emerald-900 text-6xl'>SQL BI Dashboard</h3>
-                            <h2 className='flex items-center justify-center py-4 text-4xl text-teal-600'>Cloud Reporting
+                            <h3 className='text-primary-900 font-bold'>SQL BI Dashboard</h3>
+                            <h2 className='flex items-center justify-center py-4 text-4xl text-secondary-600'>Cloud
+                                Reporting
                                 Dashboard</h2>
-                            <div className='flex items-center justify-center py-6 text-3xl text-white'>
+                            <div
+                                className='flex items-center justify-center py-6 text-3xl text-justify text-secondary-800'>
                                 We are the first to provide industry-leading business analytics and intelligence to SQL
                                 Account users. Our dashboard and intuitive reports will help you to monitor, forecast
                                 and plan your next best action to bring profits and success to your business.
                             </div>
                         </div>
                         <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
                                     target='_blank'>
                                     Enquiry
                                 </Link>
                             </button>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://bi.sql.com.my/#/account'
                                     target='_blank'>
@@ -72,7 +74,7 @@ const page = () => {
                         </div>
 
                         <div className='flex md:flex-row flex-col w-full items-center justify-center gap-5 py-6'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
                                     target='_blank'>
@@ -88,7 +90,7 @@ const page = () => {
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
-                        <div className='text-emerald-900 font-bold text-2xl'>
+                        <div className='text-primary-900 font-bold text-2xl'>
                             ☝ DATA
                         </div>
                         <div className='text-left text-teal-600 text-lg'>
@@ -102,7 +104,7 @@ const page = () => {
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
-                        <div className='text-emerald-900 font-bold text-2xl'>
+                        <div className='text-primary-900 font-bold text-2xl'>
                             ✌ IDEAS
                         </div>
                         <div className='text-left text-teal-600 text-lg'>
@@ -116,7 +118,7 @@ const page = () => {
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
-                        <div className='text-emerald-900 font-bold text-2xl'>
+                        <div className='text-primary-900 font-bold text-2xl'>
                             🎯 PROFITS
                         </div>
                         <div className='text-left text-teal-600 text-lg'>
@@ -131,7 +133,7 @@ const page = () => {
                         <div className='text-4xl '>
                             1
                         </div>
-                        <div className='text-4xl text-emerald-900 font-bold'>
+                        <div className='text-4xl text-primary-900 font-bold'>
                             View Your Reports With Visualization in a Simpler Way
                         </div>
                         <div className='text-teal-600 text-xl'>
@@ -143,7 +145,7 @@ const page = () => {
                         <div className='text-4xl '>
                             2
                         </div>
-                        <div className='text-4xl text-emerald-900 font-bold'>
+                        <div className='text-4xl text-primary-900 font-bold'>
                             No Extra Work Or IT Background
                         </div>
                         <div className='text-teal-600 text-xl'>
@@ -156,7 +158,7 @@ const page = () => {
                         <div className='text-4xl '>
                             3
                         </div>
-                        <div className='text-4xl text-emerald-900 font-bold'>
+                        <div className='text-4xl text-primary-900 font-bold'>
                             Access Any Time/Place/Device
                         </div>
                         <div className='text-teal-600 text-xl'>
@@ -195,14 +197,14 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center bg-white p-10'>
-                    <div className='text-4xl font-bold text-emerald-900'>
+                    <div className='text-4xl font-bold text-primary-900'>
                         Type of Reporting Features
                     </div>
 
                     <div
                         className='grid md:grid-cols-3 border-2 rounded-2xl items-center justify-center w-5/6 my-5 shadow-md'>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 Dashboard
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -210,7 +212,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 General Ledger
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -218,7 +220,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 Financial Ratio
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -226,7 +228,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 Daily
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -234,7 +236,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 Sales
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -242,7 +244,7 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-col p-10 gap-4'>
-                            <div className='text-2xl font-bold text-emerald-900'>
+                            <div className='text-2xl font-bold text-primary-900'>
                                 Stock
                             </div>
                             <div className='text-lg text-teal-600'>
@@ -254,7 +256,7 @@ const page = () => {
 
                 <div className='nicolas_sm_awards bg-white'>
                     <div className="container">
-                        <div className='flex items-center justify-center py-6 text-3xl text-emerald-900'>
+                        <div className='flex items-center justify-center py-6 text-3xl text-primary-900 font-bold'>
                             SQL BI Dashboard
                         </div>
 
@@ -268,7 +270,7 @@ const page = () => {
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
-                                        <div className='text-lg text-emerald-900 font-bold w-1/2 text-center'>
+                                        <div className='text-lg text-primary-900 font-bold w-1/2 text-center'>
                                             <p>1. Ready Reports For You</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
@@ -279,7 +281,7 @@ const page = () => {
                                         </div>
                                     </div>
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
-                                        <div className='text-lg text-emerald-900 font-bold w-1/2 text-center'>
+                                        <div className='text-lg text-primary-900 font-bold w-1/2 text-center'>
                                             <p>2. Seamless Data Synchronize</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>
@@ -289,7 +291,7 @@ const page = () => {
                                     </div>
 
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
-                                        <div className='text-lg text-emerald-900 font-bold w-1/2 text-center'>
+                                        <div className='text-lg text-primary-900 font-bold w-1/2 text-center'>
                                             <p>3. 100% Data Encrypted</p>
                                         </div>
                                         <div className='text-sm w-1/2 text-left'>

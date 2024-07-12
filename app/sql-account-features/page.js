@@ -1,10 +1,7 @@
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Pricing from "@/components/Pricing";
-import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
-import MarqueeTitle from "@/components/MarqueeTitle";
 import Specialindustry from "@/components/Specialindustry";
 import Call_us_banner from "@/components/call_us_banner";
 
@@ -14,14 +11,13 @@ const page = () => {
             <div className="nicolas_sm_contact">
                 <div className="nicolas_sm_page_title">
                     <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-teal-600'>SQL Account Features</h3>
-                            <div className='flex items-center justify-center py-6 text-2xl text-teal-600'>
-                                Optimized - Stable - Feature loaded
+                        <div className="flex flex-col items-center justify-center">
+                            <div className='font-bold text-6xl text-primary-900 text-center'>SQL Account Features</div>
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Optimized - Stable - Feature loaded
                             </div>
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-green-950 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
                                     href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                                     target='_blank'>
@@ -33,23 +29,23 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col items-center justify-center p-10 text-center gap-10'>
-                    <div className='text-6xl text-teal-600'>
+                    <div className='text-6xl text-primary-900 font-bold'>
                         SQL Account Core Features
                     </div>
 
-                    <div className='text-white text-xl'>
+                    <div className='text-secondary-600 text-xl'>
                         SQL Account is suitable for small businesses to large organizations in both on-premise and
                         online accounting software. Choose what's best for the workflow of your accountant and
                         bookkeeper.
                     </div>
 
                     <div className='nicolas_sm_service_details'>
-                        <div className="service_list">
+                        <div className="service_list text-secondary-600">
                             <ul>
                                 <li>
                                     <div className="list_inner">
                                         <span>01</span>
-                                        <h3>General Ledger</h3>
+                                        <h3 className='font-bold text-primary-900'>General Ledger</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️ Maintain Account
@@ -75,7 +71,7 @@ const page = () => {
                                 <li>
                                     <div className="list_inner">
                                         <span>02</span>
-                                        <h3>Customer</h3>
+                                        <h3 className='font-bold text-primary-900'>Customer</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️ Maintain Account
@@ -104,7 +100,7 @@ const page = () => {
                                 <li>
                                     <div className="list_inner">
                                         <span>03</span>
-                                        <h3>Supplier</h3>
+                                        <h3 className='font-bold text-primary-900'>Supplier</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️ Maintain Supplier
@@ -133,7 +129,7 @@ const page = () => {
                                 <li>
                                     <div className="list_inner">
                                         <span>04</span>
-                                        <h3>Sales</h3>
+                                        <h3 className='font-bold text-primary-900'>Sales</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️ Sales Quotation
@@ -165,7 +161,7 @@ const page = () => {
                                 <li>
                                     <div className="list_inner">
                                         <span>05</span>
-                                        <h3>Purchase</h3>
+                                        <h3 className='font-bold text-primary-900'>Purchase</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️ Purchase Request
@@ -194,7 +190,7 @@ const page = () => {
                                 <li>
                                     <div className="list_inner">
                                         <span>06</span>
-                                        <h3>Stock</h3>
+                                        <h3 className='font-bold text-primary-900'>Stock</h3>
                                         <div className="flex flex-col gap-1 py-5">
                                             <div>
                                                 ✔️Maintain Stock Group
@@ -227,7 +223,7 @@ const page = () => {
                 <div className='italic text-2xl'>
                     Better Software For Your Business
                 </div>
-                <div className='py-5 text-4xl'>
+                <div className='py-5 text-4xl font-bold'>
                     SQL Account Highlight Features
                 </div>
                 <div className='text-xl pb-5'>
@@ -246,8 +242,8 @@ const page = () => {
             </div>
 
             <div className="nicolas_sm_awards">
-                <div className="container">
-                    <div className='flex items-center justify-center pt-6 text-3xl text-emerald-900'>
+                <div className="container text-secondary-600">
+                    <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
                         📚 General Ledger
                     </div>
                     <div className="extra_container">
@@ -255,12 +251,12 @@ const page = () => {
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Flexible financial reports</p>
+                                        <p className='font-bold text-primary-900'>Flexible financial reports</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Customizable date range comparison to view your financial report in eg. 24
                                         months or more. Flexible calendar year vs financial year reporting. SQL
                                         Account also support multiple projects comparison.
@@ -268,18 +264,18 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Unlimited level of GL Account</p>
+                                        <p className='font-bold text-primary-900'>Unlimited level of GL Account</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Create unlimited sub accounts and financial reports. View it in a summarize
                                         format or by sub account details.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Drill down view source document</p>
+                                        <p className='font-bold text-primary-900'>Drill down view source document</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         All our reports are built in with a smart drill down feature. Double click any
                                         figure in your financial reports and you will able to see the detail of the
                                         source document.
@@ -288,18 +284,18 @@ const page = () => {
 
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Multi entities consolidation account</p>
+                                        <p className='font-bold text-primary-900'>Multi entities consolidation account</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Use SQL consolidation account to evaluate group companies financial performance
                                         without any hassle.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Account provide a comprehensive range of financial reports such as G/L
                                         Document Listing, Journal of Transaction Listing, Transaction Summary Listing,
                                         Ledger Report, Trial Balance, Receipt and Payment report, Profit and Loss
@@ -312,29 +308,29 @@ const page = () => {
                 </div>
 
                 <div className="container">
-                    <div className='flex items-center justify-center pt-6 text-3xl text-emerald-900'>
+                    <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
                         💎 Customer
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600 text-left">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
                             <div className="awards_box">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Fast entry multi invoice interface</p>
+                                        <p className='font-bold text-primary-900'>Fast entry multi invoice interface</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Key in bulk invoices using fast entry listing screen or import data directly
                                         form Excel document. Speedy invoice generation with just 1 click.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Advance SSM number search</p>
+                                        <p className='font-bold text-primary-900'>Advance SSM number search</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         A useful feature recommended by Tax Accountants. SSM Power Search open the path
                                         for fast, real time connection to SSM Malaysia. This comes in handy when you
                                         need to search for a company's registration number in your bill payments to
@@ -343,9 +339,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Advance credit control</p>
+                                        <p className='font-bold text-primary-900'>Advance credit control</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Has your customer been holding an outstanding amount for an extended period of
                                         time? To prevent this, you can set not only credit limits in SQL system, but
                                         also an OVERDUE limit. With this, you can prevent creations of delivery orders &
@@ -355,17 +351,17 @@ const page = () => {
 
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Customer account activities</p>
+                                        <p className='font-bold text-primary-900'>Customer account activities</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         The fastest way to view your customer full activity as simple as double click.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>CTOS</p>
+                                        <p className='font-bold text-primary-900'>CTOS</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Account is the only accounting software in Malaysia that integrated with
                                         real time CTOS financial data. It provides SQL Account users a financial
                                         standing overview of their customers and suppliers. Helping users make better
@@ -374,9 +370,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Customer module has a wide range of reports such as Customer Document Listing,
                                         Customer Balance Report, Due Document Listing, Aging Report, Customer Statement,
                                         Customer Post Dated Cheque Listing, Customer Analysis by Document, and Customer
@@ -391,26 +387,26 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             💼 Supplier
 
                         </div>
-                        <div className='pt-5 text-md text-white text-center md:w-1/2'>
+                        <div className='pt-5 text-md text-secondary-800 text-center md:w-1/2'>
                             The features listed in the customer module are also applicable for supplier module and
                             there's more for supplier
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Interbank GIRO bulks payment</p>
+                                        <p className='font-bold text-primary-900'>Interbank GIRO bulks payment</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Create multiple bank accounts for each supplier if necessary. You can select the
                                         bank of your choice for each payment that you make and generate e-banking giro
                                         integration.
@@ -418,9 +414,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Fast, accurate, user-friendly features</p>
+                                        <p className='font-bold text-primary-900'>Fast, accurate, user-friendly features</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Our supplier module contains an array of features like: fast entry for multiple
                                         invoices, flexible aging formula setting, advance credit limit & credit control,
                                         auto knock off invoice after payment, post-date cheque and bounced cheque
@@ -429,9 +425,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         We provide a wide range of reports that are detailed and user-friendly at the
                                         same time. The supplier module comes with: Supplier Document Listing, Supplier
                                         Balance Report, Due Document Listing, Aging Report, Supplier Statement, Supplier
@@ -447,21 +443,21 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             📤 Sales & 📥 Purchase
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Profit Estimator</p>
+                                        <p className='font-bold text-primary-900'>Profit Estimator</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Get the best estimation of profit before you send out your quotations! The
                                         profit estimator works by accessing the actual cost of the item. But you can
                                         also enter your desired profit amount or profit margin and we can compute what
@@ -470,9 +466,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Multiple Pricing & AI selling price assignment</p>
+                                        <p className='font-bold text-primary-900'>Multiple Pricing & AI selling price assignment</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         The Multiple Pricing feature let you set separate sales price for dealers and
                                         end-users in the easiest way possible. Our latest AI selling price assignment
                                         supports bulk qty pricing, priority following quotation and also allows you to
@@ -481,9 +477,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Batch email customer invoice/ customer statement of account</p>
+                                        <p className='font-bold text-primary-900'>Batch email customer invoice/ customer statement of account</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Are you still manually sending customer statements? With SQL Account batch email
                                         feature, you can automatically send out all statement of account to respective
                                         customers in just a few clicks. You can also set a password encryption for the
@@ -492,9 +488,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Best selling item & trade overview</p>
+                                        <p className='font-bold text-primary-900'>Best selling item & trade overview</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Account’s report designs come with flexible grouping and filtering function.
                                         You can view the top/bottom 20 products , customer, agent and more using the
                                         evolutionary flexible Mix & Match SQL reporting with complete drill down to
@@ -503,9 +499,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Sales Order to Purchase Order</p>
+                                        <p className='font-bold text-primary-900'>Sales Order to Purchase Order</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         With SQL sales order to purchase order module, you can simply manage your
                                         customer order and transfer to place the order with your supplier just in 1
                                         click.
@@ -513,9 +509,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Our sales module comes with a plethora of sales reports such as Sales Document
                                         Listing, Outstanding Sales Document Listing, Sales Picking List, Customer Price
                                         History, Profit and Loss by Document, Sales Analysis by Document and Yearly
@@ -529,48 +525,48 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             📦 Stock
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Accuracy for stock costing</p>
+                                        <p className='font-bold text-primary-900'>Accuracy for stock costing</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL stock costing with FIFO, weighted average, you can even backdate
                                         transactions and our system will automatically calculate the costing.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Never running out of stock</p>
+                                        <p className='font-bold text-primary-900'>Never running out of stock</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL has a smart automated stock reorder advice function. With this, you can
                                         generate a purchase order just by using a drag and drop function.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Multiple Warehouse Management</p>
+                                        <p className='font-bold text-primary-900'>Multiple Warehouse Management</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Track your inventory beyond the warehouse/location. Perform stock transfers
                                         between inter-branch, consignment, van sales and more.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Multiple UOM management</p>
+                                        <p className='font-bold text-primary-900'>Multiple UOM management</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Set your stock item with multiple units of measurement such as unit, box,
                                         carton! You can simple preset different UOM for the product that you purchased
                                         and sold. For eg. You purchased a product in carton but sell it in unit.
@@ -578,18 +574,18 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Barcode Generation</p>
+                                        <p className='font-bold text-primary-900'>Barcode Generation</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Create your barcode and raise you invoice by scanning a barcode during your
                                         sales transaction, you can even print barcode sticker from SQL!
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         The stock module comes with Stock Document Listing, Stock Reorder Advice, Stock
                                         Physical Worksheet, Stock Card, Stock Month End Balance, Stock Aging and Stock
                                         Analysis by Document.
@@ -602,21 +598,21 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             ⚙️ Production
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Raw material management</p>
+                                        <p className='font-bold text-primary-900'>Raw material management</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Simply insert the raw materials formulation for the finished goods and let the
                                         system calculate the finished goods costing included wastage and overhead cost,
                                         so you will never sell under cost.
@@ -624,9 +620,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Work-In-Progress</p>
+                                        <p className='font-bold text-primary-900'>Work-In-Progress</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         With SQL Job Order module you can simply monitor and estimate your customer
                                         ordered goods status and keep you customer update about the status of their
                                         order.
@@ -634,18 +630,18 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Plan your production well</p>
+                                        <p className='font-bold text-primary-900'>Plan your production well</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Planing isn't that easy, but SQL Bill of Material Planner let you executes
                                         material requirement planning with high precision & speed.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Item Assembly/ Disassembly</p>
+                                        <p className='font-bold text-primary-900'>Item Assembly/ Disassembly</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Item Assembly/Disassembly simplified the process for user to manage the
                                         finished goods after production team had completed the job. Also you can simply
                                         disassembly the finished goods so your raw meterial volume will be readjust by
@@ -654,9 +650,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         The production module comes with Job Order Listing, Pending Producting Document
                                         Listing, B.O.M. Relation Report, B.O.M. Listing, Material Usage Report, B.O.M.
                                         Planner and Wastage Report.
@@ -669,39 +665,39 @@ const page = () => {
 
                 <div className="container">
                     <div className='flex flex-col items-center justify-center pt-6'>
-                        <div className='text-3xl text-emerald-900'>
+                        <div className='text-3xl text-primary-900 font-bold'>
                             💲 Sales Service Tax / GST (Singapore)
                         </div>
                     </div>
                     <div className="extra_container">
-                        <div className="awards_in">
+                        <div className="awards_in text-secondary-600">
                             <div className="image_box">
                                 <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
                             </div>
-                            <div className="awards_box">
+                            <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Automate SST for all documents</p>
+                                        <p className='font-bold text-primary-900'>Automate SST for all documents</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SQL Account will automatically set sales and service tax in your invoice so that
                                         you never have to worry about forgetting to include tax in your invoice.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>SST-02 draft</p>
+                                        <p className='font-bold text-primary-900'>SST-02 draft</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Need an estimate figure for your sales tax/service tax? Process SST-02 and check
                                         the estimation. You can make changes in this draft if you need to.
                                     </div>
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>SST-02 Report</p>
+                                        <p className='font-bold text-primary-900'>SST-02 Report</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         Completed SST report compliant to Royal Malaysia Custom Department. All sales,
                                         purchase, exported sales, exemption for sales and purchase will be populated by
                                         the system.
@@ -709,9 +705,9 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p>Reporting</p>
+                                        <p className='font-bold text-primary-900'>Reporting</p>
                                     </div>
-                                    <div className='text-sm w-1/2 text-left'>
+                                    <div className='text-sm w-1/2'>
                                         SST-02 report, SST Listing, advance filtering for SST listing and pivot table
                                         function for SST Listing.
                                     </div>
@@ -725,14 +721,14 @@ const page = () => {
                     <Link
                         href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                         target='_blank'
-                        className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
+                        className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             ENQUIRY
                         </button>
                     </Link>
 
                     <Link href='/products/sqlaccount#sql_pricing' passHref
-                          className='flex items-center justify-center bg-white text-emerald-900 w-full md:w-1/5 rounded-3xl p-5'>
+                          className='flex items-center justify-center bg-secondary-800 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             PRICING
                         </button>
@@ -741,14 +737,14 @@ const page = () => {
             </div>
 
             <div className='container'>
-                <div className='flex items-center justify-center text-center py-6 text-4xl text-emerald-900'>
+                <div className='flex items-center justify-center text-center py-6 text-4xl text-primary-900 font-bold'>
                     Other Amazing Features
                 </div>
 
-                <div className='grid md:grid-cols-4 gap-4 items-start justify-center w-full px-4'>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                <div className='grid md:grid-cols-4 gap-4 items-start justify-center w-full px-4 text-left text-secondary-600'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 text-center font-bold text-2xl'>
                             Foreign Currency
                         </div>
                         <div>
@@ -756,9 +752,9 @@ const page = () => {
                             automate all currencies transaction, has accurate gain loss calculation.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Project Accounting
                         </div>
                         <div>
@@ -767,9 +763,9 @@ const page = () => {
                             Balance Sheet report by project too.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Item Template
                         </div>
                         <div>
@@ -777,9 +773,9 @@ const page = () => {
                             click.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Landing Cost
                         </div>
                         <div>
@@ -787,9 +783,9 @@ const page = () => {
                             product costing.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Serial Number
                         </div>
                         <div>
@@ -797,18 +793,18 @@ const page = () => {
                             check serial number inquiry & stock balance listing by serial number.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Item Batch
                         </div>
                         <div>
                             Manage your item batch easily and batch reporting can easily show the batch item movement.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Global Price Change
                         </div>
                         <div>
@@ -816,9 +812,9 @@ const page = () => {
                             adjust the group of products by increase percentage or value.
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center gap-4 text-center'>
+                    <div className='flex flex-col items-center justify-center gap-4'>
                         <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
-                        <div className='text-emerald-900 text-2xl'>
+                        <div className='text-primary-900 font-bold text-center text-2xl'>
                             Customisable suite to your unique business
                         </div>
                         <div>
@@ -831,14 +827,14 @@ const page = () => {
                     <Link
                         href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
                         target='_blank'
-                        className='flex items-center justify-center bg-emerald-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
+                        className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             ENQUIRY
                         </button>
                     </Link>
 
                     <Link href='/products/sqlaccount#sql_pricing' passHref
-                          className='flex items-center justify-center bg-white text-emerald-900 w-full md:w-1/5 rounded-3xl p-5'>
+                          className='flex items-center justify-center bg-secondary-800 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
                             PRICING
                         </button>

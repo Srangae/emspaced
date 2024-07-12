@@ -5,21 +5,21 @@ const PosPricing = () => {
     return (
         <div className="nicolas_sm_section py-6">
             <div className='flex flex-col gap-5 items-center justify-center text-center'>
-                <div className='text-6xl font-bold text-emerald-900'>
+                <div className='text-6xl font-bold text-primary-900'>
                     Pricing
                 </div>
             </div>
             <div className="nicolas_sm_pricing">
                 <div className="container">
-                    <div className="extra_container text-center">
+                    <div className="extra_container text-center text-secondary-600">
                         <div className='pricing_in'>
                             <ul>
                                 <li>
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">POS Basic</h3>
-                                                <h3 className="price">
+                                                <h3 className="plan text-secondary-800">POS Basic</h3>
+                                                <h3 className="price font-bold text-primary-900">
                                                     RM1,500
                                                 </h3>
                                             </div>
@@ -84,9 +84,9 @@ const PosPricing = () => {
                                     <div className="list_inner">
                                         <div className="info_box">
                                             <div className="info">
-                                                <h3 className="plan">POS Basic</h3>
-                                                <h3 className="price">
-                                                    RM1,500
+                                                <h3 className="plan text-secondary-800">POS Advance</h3>
+                                                <h3 className="price font-bold text-primary-900">
+                                                    RM2,100
                                                 </h3>
                                             </div>
                                             <div className="features">
@@ -116,8 +116,18 @@ const PosPricing = () => {
                                                             Direct Email Daily
                                                         </div>
                                                     </li>
+                                                    <li>
+                                                        <div className='flex items-center justify-center'>
+                                                            Report
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div className='flex items-center justify-center'>
+                                                            Serial Number Control
+                                                        </div>
+                                                    </li>
                                                     <li className='flex items-center justify-center border-b pb-2'>
-                                                        Report
+                                                        Currency Module
                                                     </li>
 
                                                     <li className='text-center border-b pb-2'>

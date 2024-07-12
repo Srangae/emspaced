@@ -39,9 +39,26 @@ html {
   display: flex;
 }
 
-.payroll_banner_1{
-  background-image: url('/img/payroll/banner_1.jpg');
-  height: 260px;
-  object-fit: cover;
+@media (max-width:  767px) {
+  .payroll_banner_1{
+    background-image: url('/img/payroll/banner_1.jpg');
+    height: 760px;
+    object-fit: cover;
+  }
 }
 
+@media (max-width: 1023px) {
+  .payroll_banner_1{
+    background-image: url('/img/payroll/banner_1.jpg');
+    height: 460px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .payroll_banner_1{
+    background-image: url('/img/payroll/banner_1.jpg');
+    height: 260px;
+    object-fit: cover;
+  }
+}
