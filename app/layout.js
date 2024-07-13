@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Emspaced",
-  description: "Convenience meets Innovation",
+  description: "SQL service provider",
 };
 
 export default function RootLayout({ children }) {

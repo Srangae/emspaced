@@ -36,9 +36,9 @@ const page = () => {
                     </div>
                 </div>
                 <div
-                    className='flex items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 w-full'>
+                    className='flex items-center justify-center bg-banner-50 w-full'>
                     <div className='w-5/6 flex flex-col gap-5 py-6 text-white'>
-                        <div className='text-center text-6xl py-6 text-primary-900 font-bold'>
+                        <div className='text-center text-6xl py-6 text-white font-bold'>
                         SQL POS SYSTEM
                         </div>
                         <div className='text-left text-2xl'>
@@ -49,7 +49,7 @@ const page = () => {
                         </div>
 
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2 outline outline-white outline-2'>
                                 <Link
                                     href='#pos_pricing'>
                                     PRICING

@@ -24,7 +24,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/bulb.png' alt={1} width={100} height={100}/></span>
+                                        <span><Image src='/img/home/bulb_emerald.png' alt={1} width={100} height={100}/></span>
                                         <h3 className='text-center text-primary-900 font-bold'>
                                             KNOW YOUR BUSINESS
                                         </h3>
@@ -38,7 +38,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/brand-speedtest.png' alt={1} width={100}
+                                        <span><Image src='/img/home/speedtest_emerald.png' alt={1} width={100}
                                                      height={100}/></span>
                                         <h3 className='text-center text-primary-900 font-bold'>
                                             EFFICIENCY
@@ -53,7 +53,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/settings-cog.png' alt={1} width={100} height={100}/></span>
+                                        <span><Image src='/img/home/settings_emerald.png' alt={1} width={100} height={100}/></span>
                                         <h3 className='text-center font-bold text-primary-900'>
                                             PRODUCTIVITY
                                         </h3>
@@ -67,7 +67,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/circles-relation.png' alt={1} width={100}
+                                        <span><Image src='/img/home/circles_relation_emerald.png' alt={1} width={100}
                                                      height={100}/></span>
                                         <h3 className='text-center text-primary-900 font-bold'>
                                             ALL IN ONE
@@ -82,7 +82,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/arrow-down.png' alt={1} width={100}
+                                        <span><Image src='/img/home/down_emerald.png' alt={1} width={100}
                                                      height={100}/></span>
                                         <h3 className='text-center text-primary-900 font-bold'>
                                             REDUCE HUMAN ERROR
@@ -97,7 +97,7 @@ const WorkingProcess = () => {
                             <li>
                                 <div className="list_inner text-secondary-600">
                                     <div className='flex flex-col items-center justify-center'>
-                                        <span><Image src='/img/home/sun.png' alt={1} width={100} height={100}/></span>
+                                        <span><Image src='/img/home/sun_emerald.png' alt={1} width={100} height={100}/></span>
                                         <h3 className='text-center text-primary-900 font-bold'>
                                             BE ECO FRIENDLY
                                         </h3>

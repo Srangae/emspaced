@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CloudPricing = () => {
     return (
-        <div className="nicolas_sm_section py-6 bg-white">
+        <div className="nicolas_sm_section py-10 bg-white">
             <div className='flex flex-col gap-5 items-center justify-center text-center'>
                 <div className='text-6xl font-bold text-primary-900'>
                     Pricing
