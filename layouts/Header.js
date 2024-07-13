@@ -27,7 +27,7 @@ const Header = () => {
         <div className="mobile_menu_inner">
           <div className="mobile_in">
             <div className="logo">
-              <a href="#">
+              <a href="/">
                 <img src="/img/emspaced-logo.png" alt="" />
               </a>
             </div>

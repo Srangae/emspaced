@@ -15,7 +15,7 @@ const SQLCloudAccountBanner = () => {
       </div>
       <div className="pb-10 md:pb-0">
         <button className="flex items-center justify-center text-white gap-2 bg-secondary-600 rounded-3xl py-3 px-6 md:w-full">
-          <Image src="/img/cloud.png" alt={2} width={20} height={20} />
+          <Image src="/img/cloud_white.png" alt={2} width={20} height={20} />
           <Link href="#">LEARN MORE</Link>
         </button>
       </div>
