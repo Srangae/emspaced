@@ -1,3 +1,7 @@
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
@@ -5,9 +9,6 @@
 
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
-@import 'tailwindcss/base.css';
-@import 'tailwindcss/components.css';
-@import 'tailwindcss/utilities.css';
 
 html {
   scroll-behavior: smooth;
@@ -73,4 +74,85 @@ html {
 
 .transition-opacity {
   transition: opacity 0.3s ease;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  /* position: fixed; */
+  width: 36px;
+  height: 30px;
+  position: relative;
+  /* left: 36px; */
+  /* top: 36px; */
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #00472d;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #3bd4ae;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 32px;
+  width: 32px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #3bd4ae;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #3bd4ae;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: white;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+}
+
+.sub-menu {
+  padding-left: 1rem;
+}
+
+@media (min-width: 769px) {
+  .bm-burger-button {
+    display: none;
+  }
 }
