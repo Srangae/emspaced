@@ -47,17 +47,6 @@ export const MobileMenu = () => {
                 </li>
               </ul>
             </div>
-            {/* <Accordion transition transitionTimeout={250} className="text-sm menu-item">
-              <AccordionItem header={<span className="font-normal block">Products</span>} headingProps={{ className: "font-normal"}} buttonProps={{ className: 'text-xl text-white'}}>
-                <ul>
-                  <li>test</li>
-                  <li>test</li>
-                  <li>test</li>
-                  <li>test</li>
-                  <li>test</li>
-                </ul>
-              </AccordionItem>
-            </Accordion> */}
             <Link id="event" className="menu-item" href="/event">
               Events
             </Link>
