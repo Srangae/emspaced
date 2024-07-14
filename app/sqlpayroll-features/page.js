@@ -353,7 +353,7 @@ const page = () => {
 
             <div className='flex flex-col items-center justify-center w-full'>
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
-                    <div className='flex items-center justify-end border-2'>
+                    <div className='flex items-center justify-end'>
                         <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
