@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WorkingProcess = () => {
     return (
-        <div className="nicolas_sm_process">
+        <div className="nicolas_sm_process mt-10">
             <div className="container">
                 <div className="extra_container">
                     <div className="process_in">
