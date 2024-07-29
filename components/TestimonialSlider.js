@@ -22,12 +22,9 @@ export default class TestimonialSlider extends Component {
 
     render() {
         return (
-            <div className="nicolas_sm_section">
+            <div className="nicolas_sm_section bg-banner-50">
                 <div className="nicolas_sm_testimonials">
                     <div className="container">
-                        <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
-                               className='bg-opacity-50'/>
-                        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                         <div className="nicolas_sm_main_title">
                             <div className="left">
                             </div>
