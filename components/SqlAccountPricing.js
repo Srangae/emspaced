@@ -19,9 +19,9 @@ const SQLAccountPricing = () => {
             <div className="nicolas_sm_pricing">
                 <div className="container">
                     <div className="extra_container">
-                        <div className="pricing_in grid md:grid-cols-4 items-start gap-4">
-                            <div className="list_inner">
-                                <div className="info_box">
+                        <div className="pricing_in grid md:grid-cols-4 items-stretch gap-4">
+                            <div className="list_inner flex flex-col">
+                                <div className="info_box flex-grow">
                                     <div className="info text-center">
                                         <h3 className="plan text-center text-secondary-800">Lite</h3>
                                         <div>RM</div>
@@ -34,94 +34,72 @@ const SQLAccountPricing = () => {
                                         <ul>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/books.png' width={25} height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        General Ledger
-                                                    </div>
+                                                    <Image src='/img/Pricing/books.png' width={25} height={25} alt={1}/>
+                                                    <div>General Ledger</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/diamond.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Customer
-                                                    </div>
+                                                    <div>Customer</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/briefcase.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/briefcase.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Supplier
-                                                    </div>
+                                                    <div>Supplier</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/mail-up.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Sales
-                                                    </div>
+                                                    <div>Sales</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/mail-down.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/mail-down.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Purchase
-                                                    </div>
+                                                    <div>Purchase</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/box.png' width={25}
-                                                           height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        Basic Stock
-                                                    </div>
+                                                    <Image src='/img/Pricing/box.png' width={25} height={25} alt={1}/>
+                                                    <div>Basic Stock</div>
                                                 </div>
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <strong className='text-slate-600'>FREE </strong>SST
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Company</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Concurrent User</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <strong className='text-slate-600'>NO </strong>Training Provided
                                             </li>
-
                                             <li>
-                                                <strong className='text-slate-600'>NO </strong>Support &
-                                                Maintenance
+                                                <strong className='text-slate-600'>NO </strong>Support & Maintenance
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="button">
+                                <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
                                        href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"
                                        target='_blank'/>
                                 </div>
                             </div>
-                            <div className="list_inner">
-                                <div className="info_box">
+
+                            <div className="list_inner flex flex-col">
+                                <div className="info_box flex-grow">
                                     <div className="info text-center">
                                         <h3 className="plan text-center text-secondary-800">Basic</h3>
                                         <div>RM</div>
@@ -134,92 +112,66 @@ const SQLAccountPricing = () => {
                                         <ul>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/books.png' width={25} height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        General Ledger
-                                                    </div>
+                                                    <Image src='/img/Pricing/books.png' width={25} height={25} alt={1}/>
+                                                    <div>General Ledger</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/diamond.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Customer
-                                                    </div>
+                                                    <div>Customer</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/briefcase.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/briefcase.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Supplier
-                                                    </div>
+                                                    <div>Supplier</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/mail-up.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Sales
-                                                    </div>
+                                                    <div>Sales</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/mail-down.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/mail-down.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Purchase
-                                                    </div>
+                                                    <div>Purchase</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/box.png' width={25}
-                                                           height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        Basic Stock
-                                                    </div>
+                                                    <Image src='/img/Pricing/box.png' width={25} height={25} alt={1}/>
+                                                    <div>Basic Stock</div>
                                                 </div>
                                             </li>
-
                                             <li>
                                                 <strong className='text-slate-600'>FREE </strong>SST
                                             </li>
                                             <li className='border-b pb-2'>
                                                 <strong className='text-slate-600'>FREE </strong>SQL CTOS
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Company</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Concurrent User</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
-                                                <div>
-                                                    👷 1 Session Training (within Klang Valley)
-                                                </div>
+                                                <div>👷 1 Session Training (within Klang Valley)</div>
                                             </li>
-
                                             <li>
-                                                <div>
-                                                    💪 1st Year Support & Maintenance (Off-site)
-                                                </div>
+                                                <div>💪 1st Year Support & Maintenance (Off-site)</div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="button">
+                                <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
                                        href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"
@@ -227,8 +179,8 @@ const SQLAccountPricing = () => {
                                 </div>
                             </div>
 
-                            <div className="list_inner">
-                                <div className="info_box">
+                            <div className="list_inner flex flex-col">
+                                <div className="info_box flex-grow">
                                     <div className="info text-center">
                                         <h3 className="plan text-center text-secondary-800">Professional</h3>
                                         <div>RM</div>
@@ -242,103 +194,72 @@ const SQLAccountPricing = () => {
                                         <ul>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/books.png' width={25} height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        General Ledger
-                                                    </div>
+                                                    <Image src='/img/Pricing/books.png' width={25} height={25} alt={1}/>
+                                                    <div>General Ledger</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/diamond.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Customer
-                                                    </div>
+                                                    <div>Customer</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/briefcase.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/briefcase.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Supplier
-                                                    </div>
+                                                    <div>Supplier</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
                                                     <Image src='/img/Pricing/mail-up.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Sales
-                                                    </div>
+                                                    <div>Sales</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/mail-down.png' width={25}
-                                                           height={25}
+                                                    <Image src='/img/Pricing/mail-down.png' width={25} height={25}
                                                            alt={1}/>
-                                                    <div>
-                                                        Purchase
-                                                    </div>
+                                                    <div>Purchase</div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className='flex items-center justify-center gap-1'>
-                                                    <Image src='/img/Pricing/box.png' width={25}
-                                                           height={25}
-                                                           alt={1}/>
-                                                    <div>
-                                                        <strong
-                                                            className='text-slate-600'>Advance</strong> Stock
-                                                    </div>
+                                                    <Image src='/img/Pricing/box.png' width={25} height={25} alt={1}/>
+                                                    <div><strong className='text-slate-600'>Advance</strong> Stock</div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div>
-                                                    📊 Advance Reports
-                                                </div>
+                                                <div>📊 Advance Reports</div>
                                             </li>
                                             <li>
-                                                <div>
-                                                    🎯 Pro-Package
-                                                </div>
+                                                <div>🎯 Pro-Package</div>
                                             </li>
-
                                             <li>
                                                 <strong className='text-slate-600'>FREE </strong>SST
                                             </li>
                                             <li className='border-b pb-2'>
                                                 <strong className='text-slate-600'>FREE </strong>SQL CTOS
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Company</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
                                                 <p>1 Concurrent User</p>
                                             </li>
-
                                             <li className='border-b pb-2'>
-                                                <div>
-                                                    👷 1 Session Training (within Klang Valley)
-                                                </div>
+                                                <div>👷 1 Session Training (within Klang Valley)</div>
                                             </li>
-
                                             <li>
-                                                <div>
-                                                    💪 1st Year Support & Maintenance (Off-site)
-                                                </div>
+                                                <div>💪 1st Year Support & Maintenance (Off-site)</div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="button">
+                                <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
                                        href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"
@@ -346,8 +267,8 @@ const SQLAccountPricing = () => {
                                 </div>
                             </div>
 
-                            <div className="list_inner">
-                                <div className="info_box">
+                            <div className="list_inner flex flex-col">
+                                <div className="info_box flex-grow">
                                     <div className="info text-center">
                                         <h3 className="plan text-center text-secondary-800">Concurrent User</h3>
                                         <div>RM</div>
@@ -367,7 +288,7 @@ const SQLAccountPricing = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="button">
+                                <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
                                        href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"

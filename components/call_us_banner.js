@@ -6,10 +6,10 @@ const Call_us_banner = () => {
       <div
           className='flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-emerald-400 to-cyan-400 gap-10 mt-5'>
           <div className='flex flex-col items-center justify-center text-white md:w-1/3 px-6'>
-              <div className='text-4xl text-slate-800 font-bold pb-6 text-center py-10'>
+              <div className='text-2xl text-slate-800 font-bold text-center py-10'>
                   Couldn't find something suitable for your business?
               </div>
-              <div className='text-xl py-10 text-center md:text-justify'>
+              <div className='text-xl pb-10 text-center md:text-justify'>
                   Don't worry, let our friendly consultants assist you.
               </div>
 

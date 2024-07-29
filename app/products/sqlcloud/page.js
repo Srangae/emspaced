@@ -17,32 +17,40 @@ const page = () => {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
-                <div className="nicolas_sm_page_title">
-                    <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-primary-900 font-bold'>SQL Cloud (SaaS)</h3>
-                            <div className='flex items-center justify-center py-6 text-3xl text-justify text-secondary-800'>
-                                SQL Software as a Service provides you with the flexibility of running SQL business suite on cloud. This gives you an edge with regards to anywhere, anytime with low hardware requirement and maximum data security.
+                    <div className="mt-20 md:mt-40 border-2">
+                        <div className='flex flex-col items-center justify-center py-10 relative h-dvh md:h-96'>
+                            <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
+                                   className='bg-opacity-50'/>
+                            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                            <div
+                                className='absolute inset-0 flex flex-col items-center justify-center gap-4 text-white animate-slidein'>
+                                <div className=' font-bold text-4xl'>SQL Cloud (SaaS)</div>
+                                <div className='flex items-center justify-center md:w-1/2 py-4 text-2xl text-center'>
+                                    SQL Software as a Service provides you with the flexibility of running SQL business
+                                    suite on cloud. This gives you an edge with regards to anywhere, anytime with low
+                                    hardware requirement and maximum data security.
+                                </div>
+
+                                <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
+                                    <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                                        <Link
+                                            href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
+                                            target='_blank'>
+                                            Enquiry
+                                        </Link>
+                                    </button>
+                                    <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                                        <Link
+                                            href='https://connect.sql.com.my/'
+                                            target='_blank'>
+                                            Try Now
+                                        </Link>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
-                                <Link
-                                    href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
-                                    target='_blank'>
-                                    Enquiry
-                                </Link>
-                            </button>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
-                                <Link
-                                    href='https://connect.sql.com.my/'
-                                    target='_blank'>
-                                    Try Now
-                                </Link>
-                            </button>
+
                         </div>
                     </div>
-                </div>
 
                 <div className='flex flex-col w-full items-center justify-center bg-white py-6 gap-5'>
                     <div className='text-center text-4xl text-primary-900 font-bold'>
@@ -50,17 +58,17 @@ const page = () => {
                     </div>
 
                     <div className='text-center text-2xl text-secondary-600'>
-                    It comes as no surprise that the SaaS market is expanding rapidly
+                        It comes as no surprise that the SaaS market is expanding rapidly
                     </div>
 
                     <div className='grid md:grid-cols-4 gap-4 px-10 text-left'>
                         <div className='flex flex-col gap-4'>
                             <div className='flex items-center justify-center gap-4'>
-                                <div>
+                                <div className=''>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
-                                    Access From Everywhere
+                                <div className='text-xl font-bold text-emerald-800'>
+                                Access From Everywhere
                                 </div>
                             </div>
                             <div className='text-md text-secondary-600'>
@@ -75,7 +83,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Maintenance Free
                                 </div>
                             </div>
@@ -91,7 +99,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Better Security
                                 </div>
                             </div>
@@ -105,7 +113,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Uptime Guarantee
                                 </div>
                             </div>
@@ -121,7 +129,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Ease Access
                                 </div>
                             </div>
@@ -136,7 +144,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Stay Up-To-Date
                                 </div>
                             </div>
@@ -151,7 +159,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     Backup
                                 </div>
                             </div>
@@ -166,7 +174,7 @@ const page = () => {
                                 <div>
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
-                                <div className='text-2xl font-bold text-emerald-800'>
+                                <div className='text-xl font-bold text-emerald-800'>
                                     System Support
                                 </div>
                             </div>
@@ -363,14 +371,6 @@ const page = () => {
 
                         </tbody>
                     </table>
-
-                    <div className='flex flex-col items-center justify-center text-primary-900 text-2xl w-1/2'>
-                        <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
-                        <p>
-                            * Term and conditions applied
-                        </p>
-                        <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
-                    </div>
 
                     <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
                         <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>

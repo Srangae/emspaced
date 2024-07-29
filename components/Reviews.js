@@ -24,15 +24,15 @@ const Reviews = () => {
                                                 <img src="/img/home/users-group.png" alt={1}/>
                                             </div>
                                             <div className="title">
-                                                <span>System Users</span>
+                                                <span>Enquiries Received</span>
                                                 <h3>
                           <span
                               className="sm_counter"
                               data-from={0}
-                              data-to={801}
+                              data-to={200}
                               data-speed={1500}
                           >
-                            <Counter end={801}/>
+                            <Counter end={200}/>
                           </span>
 
                                                 </h3>
@@ -53,10 +53,10 @@ const Reviews = () => {
                           <span
                               className="sm_counter"
                               data-from={0}
-                              data-to={507}
+                              data-to={40}
                               data-speed={1500}
                           >
-                            <Counter end={507}/>
+                            <Counter end={40}/>
                           </span>
                                                 </h3>
                                             </div>
@@ -76,10 +76,10 @@ const Reviews = () => {
                           <span
                               className="sm_counter"
                               data-from={0}
-                              data-to={23}
+                              data-to={40}
                               data-speed={1500}
                           >
-                            <Counter end={23}/>
+                            <Counter end={40}/>
                           </span>
                                                 </h3>
                                             </div>

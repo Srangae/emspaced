@@ -9,6 +9,14 @@ import HomeBanner_1 from "@/components/HomeBanner_1";
 import Payroll_banner from "@/components/payroll_banner";
 import Video_banner from "@/components/sqlpayroll/video_banner";
 import PayrollPricing from "@/components/sqlpayroll/Pricing";
+import {
+    IconFileInfo,
+    IconRouteAltLeft,
+    IconCards,
+    IconPrinter,
+    IconReport,
+    IconDeviceLaptop, IconLayout, IconLayoutCollage, IconTax
+} from "@tabler/icons-react";
 
 const page = () => {
     return (
@@ -37,7 +45,7 @@ const page = () => {
                     </div>
                 </div>
                 <div
-                    className='flex items-center justify-center bg-gradient-to-r from-emerald-500 to-emerald-900 w-full'>
+                    className='flex items-center justify-center bg-banner-50 w-full'>
                     <div className='w-5/6 flex flex-col gap-5 py-6 text-white'>
                         <div className='text-center text-6xl py-6 text-primary-900 font-bold'>
                             SQL Payroll Software
@@ -84,7 +92,7 @@ const page = () => {
                     <div className='container'>
                         <div className='grid md:grid-cols-3 gap-10 items-start justify-center text-left text-secondary-600'>
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconFileInfo size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     Employee Information
                                 </div>
@@ -96,7 +104,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconCards size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     Payroll Process
                                 </div>
@@ -108,7 +116,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconRouteAltLeft size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     Leave Management
                                 </div>
@@ -122,7 +130,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconPrinter size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     Print/Email Payslip
                                 </div>
@@ -135,7 +143,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconReport size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     Payroll Report
                                 </div>
@@ -149,7 +157,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconFileInfo size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     EIS/SIP
                                 </div>
@@ -163,7 +171,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconDeviceLaptop size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     SOCSO/Employment Injury Scheme
                                 </div>
@@ -177,7 +185,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconLayoutCollage size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     EPF/KWSP
                                 </div>
@@ -192,7 +200,7 @@ const page = () => {
                             </div>
 
                             <div className='flex flex-col items-center justify-center gap-5'>
-                                <Image src='/img/dashboard/dashboard-1.jpg' alt='dashboard' width={300} height={150}/>
+                                <IconTax size={150} stroke={0.5}/>
                                 <div className='font-bold text-primary-900 text-3xl text-center'>
                                     CP39/LHDN
                                 </div>
@@ -292,7 +300,10 @@ const page = () => {
 
                 </div>
 
-                <Payroll_banner/>
+                <div className='py-10'>
+                    <Payroll_banner/>
+                </div>
+
                 <Video_banner/>
 
                 <div id='payroll_pricing'>

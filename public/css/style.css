@@ -1095,7 +1095,7 @@ img {
   padding-right: 0;
 }
 .nicolas_sm_portfolio {
-  background-color: #00472d;
+  background-color: #3BD4AE;
   border-radius: 40px;
   padding: 120px 0;
 }
@@ -1278,12 +1278,12 @@ img {
 .nicolas_sm_testimonials .details .sm_svg {
   width: 50px;
   height: 50px;
-  color: #2f3030;
+  color: #FFFFFF;
   stroke-width: 2px;
   margin-bottom: 23px;
 }
 .nicolas_sm_testimonials .details p {
-  color: #00472D;
+  color: #FFFFFF;
   font-size: 20px;
 }
 .nicolas_sm_testimonials .info {
@@ -1305,7 +1305,7 @@ img {
 .nicolas_sm_testimonials .info h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #00472D;
+  color: #FFFFFF;
 }
 .nicolas_sm_testimonials .info span {
   color: #3bd4ae;

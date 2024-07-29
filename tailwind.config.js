@@ -37,7 +37,22 @@ module.exports = {
         banner:{
           50: '#3BD4AE'
         }
-      }
+      },
+      keyframes: {
+        slidein: {
+          from: {
+            opacity: "0",
+            transform: "translateY(-100px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        slidein: "slidein 1s ease 3000ms",
+      },
     },
   },
   plugins: [],

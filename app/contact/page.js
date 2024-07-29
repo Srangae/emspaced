@@ -1,5 +1,6 @@
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
+import {IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconBrandMeta} from "@tabler/icons-react";
 
 const page = () => {
     return (
@@ -7,12 +8,6 @@ const page = () => {
             <div className="nicolas_sm_contact">
                 <div className="nicolas_sm_page_title">
                     <div className="container">
-                        <div className="nicolas_sm_breadcrumbs">
-              <span>
-                <a href="#">Home</a>
-              </span>
-                            <span>Contact Us</span>
-                        </div>
                         <div className="page_title_in">
                             <h3>Let's Connect, Get In Touch With Us</h3>
                         </div>
@@ -68,6 +63,24 @@ const page = () => {
                                                     <p>0900 - 1800 (Monday to Friday)</p>
                                                     <p>exclude region and state holiday</p>
                                                 </li>
+
+                                                <li>
+                                                    <span>Social Links</span>
+                                                    <div className='flex gap-2'>
+                                                        <p><Link
+                                                            href='https://www.instagram.com/emspacedmy/'><IconBrandMeta/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='https://twitter.com/EmspacedMY'><IconBrandX/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='https://www.linkedin.com/company/emspacedmy/'><IconBrandLinkedin/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='>https://www.instagram.com/emspacedmy/'><IconBrandInstagram/></Link>
+                                                        </p>
+                                                    </div>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -98,6 +111,24 @@ const page = () => {
                                                     <p>0800 - 1800 (Monday to Friday)</p>
                                                     <p>0800 - 1200 (Saturday)</p>
                                                     <p>exclude region and state holiday</p>
+                                                </li>
+
+                                                <li>
+                                                    <span>Social Links</span>
+                                                    <div className='flex gap-2'>
+                                                        <p><Link
+                                                            href='https://www.instagram.com/emspacedmy/'><IconBrandMeta/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='https://twitter.com/EmspacedMY'><IconBrandX/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='https://www.linkedin.com/company/emspacedmy/'><IconBrandLinkedin/></Link>
+                                                        </p>
+                                                        <p><Link
+                                                            href='>https://www.instagram.com/emspacedmy/'><IconBrandInstagram/></Link>
+                                                        </p>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>

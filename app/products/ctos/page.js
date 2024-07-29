@@ -1,21 +1,7 @@
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Pricing from "@/components/Pricing";
-import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
-import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
-import Call_us_banner from "@/components/call_us_banner";
-import HomeBanner_1 from "@/components/HomeBanner_1";
-import Payroll_banner from "@/components/payroll_banner";
-import Video_banner from "@/components/sqlpayroll/video_banner";
-import PayrollPricing from "@/components/sqlpayroll/Pricing";
-import Pos_feature from "@/components/sqlpos/pos_feature";
-import PosPricing from "@/components/sqlpos/pos_pricing";
-import CloudPricing from "@/components/sqlcloud/cloud_pricing";
-import DashboardVideo from "@/components/sqldashboard/dashboard_video";
-import DashboardPricing from "@/components/sqldashboard/dashboard_pricing";
 import Counter from "@/components/Counter";
-
 const page = () => {
     return (
         <NikolasLayout>
@@ -90,7 +76,7 @@ const page = () => {
 
                 <div className='grid grid-cols-2 gap-2 items-center justify-center px-10 text-secondary-600'>
                     <div className='flex items-center justify-center'>
-                        <Image src='/img/home/credit_card.jpg' alt='credit_card' width={500} height={300}/>
+                        <Image src='/img/events/event_2.jpg' alt='credit_card' width={500} height={300}/>
                     </div>
                     <div className='flex flex-col gap-5 items-center justify-center'>
                         <div className='text-emerald-900 font-bold text-4xl'>

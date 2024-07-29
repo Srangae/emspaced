@@ -21,7 +21,7 @@ const page = () => {
                             <span className="underline">Events </span>
                             <br/>
                             <span className="stroke_text">In appreciation of your continuous support, we offer </span>
-                            <span className="underline">GOLINK</span>
+                            <span className="underline">EMSPACED </span>
                             <span className="stroke_text">customers to attend all events for </span>
                             <span className="underline">FREE </span>
                             <span className="stroke_text"> just because we care about you! </span>
@@ -124,37 +124,6 @@ const page = () => {
 
             </div>
             {/* /Slider */}
-
-            <div className='nicolas_sm_extra_title'>
-                <Marquee className="title marquee">
-                    <div className="wrap">
-                        <div>
-                            <h3>Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3 className="stroke_text_bolder">Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3>Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3 className="stroke_text_bolder">Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3>Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3 className="stroke_text_bolder">Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3>Ongoing Events</h3>
-                        </div>
-                        <div>
-                            <h3 className="stroke_text_bolder">Ongoing Events</h3>
-                        </div>
-                    </div>
-                </Marquee>
-            </div>
 
             <div className='flex flex-col items-center justify-center bg-white'>
                 <div className='flex items-center justify-center py-10 text-center'>
