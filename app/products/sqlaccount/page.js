@@ -1,3 +1,4 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Pricing from "@/components/Pricing";
@@ -5,6 +6,7 @@ import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Call_us_banner from "@/components/call_us_banner";
+import {useState} from "react";
 
 const page = () => {
     return (
@@ -30,8 +32,8 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex items-center justify-center bg-gradient-to-r from-emerald-400 to-cyan-400 w-full'>
-                    <div className='w-5/6 flex flex-col gap-5 py-6 text-secondary-600'>
+                <div className='flex items-center justify-center bg-banner-50 w-full'>
+                    <div className='w-5/6 flex flex-col gap-5 py-6 text-secondary-600 animate-slidein'>
                         <div className='text-center text-6xl py-6 font-bold text-primary-900'>
                             SQL Accounting Software
                         </div>
@@ -217,51 +219,51 @@ const page = () => {
                     <div
                         className='flex items-center justify-center bg-banner-50 w-full text-white'>
                         <div className='w-5/6 flex flex-col gap-5 py-6 '>
-                            <div className='text-center text-5xl py-6 font-bold'>
+                            <div className='text-center text-2xl pt-6 font-bold'>
                                 SQL Account - Recommended Server Specification
                             </div>
 
-                            <div className='flex flex-col gap-10 '>
-                                <div className='flex flex-col gap-2'>
-                                    <div className='font-bold text-2xl'>
+                            <div className='flex flex-col gap-5'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='font-bold text-md'>
                                         Processor
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         Intel Core i7 3.2 Ghz Processor – 8th Generation
                                     </div>
                                 </div>
-                                <div className='flex flex-col gap-2'>
-                                    <div className='font-bold text-2xl'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='font-bold text-md'>
                                         Motherboard
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         Asus Prime B360 - Plus Mainboard or above
                                     </div>
                                 </div>
-                                <div className='flex flex-col gap-2'>
-                                    <div className='font-bold text-2xl'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='font-bold text-md'>
                                         Memory
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         16 GB DD RAM 4 - PC 2133 – 1st grade - Kingston
                                     </div>
                                 </div>
-                                <div className='flex flex-col gap-2'>
-                                    <div className='font-bold text-2xl'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='font-bold text-md'>
                                         O.S. Disk
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         250 GB Samsung NVMe Memory Storage Drive - 3200Mbps
                                     </div>
                                 </div>
-                                <div className='flex flex-col gap-2'>
-                                    <div className='font-bold text-2xl'>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='font-bold text-md'>
                                         Operating System
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         Windows 10 Pro or above (64 bit)
                                     </div>
-                                    <div className='text-lg'>
+                                    <div className='text-sm'>
                                         Windows Server 2012/2016 (Highly NOT recommended)
                                     </div>
                                 </div>

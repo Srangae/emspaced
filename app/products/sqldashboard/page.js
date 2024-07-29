@@ -86,7 +86,7 @@ const page = () => {
                 </div>
 
                 <div className='grid md:grid-cols-3 gap-6 p-5 bg-white items-start justify-center'>
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4'>
+                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
@@ -100,7 +100,7 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4'>
+                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
@@ -114,7 +114,7 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4'>
+                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
                             <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
                         </div>
@@ -266,7 +266,7 @@ const page = () => {
                         <div className="extra_container">
                             <div className="awards_in">
                                 <div className="image_box">
-                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                    <img src="/img/events/event_5.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box text-secondary-600">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">

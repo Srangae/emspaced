@@ -14,19 +14,25 @@ import PosPricing from "@/components/sqlpos/pos_pricing";
 import CloudPricing from "@/components/sqlcloud/cloud_pricing";
 import DashboardVideo from "@/components/sqldashboard/dashboard_video";
 import DashboardPricing from "@/components/sqldashboard/dashboard_pricing";
+import {IconHandClick, IconHeartHandshake, IconSettingsCode} from "@tabler/icons-react";
 
 const page = () => {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
-                <div className="nicolas_sm_page_title">
-                    <div className="container">
-                        <div className="page_title_in">
-                            <h3 className='text-primary-900 font-bold'>About Us</h3>
-                            <h2 className='flex items-center justify-center py-4 text-4xl text-center text-secondary-600'>
+                <div className="mt-20 md:mt-40 border-2">
+                    <div className='flex flex-col items-center justify-center py-10 relative h-60 md:h-72'>
+                        <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
+                               className='bg-opacity-50'/>
+                        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                        <div
+                            className='absolute inset-0 flex flex-col items-center justify-center gap-4 text-white animate-slidein'>
+                            <div className=' font-bold text-4xl'>About Us</div>
+                            <div className='flex items-center justify-center md:w-1/2 py-4 text-2xl text-center'>
                                 Miow, A happy working environment creates a better tomorrow
-                            </h2>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -34,7 +40,7 @@ const page = () => {
 
                     <div className='flex flex-col gap-6 items-center justify-center text-center'>
                         <div className='text-4xl font-bold text-primary-900'>
-                            Hey there, we are GOLINK
+                            Hey there, we are EMSPACED
                         </div>
                         <div className='text-2xl w-3/4'>
                             We are group of consultants that specialize in deploying SQL business software. We have
@@ -109,126 +115,129 @@ const page = () => {
                 </div>
 
                 <div className='flex flex-col p-10 text-left gap-4 items-center justify-center'>
-                    <div>
-                        Founder and Executive Director, Kok Yoong Jien (JK) is an Accountant, Business Consultant and
-                        Entrepreneur. Back in 2014, JK and a few partners ventured into software businesses and started
-                        specialising in GST and software development.
+                    <div className='flex flex-col gap-4'>
+                        <div className='text-2xl font-bold'>
+                            Who Are We?
+                        </div>
+                        <div className='flex flex-col gap-4'>
+                            <div>
+                                Emspaced champions your business and entrepreneurial journey, aiming for a future where
+                                you
+                                continue to thrive.
+                                We’re not just a place to work; we offer a foundation where growth and stability meet.
+                            </div>
+                            <div>
+                                Our spaces come fully equipped for success, featuring not only exceptional, comfy and
+                                state-of-the-art work areas, but also comprehensive support services. From HR management
+                                and IT
+                                solutions to accounting services, we ensure your business operates smoothly and remains
+                                resilient.
+                            </div>
+
+                            <div>
+                                With membership options that adapt to your needs, we’re committed to providing the
+                                flexibility
+                                and resources you need to expand and adapt in a dynamic marketplace.
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div>
-                        As the pace of software and database development increase, audit and compliance become even more
-                        important. Companies and organizations need to ensure that they follow stringent regulatory
-                        requirements such as the Goods and Services Tax Act 2014 (GST), all whilst remaining
-                        competitive.
+                    <div className='flex flex-col gap-4'>
+                        <div className='text-2xl font-bold'>
+                            Our Vision
+                        </div>
+                        <div className=''>
+                            Our vision is to lead the change in collaborative workspaces, making them places where
+                            support,
+                            innovation, and
+                            growth are part of everyday life. We want to help businesses and individuals achieve their
+                            best,
+                            creating a future
+                            where success and well-being are for everyone.
+                        </div>
                     </div>
 
-                    <div>
-                        Therefore, GOLINK was born, keeping in view, the phenomenal rise in customer base of customized
-                        software solutions. GOLINK is formed with the sole purpose of empowering traders, merchants &
-                        business into higher levels of efficiency & profitability. With a rare mix of software,
-                        technology & accounting experts, we bring the most complete team to bear on projects which
-                        include SQL Account and Payroll Systems to diverse industry ranging from retail and supply chain
-                        to food and beverage industry.
+                    <div className='flex flex-col gap-4'>
+                        <div className='text-2xl font-bold'>
+                            Our Mission
+                        </div>
+                        <div>
+                            Our mission is to empower businesses and entrepreneurs with the essential tools and
+                            supportive
+                            environment they need to succeed and stay resilient. In our secure, innovative workspace
+                            ecosystem, we offer comprehensive solutions like HR management, IT support, and accounting
+                            services, ensuring businesses have the resources and connections to withstand challenges and
+                            prosper.
+                        </div>
                     </div>
 
-                    <div>
-                        In 2016, we commenced trainings in studying internal programming in order to provide
-                        customization for reports and system functionalities. Our vision is to lead our fellow customers
-                        on the digital path, helping them stay competitive and thrive with success.
-                    </div>
-
-                    <div>
-                        With our presence in West Malaysia, we aim to set our journey to East Malaysia with our strong
-                        sales and marketing presence across social media that gives us the ability to strengthen
-                        existing relationships, build new networks & enter new markets.
-                    </div>
 
                 </div>
 
                 <div className='flex flex-col items-center justify-center p-10 text-center gap-10 bg-banner-50'>
                     <div className='text-4xl text-primary-900 font-bold'>
-                        The way we grow
+                        Why Emspaced?
                     </div>
 
                     <div className='nicolas_sm_service_details'>
-                        <div className="grid md:grid-cols-3 gap-5 items-start justify-center px-6">
-                            <div className="list_inner p-10">
-                                <span>2019</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "GEOGRAPHICAL ADVANCEMENT"
-                                    </div>
-                                    <div className='text-left text-secondary-800'>
-                                        Our vision has been realized where we have set up our company in East Malaysia,
-                                        looking forward to provide our services with a more holistic and advanced
-                                        approach.
-                                    </div>
+                        <div className='flex p-10 text-white'>
+                            <div className='grid md:grid-cols-2 items-center justify-center md:mx-auto md:w-3/4'>
+                                <div className='flex justify-center'>
+                                    <IconSettingsCode size={200}/>
                                 </div>
-                            </div>
-                            <div className="list_inner p-10">
-                                <span>2018</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "TRANSITION"
+                                <div className='flex flex-col gap-4 text-left'>
+                                    <div className='text-xl font-bold'>
+                                        Integrated Space and Solution Provider
                                     </div>
-                                    <div className='text-left text-secondary-800'>
-                                        Ever since our business has grown, so does our clientele as we uphold our
-                                        mission and values. Therefore, we have designated teams for premium support for
-                                        our project based clients to enhance better and faster-pace service experience.
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="list_inner p-10">
-                                <span>2017</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "TECHNOLOGY ADVANCEMENT"
-                                    </div>
-                                    <div className='text-left text-secondary-800'>
-                                        Started our own GoCloud SQL Solution with a vision to lead our client on a
-                                        digital path.
+                                    <div className=''>
+                                        Our co-working space offers flexible, inspiring work environments and
+                                        comprehensive
+                                        business process outsourcing, from HR to accounting. Leveraging our founders’
+                                        start-up tech expertise, we emphasise productivity, creativity, and
+                                        collaboration,
+                                        fostering a vibrant community that prioritises employee well-being.
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="list_inner p-10">
-                                <span>2016</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "DEVELOPMENT"
+                        </div>
+                        <div className='flex p-10 text-white'>
+                            <div className='grid md:grid-cols-2 items-center justify-center md:mx-auto md:w-3/4'>
+                                <div className='flex justify-center'>
+                                    <IconHandClick size={200}/>
+                                </div>
+                                <div className='flex flex-col gap-4 text-left'>
+                                    <div className='text-xl font-bold'>
+                                        Empowering Partnership Programs
                                     </div>
-                                    <div className='text-left text-secondary-800'>
-                                        We enhanced our services to provide customization of our existing system and
-                                        ensure that our clients stay connected through Whatsapp for instant support.
+
+                                    <div className=''>
+                                        As your committed partner, we offer essential resources, support, and
+                                        opportunities for unlocking potential and sustainable success. Our bespoke
+                                        programmes, mentorships, and expansive networks are designed to elevate your
+                                        performance and ensure you thrive in a community-focused, growth-oriented
+                                        environment.
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="list_inner p-10">
-                                <span>2015</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "CONVERGE"
-                                    </div>
-                                    <div className='text-left text-secondary-800'>
-                                        Our goal was to gather expertise and knowledge to create possibilities and hone
-                                        our services in both technology and accounting. We tested out various prototypes
-                                        for diverse industries.
-                                    </div>
+                        <div className='flex p-10 text-white'>
+                            <div className='grid md:grid-cols-2 items-center justify-center md:mx-auto md:w-3/4'>
+                                <div className='flex justify-center'>
+                                    <IconHeartHandshake size={200}/>
                                 </div>
-                            </div>
-
-                            <div className="list_inner p-10">
-                                <span>2014</span>
-                                <div className="flex flex-col gap-10 py-5">
-                                    <div className='text-center text-primary-900 font-bold text-xl italic'>
-                                        "INCEPTION"
+                                <div className='flex flex-col gap-4 text-left'>
+                                    <div className='text-xl font-bold'>
+                                        Exceptional Support for Customer Success
                                     </div>
-                                    <div className='text-left text-secondary-800'>
-                                        A year of inspiration, led to the inception of the software business. We aimed
-                                        to explore all possibilities, regardless of how realistic, feasible or viable
-                                        they may or may not be.
+
+                                    <div className=''>
+                                        At Emspaced, our purpose is to empower success, measuring our achievements
+                                        through our clients’ triumphs. We focus on understanding unique goals and offer
+                                        comprehensive business solutions to manage your administrative tasks, freeing
+                                        time to for you to focus on your growth and desired outcomes.
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +245,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-4 md:p-20 items-center justify-center'>
+                <div className='flex flex-col gap-4 p-20 items-center justify-center'>
                     <div className='text-primary-900 text-6xl font-bold'>
                         CHANNEL PARTNERS
                     </div>

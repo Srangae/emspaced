@@ -2,6 +2,8 @@
 import {sliderProps} from "@/utility/sliderProps";
 import {Component} from "react";
 import Slider from "react-slick";
+import Image from "next/image";
+import {IconArrowBack} from "@tabler/icons-react";
 
 export default class TestimonialSlider extends Component {
     constructor(props) {
@@ -22,7 +24,10 @@ export default class TestimonialSlider extends Component {
         return (
             <div className="nicolas_sm_section">
                 <div className="nicolas_sm_testimonials">
-                    <div className="container">
+                    <div className="container pb-10">
+                        <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
+                               className='bg-opacity-50'/>
+                        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                         <div className="nicolas_sm_main_title">
                             <div className="left">
                             </div>
@@ -68,7 +73,7 @@ export default class TestimonialSlider extends Component {
                                         </div>
                                         <div className="info">
                                             <div className="job">
-                                                <h3>WELCOME TO GOLINK</h3>
+                                                <h3>WELCOME TO EMSPACED</h3>
                                             </div>
                                         </div>
                                     </div>

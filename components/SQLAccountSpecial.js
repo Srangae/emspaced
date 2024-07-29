@@ -15,7 +15,7 @@ const SQLAccountSpecial = () => {
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/cloud_blue.png' alt={1} width={50} height={50}/>
                                             <h3 className='text-primary-900 font-bold'>Access Anywhere</h3>
-                                            <p className='text-white'>
+                                            <p className='text-white text-sm'>
                                                 No matter when or where, get your job done and monitor your business
                                                 anytime
                                                 anywhere.
@@ -26,7 +26,7 @@ const SQLAccountSpecial = () => {
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/report.png' alt={1} width={50} height={50}/>
                                             <h3 className='text-primary-900 font-bold'>Intelligence Reports</h3>
-                                            <p className='text-white'>
+                                            <p className='text-white text-sm'>
                                                 Up to 500 comprehensive reports are ready in SQL Account so you know
                                                 your
                                                 business well.
@@ -44,7 +44,7 @@ const SQLAccountSpecial = () => {
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/layout-grid-add.png' alt={1} width={50} height={50}/>
                                             <h3 className='text-primary-900 font-bold'>Special Industries</h3>
-                                            <p className='text-white'>
+                                            <p className='text-white text-sm'>
                                                 Accountant set, shipping and forwarding, joint management body,
                                                 construction, photocopier & more.
                                             </p>
@@ -54,7 +54,7 @@ const SQLAccountSpecial = () => {
                                         <div className='flex flex-col items-center justify-center text-center'>
                                             <Image src='/img/home/brand-windows.png' alt={1} width={50} height={50}/>
                                             <h3 className='text-primary-900 font-bold'>Customizable</h3>
-                                            <p className='text-white'>
+                                            <p className='text-white text-sm'>
                                                 Your software should be as flexible as your business.
                                             </p>
                                         </div>

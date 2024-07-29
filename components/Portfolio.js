@@ -5,45 +5,6 @@ const Portfolio = ({noTitle = false}) => {
     return (
         <div className="nicolas_sm_section" id="portfolio">
             <div className="nicolas_sm_portfolio">
-                <div className="nicolas_sm_extra_title">
-                    {!noTitle && (
-                        <div className="container">
-                            <div className="projects">
-                                <span>04 // let me show you</span>
-                                <Link href="portfolio">(( project all ))</Link>
-                            </div>
-                        </div>
-                    )}
-                    <Marquee className="title marquee">
-                        <div className="wrap">
-                            <div>
-                                <h3>Past Events</h3>
-                            </div>
-                            <div>
-                                <h3 className="stroke_text_bolder">Past Events</h3>
-                            </div>
-                            <div>
-                                <h3>Past Events</h3>
-                            </div>
-                            <div>
-                                <h3 className="stroke_text_bolder">Past Events</h3>
-                            </div>
-                            <div>
-                                <h3>Past Events</h3>
-                            </div>
-                            <div>
-                                <h3 className="stroke_text_bolder">Past Events</h3>
-                            </div>
-                            <div>
-                                <h3>Past Events</h3>
-                            </div>
-                            <div>
-                                <h3 className="stroke_text_bolder">Past Events</h3>
-                            </div>
-                        </div>
-                    </Marquee>
-                </div>
-
                 <div className="container text-white">
                     <div className="portfolio_in">
                         <ul>
