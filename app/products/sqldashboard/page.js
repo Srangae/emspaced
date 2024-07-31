@@ -88,7 +88,7 @@ const page = () => {
                 <div className='grid md:grid-cols-3 gap-6 p-5 bg-white items-start justify-center'>
                     <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
-                            <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
+                            <Image src='/img/data.jpg' width={400} height={300}/>
                         </div>
                         <div className='text-primary-900 font-bold text-2xl'>
                             ☝ DATA
@@ -101,8 +101,8 @@ const page = () => {
                     </div>
 
                     <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
-                        <div>
-                            <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
+                        <div className='flex justify-center'>
+                            <Image src='/img/idea.jpg' width={250} height={250}/>
                         </div>
                         <div className='text-primary-900 font-bold text-2xl'>
                             ✌ IDEAS
@@ -116,7 +116,7 @@ const page = () => {
 
                     <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
-                            <Image src='/img/home/credit_card.jpg' width={400} height={300}/>
+                            <Image src='/img/profit.jpg' width={400} height={300}/>
                         </div>
                         <div className='text-primary-900 font-bold text-2xl'>
                             🎯 PROFITS

@@ -71,7 +71,7 @@ const page = () => {
                         <div className="extra_container">
                             <div className="awards_in">
                                 <div className="image_box">
-                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                    <img src="/img/pos.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box text-secondary-600">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -130,7 +130,7 @@ const page = () => {
                         <div className="extra_container">
                             <div className="awards_in text-secondary-600">
                                 <div className="image_box">
-                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                    <img src="/img/integration.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -172,7 +172,7 @@ const page = () => {
                         <div className="extra_container">
                             <div className="awards_in text-secondary-600">
                                 <div className="image_box">
-                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                    <img src="/img/payment.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -205,7 +205,7 @@ const page = () => {
                         <div className="extra_container">
                             <div className="awards_in text-secondary-600">
                                 <div className="image_box">
-                                    <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                    <img src="/img/friendly.jpg" alt={2}/>
                                 </div>
                                 <div className="awards_box">
                                     <div className="flex gap-2 justify-center items-center border-b pb-2">
