@@ -11,7 +11,7 @@ const Partners = ({title = "Customers", sectionNumber = "06"}) => {
                             Our Lovely Clients
                         </div>
                         <div className='text-slate-600 text-lg pb-4'>
-                            They choose GOLINK, so what are you waiting for ...
+                            They choose Emspaced, so what are you waiting for ...
                         </div>
                     </div>
                     <div className="line">

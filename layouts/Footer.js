@@ -50,14 +50,6 @@ const Footer = () => {
                                         <Link href='mailto:sales.sql@emspaced.com'>sales.sql@emspaced.com</Link>
                                     </div>
                                     <div className="my-3">
-                                    <div className='font-bold text-black'>Selangor / Kuala Lumpur</div>
-                                    <div>
-                                        <div className='font-bold'>To know further, please contact us at:</div>
-                                        <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>
-                                    </div>
-                                    </div>
-                                    <div className="my-3">
-                                    <div className='font-bold text-black'>Sabah</div>
                                     <div>
                                         <div className='font-bold'>To know further, please contact us at:</div>
                                         <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>

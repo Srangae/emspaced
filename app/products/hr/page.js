@@ -33,8 +33,8 @@ const page = () => {
                 </div>
 
                 <div className='flex text-lg p-10 text-secondary-800'>
-                    The Golink Malaysia is built to provide its services to Human Resource Managers and help them make
-                    their work more manageable and easy. With Golink HR software Malaysia, we cater to all individuals,
+                    The Emspaced Malaysia is built to provide its services to Human Resource Managers and help them make
+                    their work more manageable and easy. With Emspaced HR software Malaysia, we cater to all individuals,
                     from small organizations, private companies to large business groups. We use our skills and
                     knowledge to resolve the issues of our valuable customers. Our expert team of professionals goes
                     deep down into the history and then suggests the solution for your problems.

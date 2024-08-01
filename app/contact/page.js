@@ -56,7 +56,7 @@ const page = () => {
                                                 </li>
                                                 <li>
                                                     <span>Email</span>
-                                                    <a href="#">info@golink.com.my</a>
+                                                    <a href="mailto:sales.sql@emspaced.com">sales.sql@emspaced.com</a>
                                                 </li>
                                                 <li>
                                                     <span>Working Hours</span>
@@ -104,7 +104,7 @@ const page = () => {
                                                 </li>
                                                 <li>
                                                     <span>Email</span>
-                                                    <a href="#">info@golink.com.my</a>
+                                                    <a href="mailto:sales.sql@emspaced.com">sales.sql@emspaced.com</a>
                                                 </li>
                                                 <li>
                                                     <span>Working Hours</span>
