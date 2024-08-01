@@ -4,6 +4,16 @@ import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Specialindustry from "@/components/Specialindustry";
 import Call_us_banner from "@/components/call_us_banner";
+import {
+    IconCurrencyDollarSingapore,
+    IconChartHistogram,
+    IconReceipt2,
+    IconContract,
+    IconSortDescendingNumbers,
+    IconAbacusOff,
+    IconChartBar,
+    IconReport
+} from "@tabler/icons-react";
 
 const page = () => {
     return (
@@ -13,7 +23,8 @@ const page = () => {
                     <div className="container">
                         <div className="flex flex-col items-center justify-center">
                             <div className='font-bold text-6xl text-primary-900 text-center'>SQL Account Features</div>
-                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Optimized - Stable - Feature loaded
+                            <div className='flex items-center justify-center py-6 text-2xl text-secondary-600'>Optimized
+                                - Stable - Feature loaded
                             </div>
                         </div>
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
@@ -249,7 +260,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/ledger.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -284,7 +295,8 @@ const page = () => {
 
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p className='font-bold text-primary-900'>Multi entities consolidation account</p>
+                                        <p className='font-bold text-primary-900'>Multi entities consolidation
+                                            account</p>
                                     </div>
                                     <div className='text-sm w-1/2'>
                                         Use SQL consolidation account to evaluate group companies financial performance
@@ -314,7 +326,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600 text-left">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/reporting.jpg" alt={2}/>
                             </div>
                             <div className="awards_box">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -399,7 +411,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/supplier.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -414,7 +426,8 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p className='font-bold text-primary-900'>Fast, accurate, user-friendly features</p>
+                                        <p className='font-bold text-primary-900'>Fast, accurate, user-friendly
+                                            features</p>
                                     </div>
                                     <div className='text-sm w-1/2'>
                                         Our supplier module contains an array of features like: fast entry for multiple
@@ -450,7 +463,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/s_p.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -466,7 +479,8 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p className='font-bold text-primary-900'>Multiple Pricing & AI selling price assignment</p>
+                                        <p className='font-bold text-primary-900'>Multiple Pricing & AI selling price
+                                            assignment</p>
                                     </div>
                                     <div className='text-sm w-1/2'>
                                         The Multiple Pricing feature let you set separate sales price for dealers and
@@ -477,7 +491,8 @@ const page = () => {
                                 </div>
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p className='font-bold text-primary-900'>Batch email customer invoice/ customer statement of account</p>
+                                        <p className='font-bold text-primary-900'>Batch email customer invoice/ customer
+                                            statement of account</p>
                                     </div>
                                     <div className='text-sm w-1/2'>
                                         Are you still manually sending customer statements? With SQL Account batch email
@@ -532,7 +547,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/stock.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -605,7 +620,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/production.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -672,7 +687,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/tax.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -741,9 +756,10 @@ const page = () => {
                     Other Amazing Features
                 </div>
 
-                <div className='grid md:grid-cols-4 gap-4 items-start justify-center w-full px-4 text-left text-secondary-600'>
+                <div
+                    className='grid md:grid-cols-4 gap-4 items-start justify-center w-full px-4 text-left text-secondary-600'>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconCurrencyDollarSingapore size={150} stroke={0.5}/>
                         <div className='text-primary-900 text-center font-bold text-2xl'>
                             Foreign Currency
                         </div>
@@ -753,7 +769,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconChartHistogram size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Project Accounting
                         </div>
@@ -764,7 +780,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconReceipt2 size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Item Template
                         </div>
@@ -774,7 +790,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconContract size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Landing Cost
                         </div>
@@ -784,7 +800,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconSortDescendingNumbers size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Serial Number
                         </div>
@@ -794,7 +810,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconAbacusOff size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Item Batch
                         </div>
@@ -803,7 +819,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconChartBar size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Global Price Change
                         </div>
@@ -813,7 +829,7 @@ const page = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-4'>
-                        <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                        <IconReport size={150} stroke={0.5}/>
                         <div className='text-primary-900 font-bold text-center text-2xl'>
                             Customisable suite to your unique business
                         </div>
@@ -847,7 +863,6 @@ const page = () => {
             <div id='special_industry'>
                 <Specialindustry/>
             </div>
-
             <Call_us_banner/>
 
         </NikolasLayout>

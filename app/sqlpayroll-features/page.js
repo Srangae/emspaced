@@ -49,7 +49,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/tax.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -113,7 +113,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/reporting.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -172,7 +172,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/on-leave.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -240,7 +240,7 @@ const page = () => {
                     <div className="extra_container">
                         <div className="awards_in text-secondary-600">
                             <div className="image_box">
-                                <img src="/img/dashboard/dashboard-1.jpg" alt={2}/>
+                                <img src="/img/account_features/s_p.jpg" alt={2}/>
                             </div>
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
@@ -354,7 +354,7 @@ const page = () => {
             <div className='flex flex-col items-center justify-center w-full'>
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
                     <div className='flex items-center justify-end'>
-                        <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
+                        <Image src='/img/dashboard/dashboard-1.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5 text-left'>
@@ -371,7 +371,7 @@ const page = () => {
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
                     <div className='flex items-center justify-end'>
-                        <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
+                        <Image src='/img/payment.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
@@ -387,7 +387,7 @@ const page = () => {
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
                     <div className='flex items-center justify-end'>
-                        <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
+                        <Image src='/img/pos.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
@@ -403,7 +403,7 @@ const page = () => {
 
                 <div className='grid md:grid-cols-2 gap-10 p-10'>
                     <div className='flex items-center justify-end'>
-                        <Image src='/img/home/credit_card.jpg' alt='credit_card' objectFit='cover' width={500}
+                        <Image src='/img/friendly.jpg' alt='credit_card' objectFit='cover' width={500}
                                height={500}/>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>

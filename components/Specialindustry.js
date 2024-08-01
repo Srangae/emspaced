@@ -38,7 +38,7 @@ const Specialindustry = () => {
             <div className='grid md:grid-cols-4 items-start justify-center gap-2 px-4 text-left'>
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/solution.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Accountant Set
                     </div>
@@ -49,7 +49,7 @@ const Specialindustry = () => {
                 </div>
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/migrate.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 font-bold text-center text-2xl'>
                         SQL Shipping & Forwarding
                     </div>
@@ -60,7 +60,7 @@ const Specialindustry = () => {
                 </div>
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/insurance.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL J.M.B
                     </div>
@@ -72,7 +72,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/construction.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Construction
                     </div>
@@ -84,7 +84,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/photocopy.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Photocopier
                     </div>
@@ -96,7 +96,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/timber.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Timber/Glass
                     </div>
@@ -108,7 +108,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/property.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Property Management
                     </div>
@@ -120,7 +120,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/manufacture.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Manufacturing
                     </div>
@@ -132,7 +132,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/oil.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Oil Import/Export
                     </div>
@@ -144,7 +144,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/ordering.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Franchise Ordering
                     </div>
@@ -156,7 +156,7 @@ const Specialindustry = () => {
 
                 <div
                     className='flex flex-col items-center justify-center gap-4 border-dotted border-2 border-primary-900 rounded-lg p-6'>
-                    <Image src='/img/dashboard/dashboard-1.jpg' alt='Dashboard' width={300} height={200}/>
+                    <Image src='/img/industry/loan.jpg' alt='Dashboard' width={300} height={200}/>
                     <div className='text-primary-900 text-2xl font-bold text-center'>
                         SQL Money Lending
                     </div>
