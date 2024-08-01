@@ -28,9 +28,6 @@ const page = () => {
                         <div
                             className='absolute inset-0 flex flex-col items-center justify-center gap-4 text-white animate-slidein'>
                             <div className=' font-bold text-4xl'>About Us</div>
-                            <div className='flex items-center justify-center md:w-1/2 py-4 text-2xl text-center'>
-                                Miow, A happy working environment creates a better tomorrow
-                            </div>
                         </div>
 
                     </div>
@@ -120,55 +117,32 @@ const page = () => {
                             Who Are We?
                         </div>
                         <div className='flex flex-col gap-4'>
-                            <div>
-                                Emspaced champions your business and entrepreneurial journey, aiming for a future where
-                                you
-                                continue to thrive.
-                                We’re not just a place to work; we offer a foundation where growth and stability meet.
-                            </div>
-                            <div>
-                                Our spaces come fully equipped for success, featuring not only exceptional, comfy and
-                                state-of-the-art work areas, but also comprehensive support services. From HR management
-                                and IT
-                                solutions to accounting services, we ensure your business operates smoothly and remains
-                                resilient.
-                            </div>
-
-                            <div>
-                                With membership options that adapt to your needs, we’re committed to providing the
-                                flexibility
-                                and resources you need to expand and adapt in a dynamic marketplace.
-                            </div>
+                            Human Resource Management System(HRMS), IT Solutions, Accounting Services
                         </div>
 
                     </div>
 
-                    <div className='flex flex-col gap-4'>
-                        <div className='text-2xl font-bold'>
-                            Our Vision
-                        </div>
-                        <div className=''>
-                            Our vision is to lead the change in collaborative workspaces, making them places where
-                            support,
-                            innovation, and
-                            growth are part of everyday life. We want to help businesses and individuals achieve their
-                            best,
-                            creating a future
-                            where success and well-being are for everyone.
-                        </div>
-                    </div>
+                    {/*<div className='flex flex-col gap-4'>*/}
+                    {/*    <div className='text-2xl font-bold'>*/}
+                    {/*        Our Vision*/}
+                    {/*    </div>*/}
+                    {/*    <div className=''>*/}
+                    {/*        Our vision is to lead the change in collaborative workspaces, making them places where*/}
+                    {/*        support,*/}
+                    {/*        innovation, and*/}
+                    {/*        growth are part of everyday life. We want to help businesses and individuals achieve their*/}
+                    {/*        best,*/}
+                    {/*        creating a future*/}
+                    {/*        where success and well-being are for everyone.*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     <div className='flex flex-col gap-4'>
                         <div className='text-2xl font-bold'>
                             Our Mission
                         </div>
                         <div>
-                            Our mission is to empower businesses and entrepreneurs with the essential tools and
-                            supportive
-                            environment they need to succeed and stay resilient. In our secure, innovative workspace
-                            ecosystem, we offer comprehensive solutions like HR management, IT support, and accounting
-                            services, ensuring businesses have the resources and connections to withstand challenges and
-                            prosper.
+                            Human Resource Management System(HRMS), IT Solutions, Accounting Services
                         </div>
                     </div>
 
@@ -245,57 +219,57 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-4 p-20 items-center justify-center'>
-                    <div className='text-primary-900 text-6xl font-bold'>
-                        CHANNEL PARTNERS
-                    </div>
-                    <div className='text-secondary-600 text-2xl'>
-                        not just about system but the business
-                    </div>
+                {/*<div className='flex flex-col gap-4 p-20 items-center justify-center'>*/}
+                {/*    <div className='text-primary-900 text-6xl font-bold'>*/}
+                {/*        CHANNEL PARTNERS*/}
+                {/*    </div>*/}
+                {/*    <div className='text-secondary-600 text-2xl'>*/}
+                {/*        not just about system but the business*/}
+                {/*    </div>*/}
 
-                    <div className='grid md:grid-cols-2 gap-4 md:py-10'>
-                        <div className='flex flex-col gap-4 items-center justify-center'>
-                            <div>
-                                <Image src='/img/company/bispoint-366x389.png' width={200} height={200}/>
-                            </div>
-                            <div className='md:w-2/3 text-center'>
-                                Bispoint Group provides comprehensive business and financial solutions for small &
-                                medium-sized enterprises (SMEs) as well as multinational foreign companies (MNCs).
-                            </div>
+                {/*    <div className='grid md:grid-cols-2 gap-4 md:py-10'>*/}
+                {/*        <div className='flex flex-col gap-4 items-center justify-center'>*/}
+                {/*            <div>*/}
+                {/*                <Image src='/img/company/bispoint-366x389.png' width={200} height={200}/>*/}
+                {/*            </div>*/}
+                {/*            <div className='md:w-2/3 text-center'>*/}
+                {/*                Bispoint Group provides comprehensive business and financial solutions for small &*/}
+                {/*                medium-sized enterprises (SMEs) as well as multinational foreign companies (MNCs).*/}
+                {/*            </div>*/}
 
-                            <div className='flex flex-col items-center justify-center'>
-                                <div className='font-bold'>
-                                    Bispoint
-                                </div>
-                                <div>
-                                    Group of Accountants
-                                </div>
-                            </div>
+                {/*            <div className='flex flex-col items-center justify-center'>*/}
+                {/*                <div className='font-bold'>*/}
+                {/*                    Bispoint*/}
+                {/*                </div>*/}
+                {/*                <div>*/}
+                {/*                    Group of Accountants*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
 
-                        </div>
+                {/*        </div>*/}
 
-                        <div className='flex flex-col gap-4 items-center justify-center'>
-                            <div>
-                                <Image src='/img/company/bispoint-366x389.png' width={200} height={200}/>
-                            </div>
-                            <div className='md:w-2/3 text-center'>
-                                Bispoint Group provides comprehensive business and financial solutions for small &
-                                medium-sized enterprises (SMEs) as well as multinational foreign companies (MNCs).
-                            </div>
+                {/*        <div className='flex flex-col gap-4 items-center justify-center'>*/}
+                {/*            <div>*/}
+                {/*                <Image src='/img/company/bispoint-366x389.png' width={200} height={200}/>*/}
+                {/*            </div>*/}
+                {/*            <div className='md:w-2/3 text-center'>*/}
+                {/*                Bispoint Group provides comprehensive business and financial solutions for small &*/}
+                {/*                medium-sized enterprises (SMEs) as well as multinational foreign companies (MNCs).*/}
+                {/*            </div>*/}
 
-                            <div className='flex flex-col items-center justify-center'>
-                                <div className='font-bold'>
-                                    Bispoint
-                                </div>
-                                <div>
-                                    Group of Accountants
-                                </div>
-                            </div>
+                {/*            <div className='flex flex-col items-center justify-center'>*/}
+                {/*                <div className='font-bold'>*/}
+                {/*                    Bispoint*/}
+                {/*                </div>*/}
+                {/*                <div>*/}
+                {/*                    Group of Accountants*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
 
-                        </div>
+                {/*        </div>*/}
 
-                    </div>
-                </div>
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </NikolasLayout>
     );

@@ -216,61 +216,61 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div
-                        className='flex items-center justify-center bg-banner-50 w-full text-white'>
-                        <div className='w-5/6 flex flex-col gap-5 py-6 '>
-                            <div className='text-center text-2xl pt-6 font-bold'>
-                                SQL Account - Recommended Server Specification
-                            </div>
+                    {/*<div*/}
+                    {/*    className='flex items-center justify-center bg-banner-50 w-full text-white'>*/}
+                    {/*    <div className='w-5/6 flex flex-col gap-5 py-6 '>*/}
+                    {/*        <div className='text-center text-2xl pt-6 font-bold'>*/}
+                    {/*            SQL Account - Recommended Server Specification*/}
+                    {/*        </div>*/}
 
-                            <div className='flex flex-col gap-5'>
-                                <div className='flex flex-col gap-1'>
-                                    <div className='font-bold text-md'>
-                                        Processor
-                                    </div>
-                                    <div className='text-sm'>
-                                        Intel Core i7 3.2 Ghz Processor – 8th Generation
-                                    </div>
-                                </div>
-                                <div className='flex flex-col gap-1'>
-                                    <div className='font-bold text-md'>
-                                        Motherboard
-                                    </div>
-                                    <div className='text-sm'>
-                                        Asus Prime B360 - Plus Mainboard or above
-                                    </div>
-                                </div>
-                                <div className='flex flex-col gap-1'>
-                                    <div className='font-bold text-md'>
-                                        Memory
-                                    </div>
-                                    <div className='text-sm'>
-                                        16 GB DD RAM 4 - PC 2133 – 1st grade - Kingston
-                                    </div>
-                                </div>
-                                <div className='flex flex-col gap-1'>
-                                    <div className='font-bold text-md'>
-                                        O.S. Disk
-                                    </div>
-                                    <div className='text-sm'>
-                                        250 GB Samsung NVMe Memory Storage Drive - 3200Mbps
-                                    </div>
-                                </div>
-                                <div className='flex flex-col gap-1'>
-                                    <div className='font-bold text-md'>
-                                        Operating System
-                                    </div>
-                                    <div className='text-sm'>
-                                        Windows 10 Pro or above (64 bit)
-                                    </div>
-                                    <div className='text-sm'>
-                                        Windows Server 2012/2016 (Highly NOT recommended)
-                                    </div>
-                                </div>
+                    {/*        <div className='flex flex-col gap-5'>*/}
+                    {/*            <div className='flex flex-col gap-1'>*/}
+                    {/*                <div className='font-bold text-md'>*/}
+                    {/*                    Processor*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    Intel Core i7 3.2 Ghz Processor – 8th Generation*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className='flex flex-col gap-1'>*/}
+                    {/*                <div className='font-bold text-md'>*/}
+                    {/*                    Motherboard*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    Asus Prime B360 - Plus Mainboard or above*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className='flex flex-col gap-1'>*/}
+                    {/*                <div className='font-bold text-md'>*/}
+                    {/*                    Memory*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    16 GB DD RAM 4 - PC 2133 – 1st grade - Kingston*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className='flex flex-col gap-1'>*/}
+                    {/*                <div className='font-bold text-md'>*/}
+                    {/*                    O.S. Disk*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    250 GB Samsung NVMe Memory Storage Drive - 3200Mbps*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className='flex flex-col gap-1'>*/}
+                    {/*                <div className='font-bold text-md'>*/}
+                    {/*                    Operating System*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    Windows 10 Pro or above (64 bit)*/}
+                    {/*                </div>*/}
+                    {/*                <div className='text-sm'>*/}
+                    {/*                    Windows Server 2012/2016 (Highly NOT recommended)*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
 
-                            </div>
-                        </div>
-                    </div>
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
 
                 <div id='sql_pricing'>

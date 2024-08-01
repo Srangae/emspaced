@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="extra_container">
                         <div className="footer_in">
                             <div className="left">
-                                <Image src='/img/logo/company_logo_white.jpeg' alt='company_logo' width={400} height={400} />
+                                <Image src='/img/logo/company_logo_1.jpg' alt='company_logo' width={400} height={400} />
                             </div>
                             <div className="right">
                                 <div className='text-white'>
@@ -47,19 +47,19 @@ const Footer = () => {
                                     <h1 className='text-2xl my-6'>Contacts</h1>
                                     <div className="my-3">
                                         <div className='font-bold'>Email:</div>
-                                        <Link href='#'>info@golink.com.my</Link>
+                                        <Link href='mailto:sales.sql@emspaced.com'>sales.sql@emspaced.com</Link>
                                     </div>
                                     <div className="my-3">
-                                    <div className='font-bold'>Selangor / Kuala Lumpur</div>
+                                    <div className='font-bold text-black'>Selangor / Kuala Lumpur</div>
                                     <div>
-                                        <div className='font-bold'>Whatsapp:</div>
+                                        <div className='font-bold'>To know further, please contact us at:</div>
                                         <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>
                                     </div>
                                     </div>
                                     <div className="my-3">
-                                    <div className='font-bold'>Sabah</div>
+                                    <div className='font-bold text-black'>Sabah</div>
                                     <div>
-                                        <div className='font-bold'>Whatsapp:</div>
+                                        <div className='font-bold'>To know further, please contact us at:</div>
                                         <Link href='https://wa.link/3chr1y'>+60 3 789 00203</Link>
                                     </div>
                                     </div>
