@@ -118,11 +118,6 @@ const page = () => {
                         </div>
                         <div className='flex flex-col gap-4'>
                             <div>
-                                <li className='font-bold'>
-                                    Human Resource Management System(HRMS), IT Solutions, Accounting Services
-                                </li>
-                            </div>
-                            <div>
                                 Emspaced champions your business and entrepreneurial journey, aiming for a future where
                                 you
                                 continue to thrive.
@@ -130,9 +125,9 @@ const page = () => {
                             </div>
                             <div>
                                 Our spaces come fully equipped for success, featuring not only exceptional, comfy and
-                                state-of-the-art work areas, but also comprehensive support services. From HR management
+                                state-of-the-art work areas, but also comprehensive support services. From <strong>Human Resource Management System(HRMS)
                                 and IT
-                                solutions to accounting services, we ensure your business operates smoothly and remains
+                                Solutions, Accounting Services</strong>, we ensure your business operates smoothly and remains
                                 resilient.
                             </div>
 
@@ -164,16 +159,12 @@ const page = () => {
                         <div className='text-2xl font-bold'>
                             Our Mission
                         </div>
-
-                        <div className='font-bold'>
-                            - Human Resource Management System(HRMS), IT Support, Accounting Services -
-                        </div>
                         <div>
                             Our mission is to empower businesses and entrepreneurs with the essential tools and
                             supportive
                             environment they need to succeed and stay resilient. In our secure, innovative workspace
-                            ecosystem, we offer comprehensive solutions like HR management, IT support, and accounting
-                            services, ensuring businesses have the resources and connections to withstand challenges and
+                            ecosystem, we offer comprehensive solutions like <strong>Human Resource Management System(HRMS), IT Support, and Accounting
+                            Services</strong>, ensuring businesses have the resources and connections to withstand challenges and
                             prosper.
                         </div>
                     </div>
