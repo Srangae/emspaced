@@ -339,7 +339,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='payroll_banner_1 w-full'>
+            <div className='bg-banner-50 w-full'>
                 <div className='flex flex-col text-center items-center justify-center py-20 md:py-20 gap-10 px-10'>
                     <div className='text-3xl md:text-6xl text-white'>
                         SQL E Leave Features
