@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Specialindustry = () => {
     return (
-        <div className='py-6 bg-gradient-to-r from-emerald-400 to-cyan-400'>
+        <div className='py-6 bg-banner-50'>
             <div className='flex flex-col gap-5 items-center justify-center'>
                 <div className='text-4xl font-bold text-primary-900'>
                     Special Industries
