@@ -30,7 +30,7 @@ const page = () => {
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
                             <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
-                                    href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                                    href='https://wa.me/message/BTIUQPHTL6AKE1'
                                     target='_blank'>
                                     Enquiry
                                 </Link>
@@ -243,7 +243,7 @@ const page = () => {
 
                 <div className='w-full'>
                     <Link
-                        href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                        href='https://wa.me/message/BTIUQPHTL6AKE1'
                         target='_blank'>
                         <button className='bg-emerald-900 p-3 rounded-3xl md:w-1/5'>
                             Enquiry
@@ -734,7 +734,7 @@ const page = () => {
 
                 <div className='flex items-center justify-center md:flex-row flex-col w-full gap-5 py-6'>
                     <Link
-                        href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                        href='https://wa.me/message/BTIUQPHTL6AKE1'
                         target='_blank'
                         className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
@@ -841,7 +841,7 @@ const page = () => {
                 </div>
                 <div className='flex items-center justify-center md:flex-row flex-col w-full gap-5 py-6'>
                     <Link
-                        href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                        href='https://wa.me/message/BTIUQPHTL6AKE1'
                         target='_blank'
                         className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>

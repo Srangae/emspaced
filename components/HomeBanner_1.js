@@ -21,7 +21,7 @@ const HomeBanner_1 = () => {
                 <div className='flex items-center justify-center w-full pb-4 md:pb-10'>
                     <button className='bg-primary-500 rounded-2xl text-white px-4 py-2 md:px-6 md:py-3'>
                         <Link
-                            href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'>
+                            href='https://wa.me/message/BTIUQPHTL6AKE1'>
                             LEARN MORE
                         </Link>
                     </button>

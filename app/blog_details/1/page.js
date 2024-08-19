@@ -99,7 +99,7 @@ const page = () => {
                                         </p>
 
                                         <p className='text-justify'>
-                                            Employees can manage their time and attendance with <Link href='#' className='text-blue-400'>HR software Malaysia </Link>
+                                            Employees can manage their time and attendance with <Link href='/products/hr' className='text-blue-400'>HR software Malaysia </Link>
                                             because
                                             it is already linked to their salary information and reporting requirements.
                                             By

@@ -56,10 +56,10 @@ const ELeave_special = () => {
               <div className='flex flex-col items-center justify-center py-2 md:gap-10'>
                   <div className='flex md:flex-row flex-col w-full items-center justify-center gap-10 py-6'>
                       <button className='bg-primary-900 rounded-2xl text-white py-3 px-5'><Link
-                          href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
+                          href='https://wa.me/message/BTIUQPHTL6AKE1'
                           target='_blank'>LEARN MORE</Link></button>
                       <button className='bg-secondary-600 rounded-2xl text-white py-3 px-5'><Link
-                          href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
+                          href='https://wa.me/message/BTIUQPHTL6AKE1'
                           target='_blank'>ENQUIRY</Link></button>
                   </div>
               </div>

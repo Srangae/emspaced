@@ -18,7 +18,7 @@ const page = () => {
                         <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
                             <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
-                                    href='https://forms.zohopublic.com/golink/form/ContactUs/formperma/9FALmGi4adC9sZdFQQoXYcPZvih6HlF7OJsJNPiEdxI'
+                                    href='https://wa.me/message/BTIUQPHTL6AKE1'
                                     target='_blank'>
                                     Subscribe
                                 </Link>

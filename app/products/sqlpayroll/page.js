@@ -36,7 +36,7 @@ const page = () => {
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
                             <button className='bg-primary-900 text-white w-32 rounded-xl p-2'>
                                 <Link
-                                    href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
+                                    href='https://wa.me/message/BTIUQPHTL6AKE1'
                                     target='_blank'>
                                     Enquiry
                                 </Link>
@@ -289,7 +289,7 @@ const page = () => {
                         </Link>
 
                         <Link
-                            href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
+                            href='https://wa.me/message/BTIUQPHTL6AKE1'
                             target='_blank'
                             className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                             <button>
@@ -358,7 +358,7 @@ const page = () => {
                                 href='/sqlpayroll-features'
                                 target='_blank'>FULL FEATURES</Link></button>
                             <button className='bg-secondary-800 rounded-2xl text-white p-3 w-1/2 md:w-1/5'><Link
-                                href='https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0'
+                                href='https://wa.me/message/BTIUQPHTL6AKE1'
                                 target='_blank'>ENQUIRY</Link></button>
                         </div>
                     </div>

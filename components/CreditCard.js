@@ -19,7 +19,7 @@ const CreditCard = () => {
 
                 <div className='flex items-center justify-center w-full pb-10'>
                     <button className='bg-primary-400 rounded-2xl text-white p-3 md:w-2/5'><Link
-                        href='https://docs.google.com/forms/d/e/1FAIpQLSetF6DKhQpZZL2srdDtqkgiMnohGaBwIhWX1Fy-EoMlAqgG9Q/viewform'
+                        href='https://wa.me/message/BTIUQPHTL6AKE1'
                     >LEARN MORE</Link></button>
                 </div>
             </div>

@@ -72,7 +72,7 @@ const PayrollPricing = () => {
                                 <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ const PayrollPricing = () => {
                                 <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@ const PayrollPricing = () => {
                                 <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@ const PayrollPricing = () => {
                                 <div className="button mt-4">
                                     <span>Enquiry Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLPayrollSQLELeave/formperma/60VtgNr5hL5RctFPddc-A4jazeEJ0P0OPtVuHir38s0"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>

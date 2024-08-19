@@ -57,7 +57,7 @@ const CloudPricing = () => {
                                 <div className="button">
                                     <span className='text-secondary-600'>Subscribe Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ const CloudPricing = () => {
                                 <div className="button">
                                     <span className='text-secondary-600'>Subscribe Now</span>
                                     <a className="nicolas_sm_full_link"
-                                       href="https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE"
+                                       href="https://wa.me/message/BTIUQPHTL6AKE1"
                                        target='_blank'/>
                                 </div>
                             </div>

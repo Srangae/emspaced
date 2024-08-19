@@ -18,7 +18,7 @@ const Specialindustry = () => {
 
                 <div className='flex items-center justify-center md:flex-row flex-col w-full gap-5 py-6'>
                     <Link
-                        href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                        href='https://wa.me/message/BTIUQPHTL6AKE1'
                         target='_blank'
                         className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                         <button>
@@ -181,7 +181,7 @@ const Specialindustry = () => {
 
             <div className='flex items-center justify-center md:flex-row flex-col w-full gap-5 py-10'>
                 <Link
-                    href='https://forms.zohopublic.com/golink/form/SQLAccountSQLCloudAccount/formperma/D6D-umfQ8QraNJIw5HyiDTKj_S-GcrWdgTUW2FH1AeE'
+                    href='https://wa.me/message/BTIUQPHTL6AKE1'
                     target='_blank'
                     className='flex items-center justify-center bg-primary-900 text-white w-full md:w-1/5 rounded-3xl p-5'>
                     <button>
