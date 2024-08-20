@@ -71,13 +71,13 @@ const Header = () => {
                       <Link href="/products/sqlcloud" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">SQL Cloud
                         (SaaS)</Link>
                     </li>
-                    <li>
-                      <Link href="/products/sqldashboard" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">SQL
-                        Dashboard</Link>
-                    </li>
-                    <li>
-                      <Link href="/products/ctos" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">CTOS CREDIT</Link>
-                    </li>
+                    {/*<li>*/}
+                    {/*  <Link href="/products/sqldashboard" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">SQL*/}
+                    {/*    Dashboard</Link>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*  <Link href="/products/ctos" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">CTOS CREDIT</Link>*/}
+                    {/*</li>*/}
                     <li>
                       <Link href="/products/hr" className="block px-4 py-2 hover:bg-banner-50 hover:bg-opacity-50">HR Software
                         Malaysia</Link>

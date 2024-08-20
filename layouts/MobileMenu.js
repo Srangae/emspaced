@@ -36,12 +36,12 @@ export const MobileMenu = () => {
                 <li>
                   <Link href="/products/sqlcloud">SQL Cloud (SaaS)</Link>
                 </li>
-                <li>
-                  <Link href="/products/sqldashboard">SQL Dashboard</Link>
-                </li>
-                <li>
-                  <Link href="/products/ctos">CTOS CREDIT</Link>
-                </li>
+                {/*<li>*/}
+                {/*  <Link href="/products/sqldashboard">SQL Dashboard</Link>*/}
+                {/*</li>*/}
+                {/*<li>*/}
+                {/*  <Link href="/products/ctos">CTOS CREDIT</Link>*/}
+                {/*</li>*/}
                 <li>
                   <Link href="/products/hr">HR Software Malaysia</Link>
                 </li>
