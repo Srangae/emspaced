@@ -54,7 +54,7 @@ const BlogDetailsPage = ({ params }: any) => {
                                 <div className="info_box">
                                     <div className="info">
                                         <div className="image">
-                                            <img src="/img/blog/avatar.jpg" alt={7} />
+                                            <img src="/img/blog/avatar.jpg" alt="blog_avatar_7" />
                                         </div>
                                         <div className="title">
                                             <span>Written by</span>
@@ -70,7 +70,7 @@ const BlogDetailsPage = ({ params }: any) => {
                         </div>
                     </div>
                     <div className="hero_image">
-                        <img src={`/img/blog/blog_${blog_id}.jpg`} alt={8} />
+                        <img src={`/img/blog/blog_${blog_id}.jpg`} alt="blog_avatar_8" />
                     </div>
                     <div className="container">
                         <div className="extra_container">
