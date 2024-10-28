@@ -43,7 +43,7 @@ const BlogDetailsPage = ({ params }: any) => {
 
     return (
         <>
-            <NikolasLayout>
+            <NikolasLayout noFooter={true} onepage={false}>
                 <div className="nicolas_sm_blog_details">
                     <div className="nicolas_sm_page_title">
                         <div className="container">
