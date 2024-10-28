@@ -1,21 +1,32 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Specialindustry from "@/components/Specialindustry";
 import Call_us_banner from "@/components/call_us_banner";
 import {
-    IconCurrencyDollarSingapore,
-    IconChartHistogram,
-    IconReceipt2,
-    IconContract,
-    IconSortDescendingNumbers,
     IconAbacusOff,
     IconChartBar,
-    IconReport
+    IconChartHistogram,
+    IconContract,
+    IconCurrencyDollarSingapore,
+    IconReceipt2,
+    IconReport,
+    IconSortDescendingNumbers
 } from "@tabler/icons-react";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'SQL Account: Tools for Better Financial Control - Emspaced ',
+            description: "Experience the key features of SQL Account by Emspaced. Enhance your financial processes and reporting with user-friendly tools tailored to your unique needs",
+        })
+    }, [setMetadata])
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

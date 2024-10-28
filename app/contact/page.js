@@ -1,8 +1,20 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import {IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconBrandMeta} from "@tabler/icons-react";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'Contact Us for Professional Accounting Support - Emspaced ',
+            description: "Have questions? Reach out to Emspaced Accounting! Our dedicated team is ready to assist you with any inquiries about our services and upcoming events. ",
+        })
+    }, [setMetadata])
+
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

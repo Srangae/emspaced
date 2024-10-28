@@ -8,8 +8,19 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'Join Upcoming Events to Elevate Your Business - Emspaced',
+            description: "Join Emspaced Accounting for our exciting upcoming events! Stay updated on workshops and networking opportunities to enhance your financial expertise.",
+        })
+    }, [setMetadata])
     return (
         <NikolasLayout>
             {" "}

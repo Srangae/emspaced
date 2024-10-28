@@ -4,8 +4,17 @@ import {nicolasUtility} from "@/utility";
 import {useEffect, useState} from "react";
 import Image from 'next/image'
 import Link from "next/link";
+import {useMetadata} from "@/context/MetadataContext";
 
 const page = () => {
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'Accounting Tips and Insights for Better Practices - Emspaced',
+            description: "Explore the Emspaced Accounting blog for valuable insights, practical tips, and essential resources. Stay informed on industry trends and best practices.",
+        })
+    }, [setMetadata])
 
     const [result, setResult] = useState(null);
     useEffect( () => {

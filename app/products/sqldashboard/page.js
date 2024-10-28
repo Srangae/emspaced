@@ -1,21 +1,22 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Pricing from "@/components/Pricing";
-import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
-import Call_us_banner from "@/components/call_us_banner";
-import HomeBanner_1 from "@/components/HomeBanner_1";
-import Payroll_banner from "@/components/payroll_banner";
-import Video_banner from "@/components/sqlpayroll/video_banner";
-import PayrollPricing from "@/components/sqlpayroll/Pricing";
-import Pos_feature from "@/components/sqlpos/pos_feature";
-import PosPricing from "@/components/sqlpos/pos_pricing";
-import CloudPricing from "@/components/sqlcloud/cloud_pricing";
 import DashboardVideo from "@/components/sqldashboard/dashboard_video";
 import DashboardPricing from "@/components/sqldashboard/dashboard_pricing";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'SQL Dashboard: Visual Insights for Better Choices - Emspaced',
+            description: "Visualize your financial data with SQL Dashboard from Emspaced. Gain valuable insights and track performance effortlessly for smarter decision-making",
+        })
+    }, [setMetadata])
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

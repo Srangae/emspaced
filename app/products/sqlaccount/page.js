@@ -6,9 +6,19 @@ import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Call_us_banner from "@/components/call_us_banner";
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {useMetadata} from "@/context/MetadataContext";
 
 const page = () => {
+
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'SQL Account: Beyond Basic Accounting Software - Emspaced ',
+            description: 'Enhance your accounting with SQL Account by Emspaced. Leverage powerful features and seamless integration for efficient reporting and management today! ',
+        })
+    }, [setMetadata])
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

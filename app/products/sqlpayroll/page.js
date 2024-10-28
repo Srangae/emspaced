@@ -1,3 +1,4 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Pricing from "@/components/Pricing";
@@ -17,8 +18,19 @@ import {
     IconReport,
     IconDeviceLaptop, IconLayout, IconLayoutCollage, IconTax
 } from "@tabler/icons-react";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'SQL Payroll: User-Friendly Payroll System - Emspaced',
+            description: "Manage payroll effortlessly with SQL Payroll from Emspaced. Enjoy accurate calculations and intuitive tools designed to streamline your team's processes.",
+        })
+    }, [setMetadata])
+
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

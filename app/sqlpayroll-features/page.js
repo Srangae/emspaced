@@ -1,14 +1,21 @@
+'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Pricing from "@/components/Pricing";
-import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
-import MarqueeTitle from "@/components/MarqueeTitle";
-import Specialindustry from "@/components/Specialindustry";
-import Call_us_banner from "@/components/call_us_banner";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'SQL Payroll: Key Features for Employee Management - Emspaced',
+            description: "Explore essential features of SQL Payroll from Emspaced. Streamline payroll tasks, enhance accuracy, and simplify compliance for your organization today!",
+        })
+    }, [setMetadata])
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">

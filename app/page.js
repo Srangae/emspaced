@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import NikolasLayout from "@/layouts/NikolasLayout";
@@ -10,8 +10,19 @@ import SQLPaySpecial from "@/components/SQLPaySpecial";
 import SQLLeave_special from "@/components/SQLLeave_special";
 import ELeave_special from "@/components/ELeave_special";
 import Reviews from "@/components/Reviews";
+import {useMetadata} from "@/context/MetadataContext";
+import {useEffect} from "react";
 
 const page = () => {
+    const {setMetadata} = useMetadata()
+
+    useEffect(() => {
+        setMetadata({
+            title: 'Expert SQL Accounting Solutions for Your Business - Emspaced',
+            description: 'Discover seamless accounting solutions with Emspaced. Simplify financial management and explore a range of tailored services designed to meet your needs! ',
+        })
+    }, [setMetadata])
+
     return (
         <NikolasLayout>
             {/* Hero */}
@@ -30,21 +41,6 @@ const page = () => {
             <SQLLeave_special/>
             <ELeave_special/>
                 <Reviews/>
-            {/* Portfolio */}
-            {/*<Portfolio/>*/}
-            {/* /Portfolio */}
-            {/* Testimonials */}
-            {/*<TestimonialSlider/>*/}
-            {/* /Testimonials */}
-            {/* Partners */}
-            {/*<Partners/>*/}
-            {/* /Partners */}
-            {/* Pricing */}
-            {/*<Pricing/>*/}
-            {/* /Pricing */}
-            {/* Blog */}
-            {/*<Blog/>*/}
-            {/* /Blog */}
         </NikolasLayout>
     );
 };
