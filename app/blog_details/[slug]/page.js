@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import NikolasLayout from "../../../layouts/NikolasLayout";
 
 const BlogDetailsPage = ({ params }) => {
-    const blog_id = params.id;
+    const { slug } = params
     const [blogDetails, setBlogDetails] = useState(null);
     const [metadata, setMetadata] = useState({ title: '', description: '' });
 
@@ -14,7 +14,7 @@ const BlogDetailsPage = ({ params }) => {
             const content = gist.files['content.json'].content;
             const parsedContent = JSON.parse(content);
             const blogData = parsedContent.find(item => item.key === "BLOG");
-            const details = blogData.data.data[parseInt(blog_id) - 1];
+            const details = blogData.data.data.find(blog => blog.slug === slug)
 
             if (details) {
                 setBlogDetails(details);
@@ -26,7 +26,7 @@ const BlogDetailsPage = ({ params }) => {
         };
 
         fetchBlogDetails();
-    }, [blog_id]);
+    }, [slug]);
 
     // Update the document title and meta description dynamically
     useEffect(() => {
@@ -69,7 +69,7 @@ const BlogDetailsPage = ({ params }) => {
                     </div>
                 </div>
                 <div className="hero_image">
-                    <img src={`/img/blog/blog_${blog_id}.jpg`} alt="blog_avatar_8" />
+                    <img src={`/img/blog/blog_${blogDetails.blog_index}.jpg`} alt="blog_avatar_8" />
                 </div>
                 <div className="container">
                     <div className="extra_container">

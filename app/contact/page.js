@@ -98,7 +98,7 @@ const page = () => {
                                                             href='https://www.linkedin.com/company/emspacedmy/'><IconBrandLinkedin/></Link>
                                                         </p>
                                                         <p><Link
-                                                            href='>https://www.instagram.com/emspacedmy/'><IconBrandInstagram/></Link>
+                                                            href='https://www.instagram.com/emspacedmy/'><IconBrandInstagram/></Link>
                                                         </p>
                                                     </div>
                                                 </li>
