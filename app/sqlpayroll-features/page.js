@@ -1,21 +1,16 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
+export async function generateMetadata() {
+    return {
+        title: 'SQL Payroll: Key Features for Employee Management - Emspaced',
+        description: "Explore essential features of SQL Payroll from Emspaced. Streamline payroll tasks, enhance accuracy, and simplify compliance for your organization today!",
+    };
+}
 
-    const {setMetadata} = useMetadata()
-
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL Payroll: Key Features for Employee Management - Emspaced',
-            description: "Explore essential features of SQL Payroll from Emspaced. Streamline payroll tasks, enhance accuracy, and simplify compliance for your organization today!",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -50,7 +45,7 @@ const page = () => {
                     </div>
                 </div>
                 <div className="container">
-                <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
+                    <div className='flex items-center justify-center pt-6 text-3xl text-primary-900 font-bold'>
                         Monthly Payroll Process
                     </div>
                     <div className="extra_container">
@@ -125,7 +120,8 @@ const page = () => {
                             <div className="awards_box text-left">
                                 <div className="flex gap-2 justify-center items-center border-b pb-2">
                                     <div className='font-bold text-lg text-white w-1/2 text-center'>
-                                        <p className='font-bold text-primary-900'>Statutory reports with e-submission</p>
+                                        <p className='font-bold text-primary-900'>Statutory reports with
+                                            e-submission</p>
                                     </div>
                                     <div className='text-sm w-1/2'>
                                         SQL Payroll software contains all necessary statutory report forms like EPF
@@ -562,7 +558,8 @@ const page = () => {
                     </tbody>
                 </table>
 
-                <div className='flex flex-col items-center justify-center text-primary-900 font-bold italic text-2xl w-1/2'>
+                <div
+                    className='flex flex-col items-center justify-center text-primary-900 font-bold italic text-2xl w-1/2'>
                     <img className="sm_svg" src="/img/svg/quote.svg" alt={1}/>
                     <p>
                         Every business deserves a personalized software that matches its
@@ -1141,4 +1138,3 @@ const page = () => {
     )
         ;
 };
-export default page;

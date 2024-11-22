@@ -1,4 +1,3 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
@@ -14,19 +13,15 @@ import {
     IconReport,
     IconSortDescendingNumbers
 } from "@tabler/icons-react";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
+export async function generateMetadata() {
+    return {
+        title: 'SQL Account: Tools for Better Financial Control - Emspaced',
+        description: "Experience the key features of SQL Account by Emspaced. Enhance your financial processes and reporting with user-friendly tools tailored to your unique needs",
+    };
+}
 
-    const {setMetadata} = useMetadata()
-
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL Account: Tools for Better Financial Control - Emspaced ',
-            description: "Experience the key features of SQL Account by Emspaced. Enhance your financial processes and reporting with user-friendly tools tailored to your unique needs",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -880,4 +875,3 @@ const page = () => {
     )
         ;
 };
-export default page;
