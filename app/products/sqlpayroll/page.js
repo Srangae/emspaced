@@ -1,36 +1,30 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import Pricing from "@/components/Pricing";
-import SQLAccountPricing from "@/components/SqlAccountPricing";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Call_us_banner from "@/components/call_us_banner";
-import HomeBanner_1 from "@/components/HomeBanner_1";
 import Payroll_banner from "@/components/payroll_banner";
 import Video_banner from "@/components/sqlpayroll/video_banner";
 import PayrollPricing from "@/components/sqlpayroll/Pricing";
 import {
-    IconFileInfo,
-    IconRouteAltLeft,
     IconCards,
+    IconDeviceLaptop,
+    IconFileInfo,
+    IconLayoutCollage,
     IconPrinter,
     IconReport,
-    IconDeviceLaptop, IconLayout, IconLayoutCollage, IconTax
+    IconRouteAltLeft,
+    IconTax
 } from "@tabler/icons-react";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'SQL Payroll: User-Friendly Payroll System - Emspaced',
+        description: "Manage payroll effortlessly with SQL Payroll from Emspaced. Enjoy accurate calculations and intuitive tools designed to streamline your team's processes.",
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL Payroll: User-Friendly Payroll System - Emspaced',
-            description: "Manage payroll effortlessly with SQL Payroll from Emspaced. Enjoy accurate calculations and intuitive tools designed to streamline your team's processes.",
-        })
-    }, [setMetadata])
-
+export default function page(){
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -380,4 +374,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;

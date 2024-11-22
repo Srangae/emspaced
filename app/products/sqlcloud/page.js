@@ -1,58 +1,54 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import CloudPricing from "@/components/sqlcloud/cloud_pricing";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'SQL Cloud: Anytime Access with Top Security - Emspaced',
+        description: "Unlock flexible accounting with SQL Cloud from Emspaced. Access your financial data anytime and enjoy secure collaboration for all your business needs.",
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL Cloud: Anytime Access with Top Security - Emspaced',
-            description: "Unlock flexible accounting with SQL Cloud from Emspaced. Access your financial data anytime and enjoy secure collaboration for all your business needs.",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
-                    <div className="mt-20 md:mt-40 border-2">
-                        <div className='flex flex-col items-center justify-center py-10 relative h-dvh md:h-96'>
-                            <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
-                                   className='bg-opacity-50'/>
-                            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-                            <div
-                                className='absolute inset-0 flex flex-col items-center justify-center gap-4 text-white animate-slidein'>
-                                <div className=' font-bold text-4xl'>SQL Cloud (SaaS)</div>
-                                <div className='flex items-center justify-center md:w-1/2 py-4 text-2xl text-center'>
-                                    SQL Software as a Service provides you with the flexibility of running SQL business
-                                    suite on cloud. This gives you an edge with regards to anywhere, anytime with low
-                                    hardware requirement and maximum data security.
-                                </div>
-
-                                <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
-                                    <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
-                                        <Link
-                                            href='https://wa.me/message/BTIUQPHTL6AKE1'
-                                            target='_blank'>
-                                            Enquiry
-                                        </Link>
-                                    </button>
-                                    <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
-                                        <Link
-                                            href='https://connect.sql.com.my/'
-                                            target='_blank'>
-                                            Try Now
-                                        </Link>
-                                    </button>
-                                </div>
+                <div className="mt-20 md:mt-40 border-2">
+                    <div className='flex flex-col items-center justify-center py-10 relative h-dvh md:h-96'>
+                        <Image src='/img/home/homepage_banner.jpg' alt="Banner" fill
+                               className='bg-opacity-50'/>
+                        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                        <div
+                            className='absolute inset-0 flex flex-col items-center justify-center gap-4 text-white animate-slidein'>
+                            <div className=' font-bold text-4xl'>SQL Cloud (SaaS)</div>
+                            <div className='flex items-center justify-center md:w-1/2 py-4 text-2xl text-center'>
+                                SQL Software as a Service provides you with the flexibility of running SQL business
+                                suite on cloud. This gives you an edge with regards to anywhere, anytime with low
+                                hardware requirement and maximum data security.
                             </div>
 
+                            <div className='flex items-center gap-10 justify-center md:mt-10 mt-20'>
+                                <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                                    <Link
+                                        href='https://wa.me/message/BTIUQPHTL6AKE1'
+                                        target='_blank'>
+                                        Enquiry
+                                    </Link>
+                                </button>
+                                <button className='bg-emerald-900 text-white w-32 rounded-xl p-2'>
+                                    <Link
+                                        href='https://connect.sql.com.my/'
+                                        target='_blank'>
+                                        Try Now
+                                    </Link>
+                                </button>
+                            </div>
                         </div>
+
                     </div>
+                </div>
 
                 <div className='flex flex-col w-full items-center justify-center bg-white py-6 gap-5'>
                     <div className='text-center text-4xl text-primary-900 font-bold'>
@@ -70,7 +66,7 @@ const page = () => {
                                     <Image src='/img/cloud.png' width={50} height={50}/>
                                 </div>
                                 <div className='text-xl font-bold text-emerald-800'>
-                                Access From Everywhere
+                                    Access From Everywhere
                                 </div>
                             </div>
                             <div className='text-md text-secondary-600'>
@@ -397,4 +393,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;

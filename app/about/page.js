@@ -1,19 +1,15 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Image from "next/image";
 import {IconHandClick, IconHeartHandshake, IconSettingsCode} from "@tabler/icons-react";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'Learn More About Our Accounting Services - Emspaced',
+        description: 'If you have any questions or need assistance, please reach out to Emspaced Accounting. Our friendly team is here to help with your inquiries about our services.',
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'Learn More About Our Accounting Services - Emspaced',
-            description: "If you have any questions or need assistance, please reach out to Emspaced Accounting. Our friendly team is here to help with your inquiries about our services.",
-        })
-    }, [setMetadata])
+export default function page(){
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -294,4 +290,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;

@@ -1,23 +1,19 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import Call_us_banner from "@/components/call_us_banner";
 import PosPricing from "@/components/sqlpos/pos_pricing";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
 
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'SQL POS: Your Ultimate Point of Sale Solution - Emspaced',
+        description: "Boost retail efficiency with SQL POS by Emspaced. Experience smooth sales processing and real-time inventory management to optimize your business operations.",
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL POS: Your Ultimate Point of Sale Solution - Emspaced',
-            description: "Boost retail efficiency with SQL POS by Emspaced. Experience smooth sales processing and real-time inventory management to optimize your business operations. ",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -44,7 +40,7 @@ const page = () => {
                     className='flex items-center justify-center bg-banner-50 w-full'>
                     <div className='w-5/6 flex flex-col gap-5 py-6 text-white'>
                         <div className='text-center text-6xl py-6 text-white font-bold'>
-                        SQL POS SYSTEM
+                            SQL POS SYSTEM
                         </div>
                         <div className='text-left text-2xl'>
                             Seamless integration makes it easy to sell your products and accept multiple payments.
@@ -54,7 +50,8 @@ const page = () => {
                         </div>
 
                         <div className='flex items-center justify-center md:mt-10 mt-20'>
-                            <button className='bg-emerald-900 text-white w-32 rounded-xl p-2 outline outline-white outline-2'>
+                            <button
+                                className='bg-emerald-900 text-white w-32 rounded-xl p-2 outline outline-white outline-2'>
                                 <Link
                                     href='#pos_pricing'>
                                     PRICING
@@ -253,7 +250,8 @@ const page = () => {
                         Learn more about SQL Malaysia payroll system
                     </div>
 
-                    <div className='grid md:grid-cols-3 gap-2 items-center justify-center px-6 text-left text-secondary-600'>
+                    <div
+                        className='grid md:grid-cols-3 gap-2 items-center justify-center px-6 text-left text-secondary-600'>
                         <div className='flex flex-col items-center justify-center gap-2'>
                             <Image src='/img/events/event_1.jpg' alt={1} width={400} height={300}/>
                             <div className='text-2xl text-primary-900 font-bold text-center'>
@@ -305,4 +303,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;

@@ -1,27 +1,16 @@
-'use client'
-import Preloader from "@/layouts/Preloader";
+// app/layout.js
 import "@css/plugins.css";
 import "@css/style.css";
 import "./globals.css";
-import {MetadataProvider, useMetadata} from "@/context/MetadataContext";
 
-export default function RootLayout({ children }) {
-    return (
-        <MetadataProvider>
-            <RootLayoutContent>{children}</RootLayoutContent>
-        </MetadataProvider>
-    );
-}
+export const metadata = {
+    title: "Default Title",
+    description: "Default description",
+};
 
-function RootLayoutContent({ children }) {
-    const { metadata } = useMetadata();
-
+export default function RootLayoutContent({ children }) {
     return (
         <html lang="en">
-        <head>
-            <title>{metadata.title}</title>
-            <meta name="description" content={metadata.description} />
-        </head>
         <body>{children}</body>
         </html>
     );

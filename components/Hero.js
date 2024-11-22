@@ -1,7 +1,4 @@
-import {Swiper, SwiperSlide} from "swiper/react";
-import {sliderProps} from "@/utility/sliderProps";
-import Image from "next/image";
-import {Carousel} from "@mantine/carousel";
+'use client'
 import TestimonialSlider from "@/components/TestimonialSlider";
 
 const Hero = () => {

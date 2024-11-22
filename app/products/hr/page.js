@@ -1,18 +1,14 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'Streamline Your Business with Expert HR Services - Emspaced',
+        description: "Streamline HR management with Emspaced's solution. Enhance employee engagement and simplify compliance to create a more productive workplace environment",
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'Streamline Your Business with Expert HR Services - Emspaced ',
-            description: "Streamline HR management with Emspaced's solution. Enhance employee engagement and simplify compliance to create a more productive workplace environment",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -30,7 +26,8 @@ const page = () => {
 
                 <div className='flex text-lg p-10 text-secondary-800'>
                     The Emspaced Malaysia is built to provide its services to Human Resource Managers and help them make
-                    their work more manageable and easy. With Emspaced HR software Malaysia, we cater to all individuals,
+                    their work more manageable and easy. With Emspaced HR software Malaysia, we cater to all
+                    individuals,
                     from small organizations, private companies to large business groups. We use our skills and
                     knowledge to resolve the issues of our valuable customers. Our expert team of professionals goes
                     deep down into the history and then suggests the solution for your problems.
@@ -244,4 +241,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;

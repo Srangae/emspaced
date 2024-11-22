@@ -1,22 +1,18 @@
-'use client'
 import NikolasLayout from "@/layouts/NikolasLayout";
 import Link from "next/link";
 import Image from "next/image";
 import SQLCloudAccountBanner from "@/components/SQLCloudAccountBanner";
 import DashboardVideo from "@/components/sqldashboard/dashboard_video";
 import DashboardPricing from "@/components/sqldashboard/dashboard_pricing";
-import {useMetadata} from "@/context/MetadataContext";
-import {useEffect} from "react";
 
-const page = () => {
-    const {setMetadata} = useMetadata()
+export async function generateMetadata() {
+    return {
+        title: 'SQL Dashboard: Visual Insights for Better Choices - Emspaced',
+        description: "Visualize your financial data with SQL Dashboard from Emspaced. Gain valuable insights and track performance effortlessly for smarter decision-making",
+    };
+}
 
-    useEffect(() => {
-        setMetadata({
-            title: 'SQL Dashboard: Visual Insights for Better Choices - Emspaced',
-            description: "Visualize your financial data with SQL Dashboard from Emspaced. Gain valuable insights and track performance effortlessly for smarter decision-making",
-        })
-    }, [setMetadata])
+export default function page() {
     return (
         <NikolasLayout>
             <div className="nicolas_sm_contact">
@@ -87,7 +83,8 @@ const page = () => {
                 </div>
 
                 <div className='grid md:grid-cols-3 gap-6 p-5 bg-white items-start justify-center'>
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
+                    <div
+                        className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
                             <Image src='/img/data.jpg' width={400} height={300}/>
                         </div>
@@ -101,7 +98,8 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
+                    <div
+                        className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div className='flex justify-center'>
                             <Image src='/img/idea.jpg' width={250} height={250}/>
                         </div>
@@ -115,7 +113,8 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
+                    <div
+                        className='flex flex-col gap-5 rounded-xl shadow-xl p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
                         <div>
                             <Image src='/img/profit.jpg' width={400} height={300}/>
                         </div>
@@ -315,4 +314,3 @@ const page = () => {
         </NikolasLayout>
     );
 };
-export default page;
