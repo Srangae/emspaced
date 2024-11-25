@@ -51,7 +51,7 @@ export default function BlogPage() {
                         <div className='grid md:grid-cols-3 gap-4 items-center justify-center'>
                             {result.data.map((content,index ) =>(
                                 <div className='flex flex-col gap-4 border-2 rounded-xl p-4 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-slate-200 duration-300'>
-                                    <Link href={`blog_details/${content.slug}`}>
+                                    <Link href={`blog/${content.slug}`}>
                                         <Image src={`/img/blog/blog_${index+1}.jpg`} width={400} height={400}/>
                                         <div className='font-bold text-primary-900'>
                                             {content.spoiler}
